@@ -6,7 +6,7 @@
 
 
 
-# 2. 处理步骤
+# 2. 处理方式一
 
 
 
@@ -42,5 +42,9 @@ del user:10010
 cat temp_20211113.txt | redis-cli -h 192.168.22.1 -p 6379 
 ```
 
+# 3. 处理方式二
 
+```
+./redis-cli -h 192.168.22.1 -p 6379 -c --scan --pattern 'user:*'  |  xargs -r -t -n1 ./redis-cli -h 192.168.22.1 -p 6379 -c del
+```
 
