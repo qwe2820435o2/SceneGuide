@@ -46,3 +46,10 @@
 **解决：**
 
 按业务维度进行key拆分；按数据号段进行拆分
+
+
+## 3. 某个节点链接池耗尽场景梳理
+
+> hashtag滥用引发的血案
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/54745ba934084854a044cc9610b103c4.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LiA5p2h5b6I6ICB55qE6IWK6IKJ,size_20,color_FFFFFF,t_70,g_se,x_16)
