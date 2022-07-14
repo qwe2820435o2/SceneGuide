@@ -1,0 +1,1 @@
+# Correct posture for redis key deletion
