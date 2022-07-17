@@ -1,4 +1,4 @@
-# Kafka真实案例-生产者阻塞事件
+# Kafka real case - producer blocking event
 
 ## 1. 背景
 
