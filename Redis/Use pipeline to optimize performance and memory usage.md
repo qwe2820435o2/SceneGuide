@@ -1,4 +1,4 @@
-# 使用pipeline优化性能存占用优化
+# Use pipeline to optimize performance and memory usage
 
 
 

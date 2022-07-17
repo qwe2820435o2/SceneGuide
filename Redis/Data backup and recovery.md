@@ -1,4 +1,4 @@
-# 数据备份与恢复
+# Data backup and recovery
 
 ## 1. 持久化的配置策略
 

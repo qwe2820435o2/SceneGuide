@@ -1,4 +1,4 @@
-# 客户端报错：Could not get a resource from the pool
+# Client error that could not get a resource from the pool
 
 ## 1. 原因&解决方案
 
