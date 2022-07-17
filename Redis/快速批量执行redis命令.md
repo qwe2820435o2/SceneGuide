@@ -48,3 +48,11 @@ cat temp_20211113.txt | redis-cli -h 192.168.22.1 -p 6379
 ./redis-cli -h 192.168.22.1 -p 6379 -c --scan --pattern 'user:*'  |  xargs -r -t -n1 ./redis-cli -h 192.168.22.1 -p 6379 -c del
 ```
 
+# 4. 处理方式三
+
+批量设置短暂的过期时间，也能间接起到删除的作用
+
+```
+redis-cli -h 192.168.22.1 -p 6379 -c --scan --pattern 'user:*'  |  xargs -i redis-cli -h 192.168.22.1 -p 6379 expire {} 10
+```
+

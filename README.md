@@ -1,42 +1,42 @@
-**项目说明** 
+**Project Instruction** 
 
-- 记录平时遇到的各种疑难杂症，并给出可能的应对方案
-- 从现象看本质，梳理问题点，追寻其中的因果关系
+- Record all kinds of intractable diseases encountered in daily life, give possible solutions
+- Look at the essence from the phenomenon, sort out the problem points, pursue the cause and effect relationship
 
 
 
-**项目结构** 
+**Project structure** 
 
 ```
 SceneGuide
-├─Docker                       Docker场景
+├─Docker                       Docker Scenes
 │  ├─
 |  └─           
 │ 
-├─Elasticsearch                Es场景
+├─Elasticsearch                Es Scenes
 │  ├─
 |  └─           
 │ 
-├─Kafka                        Kafka场景
+├─Kafka                        Kafka Scenes
 │  ├─
 |  └─           
 │ 
-├─MongDB                       MongDB场景
+├─MongDB                       MongoDB Scenes
 │  ├─
 |  └─           
 │ 
-├─Mysql                        Mysql场景
+├─Mysql                        Mysql Scenes
 │  ├─
 |  └─           
 │ 
-├─RabbitMQ                     RabbitMQ场景
+├─RabbitMQ                     RabbitMQ Scenes
 │  ├─
 |  └─           
 │ 
-├──Redis                       Redis场景
+├──Redis                       Redis Scenes
 │  ├─            
 │  └─   
 |
-└─ README.md                   说明文件
+└─ README.md                   File Description 
 
 ```
