@@ -1,30 +1,46 @@
 # Client error that could not get a resource from the pool
 
-## 1. 原因&解决方案
+## 1. Cause & Solution
 
-* 并发确实太高，链接池配置参数不合理
+* The concurrency is indeed too high and the link pool configuration parameters are unreasonable
 
-  解决方案：调整配置参数；扩容节点
+  Solution: 
+  
+  Adjust configuration parameters and expand nodes
 
-* Redis执行队列被大量操作或者耗时操作占用
+* The Redis execution queue is occupied by a large number of operations or time-consuming operations
 
-  解决方案：优化慢操作；禁止慢操作
+  Solution: 
+  
+  Optimize slow operations and disable slow operations
 
-* 存在热key
+* hot key exists
 
-  解决方案：拆分key，分散压力到各个redis节点；增加本地内存，先查本地内存，查不到再去redis
+  Solution: 
+  
+  Split the key and distribute the pressure to each redis node
+  
+  Increase the local memory, check the local memory first, and then go to redis if it cannot be found
 
-* 某个节点链接池耗尽
+* A node's link pool is exhausted
 
-  解决方案：解决数据倾斜问题
+  Solution: 
+  
+  Solve the data skew problem
 
-* 执行耗时命令导致ping超时
+* Executing the time-consuming command causes the ping to time out
 
-  解决方案：禁用耗时命令，如：keys *；优化耗时操作
+  Solution: 
+  
+  Disable time-consuming commands, such as: keys *
+  
+  Optimize time-consuming operations
 
-* 低版本的Jedis包存在bug
+* There is a bug in the Jedis package of the lower version
 
-  解决方案：升级Jedis版本
+  Solution: 
+  
+  Upgrade Jedis version
   
   
 ## 2. 热key场景梳理
