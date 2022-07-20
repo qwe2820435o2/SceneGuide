@@ -43,25 +43,23 @@
   Upgrade Jedis version
   
   
-## 2. 热key场景梳理
+## 2. Hot key scene combing
 
-**问题01：**
+**Question 01：**
 
-某个区域Ip访问频繁
+Frequent access to a certain area IP
 
-**解决：**
+**Solution：**
 
-增加应用本地缓存，lru维护一定数量的热IP
+Increase application local cache and lru maintains a certain number of hot IPs
 
+**Question 02：**
 
+Frequently query a large Zset collection
 
-**问题02：**
+**Solution：**
 
-频繁查询某个大Zset集合
-
-**解决：**
-
-按业务维度进行key拆分；按数据号段进行拆分
+Split by key by business dimension or split by data number segment
 
 
 ## 3. 某个节点链接池耗尽场景梳理
