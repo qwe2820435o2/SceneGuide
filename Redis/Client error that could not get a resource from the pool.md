@@ -62,8 +62,8 @@ Frequently query a large Zset collection
 Split by key by business dimension or split by data number segment
 
 
-## 3. 某个节点链接池耗尽场景梳理
+## 3. Sorting out the scenario of a node's link pool exhaustion
 
-> hashtag滥用引发的血案
+> Bloody case caused by hashtag abuse
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/54745ba934084854a044cc9610b103c4.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LiA5p2h5b6I6ICB55qE6IWK6IKJ,size_20,color_FFFFFF,t_70,g_se,x_16)
+![在这里插入图片描述](../Material/image/Redis connection pool.png)
