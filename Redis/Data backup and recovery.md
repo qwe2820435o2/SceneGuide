@@ -26,17 +26,17 @@ Redis currently supports three AOF save modes:
 
 
 
- ## 2. 数据备份方案
+ ## 2. data backup solution
 
-RDB非常适合做冷备，每次生成之后，就不会再有修改了
+RDB is very suitable for cold backup. After each generation, it will not be modified again.
 
-数据备份方案:
+Data backup plan:
 
-  1. 写crontab定时调度脚本去做数据备份
-  2. 每小时都copy一份rdb的备份，到一个目录中去，仅仅保留最近48小时的备份
-  3. 每天都保留一份当日的rdb的备份，到一个目录中去，仅仅保留最近1个月的备份
-  4. 每次copy备份的时候，都把太旧的备份给删了
-  5. 每天晚上将当前服务器上所有的数据备份，发送一份到S3上去
+  1. Write crontab schedule script to do data backup
+  2. Copy a backup of rdb every hour to a directory and keep only the backups of the last 48 hours
+  3. Keep a backup of the rdb every day go to a directory and keep only the backup of the last month
+  4. Every time you copy a backup, you should delete the old backup.
+  5. Backup all data on the current server every night and send a copy to S3
 
 
 
