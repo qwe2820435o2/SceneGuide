@@ -1,26 +1,28 @@
 # Data backup and recovery
 
-## 1. 持久化的配置策略
+## 1. persistent configuration strategy
 
 ### 1.1 RDB
 
-RDB是Redis默认的持久化方式，会根据配置的策略生成数据文件
+RDB is the default persistence method of Redis, which will generate data files according to the configured strategy
 
-在企业中，RDB的生成策略：save 60 10000 ，这个可以根据我们自己的应用和业务的数据量，灵活地去调整
+The default generation strategy of RDB: save 60 10000, which can be flexibly adjusted according to the data volume of our own application and business
 
 
 
 ### 1.2 AOF
 
-Redis 将所有对数据库进行过写入的命令（及其参数）记录到 AOF 文件
+Redis logs all commands that have written to the database to an AOF file
 
-AOF默认不开启，开启与否视业务的敏感度而定
+AOF is not enabled by default 
 
-Redis 目前支持三种 AOF 保存模式，它们分别是：
+It is enabled or not depends on the sensitivity of the business
 
-  1. AOF_FSYNC_NO ：不保存
-  2. AOF_FSYNC_EVERYSEC ：每一秒钟保存一次
-  3. AOF_FSYNC_ALWAYS ：每执行一个命令保存一次
+Redis currently supports three AOF save modes:
+
+  1. AOF_FSYNC_NO ：do not save
+  2. AOF_FSYNC_EVERYSEC ：save every second
+  3. AOF_FSYNC_ALWAYS ：Save every time that a command is executed
 
 
 
