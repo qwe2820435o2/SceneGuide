@@ -40,50 +40,62 @@ Data backup plan:
 
 
 
-## 3. 场景模拟
+## 3. scene simulation
 
-### 3.1 Redis进程挂掉
+### 3.1 Redis process hangs
 
-**解决方案**：重启redis进程即可，直接基于AOF日志文件恢复数据
+**solution**：
 
-
-
-### 3.2 Redis进程所在机器挂掉
-
-**解决方案**：重启机器后，尝试重启redis进程，基于AOF日志文件进行数据恢复；如果AOF文件破损，可通过redis-check-aof fix命令修复
+Just restart the redis process and restore data directly based on the AOF log file
 
 
 
-### 3.3 Redis进程挂掉，并且AOF文件丢失
+### 3.2 The machine where the Redis process is located hangs
 
-**解决方案**：基于该机器上当前的某个最新的RDB数据副本进行数据恢复
+**solution**：
+
+After restarting the machine, you can try restarting the redis process and perform data recovery based on the AOF log file
+
+If the AOF file is damaged, you can use the redis-check-aof command to fix it
 
 
 
-### 3.4 Redis进程挂掉，AOF文件丢失、RDB文件丢失
+### 3.3 The Redis process hangs and the AOF file is lost
 
-**解决方案**：在S3上找到RDB最新的一份备份，copy到redis里面去，就可以恢复当时时间点的数据
+**solution**：
 
-**注意**：
+Data recovery based on a current copy of the latest RDB data on the machine
 
-如果遇到了场景（3）、（4），直接拷贝最新的RDB数据副本过去，哪怕删掉了aof文件，重启后数据是没法恢复的
 
-因为虽然我们删除了aof文件，但是因为打开了aof持久化，redis就一定会优先基于aof去恢复，即使文件不在，那就创建一个新的空的aof文件
 
-因为虽然我们删除了aof文件，但是因为打开了aof持久化，redis就一定会优先基于aof去恢复
+### 3.4 Redis process hangs, AOF file is lost, RDB file is lost
 
-即使文件不在，那就创建一个新的空的aof文件
+**solution**：
 
-在数据安全丢失的情况下，基于rdb冷备，如何完美的恢复数据，同时还保持aof和rdb的双开呢？
+Find the latest backup of RDB on S3 and copy it to redis
 
-正确操作步骤：
+You can restore the data at that time point
 
-  1. 停止redis
-  2. 配置中关闭aof
-  3. 拷贝rdb备份
-  4. 重启redis
-  5. 确认数据是否恢复
-  6. 直接在命令行热修改redis配置,打开aof
+**Notice**：
 
-这个时候redis就会将内存中的数据对应的日志，写入aof文件中
+If you encounter scenarios 3 and 4, copy the latest RDB data copy directly, even if the aof file is deleted, the data cannot be recovered after restarting
+
+Because although we delete the aof file, because the aof persistence is turned on, redis will give priority to recovery based on aof, even if the file is not there, then create a new empty aof file
+
+Because although we deleted the aof file, because the aof persistence is turned on, redis will give priority to recovery based on aof
+
+Even if the file is not there, create a new empty aof file
+
+In the case of data security loss, based on rdb cold backup, how to restore data perfectly, while maintaining the dual open of aof and rdb?
+
+Correct operation steps：
+
+  1. stop redis
+  2. Turn off aof in configuration
+  3. copy rdb backup
+  4. restart redis
+  5. Confirm data recovery
+  6. Hot modify the redis configuration directly on the command line and open aof
+
+At that time, redis will write the log corresponding to the data in memory into the aof file
 
