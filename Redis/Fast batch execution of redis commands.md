@@ -1,18 +1,20 @@
-# 1. 背景
+# 1. background
 
-使用redis的时候，经常会有这么一个需求：批量删除某前缀的key
+When using redis, there is such a requirement that delete keys of a prefix in batches
 
-怎么做呢？
-
-
-
-# 2. 处理方式一
+How to do it?
 
 
 
-## 2.1 准备好需要删除的key
+# 2. Processing method one
 
-为了避免阻塞redis，最好不要用keys命令进行检索，可以使用scan命令得到keys，如下：
+
+
+## 2.1 Prepare the key that needs to be deleted
+
+In order to avoid blocking redis, it is best not to use the keys command to retrieve the keys
+
+We can use the scan command to get the keys, as follows:
 
 ```
 ./redis-cli -h 192.168.22.1 -p 6379 --scan --pattern 'user*'
@@ -20,23 +22,27 @@
 
 
 
-## 2.2 批处理拼接del命令
+## 2.2 Batch splice del command
 
-可以借用notepad++的批处理命令，Alt + Shift 拼接del，效果如下：
+You can borrow the batch command of notepad++
+
+Alt + Shift splicing del 
+
+The effect is as follows:
 
 ```
-del user:10086
+del user:123456
+del user:789
 del user:5566
-del user:10010
 ```
 
-最后将该txt文本命名为：temp_20211113.txt
+Finally name the txt text as：temp_20211113.txt
 
 
 
-## 2.3 批处理key
+## 2.3 batch handle key
 
-执行如下命令：
+Execute the following command：
 
 ```
 cat temp_20211113.txt | redis-cli -h 192.168.22.1 -p 6379 
