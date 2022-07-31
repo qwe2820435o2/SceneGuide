@@ -2,20 +2,32 @@
 
 
 
-## 1. 利用jemalloc内存分配特性进行优化
+## 1. Utilize jemalloc memory allocation feature for optimization
 
-jemalloc在64位系统中，将内存空间划分为小、大、巨大三个范围；每个范围内又划分了许多小的内存块单位；当Redis存储数据时，会选择大小最合适的内存块进行存储。如图：
+In a 64-bit system, jemalloc divides the memory space into three ranges: small, large and huge
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/096e60079f2843a69274e512d2d5c31b.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LiA5p2h5b6I6ICB55qE6IWK6IKJ,size_10,color_FFFFFF,t_70,g_se,x_16)
+Each range is divided into many small memory block units
+
+When Redis stores data, it will select the memory block with the most suitable size for storage
+
+As shown in the figure：
+
+![Jemalloc memory](../Material/image/Jemalloc%20memory.png)
+
+The values are discontinuous when jemalloc allocates memory
+
+Therefore, if the key/value string changes by one byte, it may cause a large change in memory usage. 
+
+This can be used in design.
 
 
+E.g:
 
-由于jemalloc分配内存时数值是不连续的，因此key/value字符串变化一个字节，可能会引起占用内存很大的变动，在设计时可以利用这一点。
+If the length of the key is **8 bytes**, the SDS is 8+9=**17 bytes**, and jemalloc allocates **32 bytes**
 
+At this time, the key length is reduced to **7 bytes**, then the SDS is **16 bytes**, and jemalloc allocates **16 bytes**
 
-
-例如，key的长度如果是**8个字节**，则SDS为8+9=**17字节**，jemalloc分配**32字节**；此时将key长度缩减为**7个字节**，则SDS为**16字节**，jemalloc分配**16字节**；则每个key所占用的空间都可以缩小一半。
-
+Then the space occupied by each key can be reduced by half
 
 
 ## 2. 使用整型/长整型优化内存
@@ -81,7 +93,7 @@ Integer 默认先创建并缓存 -128 ~ 127 之间数的 Integer 对象，当调
 
   可在序列化方式上进行操作。下图是JAVA常见序列化工具空间压缩对比，如图：
 
-  ![在这里插入图片描述](https://img-blog.csdnimg.cn/274098f1029849e9bf85362c0bdfab89.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LiA5p2h5b6I6ICB55qE6IWK6IKJ,size_16,color_FFFFFF,t_70,g_se,x_16)
+![Compressed size](../Material/image/Compressed size.png)
 
   
 

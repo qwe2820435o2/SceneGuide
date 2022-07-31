@@ -66,4 +66,4 @@ Split by key by business dimension or split by data number segment
 
 > Bloody case caused by hashtag abuse
 
-![在这里插入图片描述](../Material/image/Redis connection pool.png)
+![Redis connection pool](../Material/image/Redis connection pool.png)
