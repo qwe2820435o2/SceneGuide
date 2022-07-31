@@ -73,27 +73,31 @@ Integer creates and caches Integer objects between -128 and 127 by default
 
 
 
-## 4. 选用适当的数据结构
+## 4. Choose an appropriate data structure
 
-|     类型     |  编码方式 | 数据结构     |
+|     type     |  Encoding | data structure     |
 | :------------: | :-------------: | :-------------: |
-| string | raw、embstr、int | 动态字符串编码、优化内存分配的字符串编码、整数编码 |
-| hash | hashtable、ziplist | 散列表编码、压缩列表编码 |
-| list | linkedlist、ziplist、quicklist | 双向链表编码、压缩列表编码、3.2版本新的列表编码 |
-| set | hashtable、ziplist | 散列表编码、压缩列表编码 |
-| zset | skiplist、ziplist | 跳跃表编码、压缩列表编码 |
+| string | raw、embstr、int | Dynamic String Encoding, String Encoding Optimized for Memory Allocation, Integer Encoding |
+| hash | hashtable、ziplist | Hash table encoding, compressed list encoding |
+| list | linkedlist、ziplist、quicklist | Doubly linked list encoding, compressed list encoding, new list encoding in version 3.2 |
+| set | hashtable、ziplist | Hash table encoding, compressed list encoding |
+| zset | skiplist、ziplist | skip table encoding, compressed list encoding |
 
 
 
-## 5. 缩减key、value的长度
+## 5. Reduce the length of key and value
 
-* 缩减key、value的长度
+* Reduce the length of key and value
 
-  在设计键时，在完整描述业务情况下，键值越短越好。例：item:i:10086 => 业务:类型:Id
+    When designing keys, the shorter the key value, the better, in a complete description of the business situation
 
-* value长度
+  Example: item:i:10086 => business:type:Id
 
-  可在序列化方式上进行操作。下图是JAVA常见序列化工具空间压缩对比，如图：
+* value length
+
+  Can operate on serialization. The following figure shows the space compression comparison of common serialization tools in JAVA
+  
+  As shown in the figure:
 
 ![Compressed size](../Material/image/Compressed size.png)
 
