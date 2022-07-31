@@ -30,25 +30,27 @@ At this time, the key length is reduced to **7 bytes**, then the SDS is **16 byt
 Then the space occupied by each key can be reduced by half
 
 
-## 2. 使用整型/长整型优化内存
+## 2. Optimize memory with Int/Long
 
-如果是整型/长整型，Redis会使用int类型（8字节）存储来代替字符串，可以节省更多空间。
+If it is an integer/long , Redis will use int type (8 bytes) storage instead of strings, which can save more space
 
-因此在可以使用长整型/整型代替字符串的场景下，尽量使用长整型/整型。
-
-
-
-## 3. 使用共享对象优化内存
-
-利用共享对象，可以减少对象的创建（同时减少了RedisObject的创建），节省内存空间。
+Therefore, in scenarios where long/integer can be used instead of strings, try to use long/integer
 
 
 
-享元设计模式的核心思想很简单：如果一个对象实例一经创建就不可变，那么反复创建相同的实例就没有必要，直接向调用方返回一个共享的实例就行，这样即节省内存，又可以减少创建对象的过程，提高运行速度。
+## 3. Optimizing memory with shared objects
+
+Using shared objects can reduce the creation of objects (reduce the creation of RedisObjects) and save memory space
+
+The core idea of Flyweight design pattern is simple:
+
+If an object instance is immutable once created, then there is no need to create the same instance repeatedly, just return a shared instance to the caller
+
+This not only saves memory, but also reduces the process of creating objects and improves the running speed
 
 
 
-举个java中的例子：
+Give an example in java:
 
 ```
 public static void main(String[] args) {
@@ -65,9 +67,9 @@ true
 false
 ```
 
+Integer creates and caches Integer objects between -128 and 127 by default
 
-
-Integer 默认先创建并缓存 -128 ~ 127 之间数的 Integer 对象，当调用 valueOf 时如果参数在 -128 ~ 127 之间则计算下标并从缓存中返回，否则创建一个新的 Integer 对象
+，When calling valueOf, if the parameter is between -128 ~ 127, the subscript is calculated and returned from the cache, otherwise a new Integer object is created
 
 
 
