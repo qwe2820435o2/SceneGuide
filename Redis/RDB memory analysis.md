@@ -2,19 +2,21 @@
 
 
 
-## 1. 为什么要对Redis进行内存分析
+## 1. Why In-Memory Profiling for Redis
 
-Redis运行久了，内部经常会堆积些冗余数据，或者不合理的使用也会导致内存的占用
+Redis has been running for a long time and redundant data is often accumulated inside
 
-内存比磁盘贵，优化了内存占用就是省钱
+Unreasonable use will also lead to memory usage
+
+Memory is more expensive than disk, optimizing memory usage is saving money
 
 
 
-## 2. 怎么构建内存分析数据
+## 2. How to build memory profiling data
 
-### 2.1 下载近期的冷备RDB文件
+### 2.1 Download recent cold standby RDB files
 
-下载RDB文件，将他放置到性能比较好的机器上
+Download the RDB file and place it on a machine with better performance
 
 ### 2.2 安装rdbtools
 
@@ -24,17 +26,17 @@ pip install rdbtools
 
 
 
-### 2.3 RDB导出为csv文件
+### 2.3 RDB export to csv file
 
-> 看自己需求是分析全量数据，还是分析占比较多的数据，按需选择
+> Depending on your needs, whether to analyze the full amount of data or analyze the data that accounts for a large proportion, choose as needed
 
-导出全量数据：
+Export full data:
 
 ```
 rdb -c memory /userdata/tmp_20211019.rdb > redis_memory_report.csv
 ```
 
-导出内存占用大于128 bytes的数据：
+Export data with a memory footprint greater than 128 bytes:
 
 ```
 rdb -c memory /userdata/tmp_20211019.rdb --bytes 128 -f redis_memory_report.csv
@@ -42,26 +44,26 @@ rdb -c memory /userdata/tmp_20211019.rdb --bytes 128 -f redis_memory_report.csv
 
 
 
-### 2.4 Mysql中新建临时表
+### 2.4 Create a new temporary table in Mysql
 
 ```
 CREATE TABLE `temp_memory_20211019` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `database` int(128) DEFAULT NULL COMMENT 'key在redis的db',	
-  `type` varchar(128) DEFAULT NULL COMMENT 'key类型',
-  `KEY` varchar(128) DEFAULT NULL COMMENT 'key值',
-  `size_in_bytes` bigint(20) DEFAULT NULL COMMENT 'key的内存大小(byte)',
-  `encoding` varchar(128) DEFAULT NULL COMMENT 'value的存储编码形式',
-  `num_elements` bigint(20) DEFAULT NULL COMMENT 'key中的value的个数',
-  `len_largest_element` varchar(128) DEFAULT NULL COMMENT 'key中的value的长度',
-  `expiry` datetime(6) DEFAULT NULL COMMENT 'key过期时间',
+  `database` int(128) DEFAULT NULL COMMENT 'The key is in the redis db',	
+  `type` varchar(128) DEFAULT NULL COMMENT 'key type',
+  `KEY` varchar(128) DEFAULT NULL COMMENT 'key value',
+  `size_in_bytes` bigint(20) DEFAULT NULL COMMENT 'The memory size of the key (byte)',
+  `encoding` varchar(128) DEFAULT NULL COMMENT 'The storage encoding form of value',
+  `num_elements` bigint(20) DEFAULT NULL COMMENT 'The number of values in the key',
+  `len_largest_element` varchar(128) DEFAULT NULL COMMENT 'The length of the value in the key',
+  `expiry` datetime(6) DEFAULT NULL COMMENT 'key expiration time',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='RDB数据分析临时表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='RDB data analysis temporary table';
 ```
 
 
 
-### 2.5 Mysql命令行中导入数据
+### 2.5 Import data from Mysql command line
 
 ```
 LOAD DATA INFILE '/tmp/redis_memory_report.csv' 
@@ -75,15 +77,15 @@ IGNORE 1 ROWS
 
 
 
-### 2.6 表加索引
+### 2.6 table plus index
 
-> 常用字段加上索引，便于分析
+> Common fields are indexed for easy analysis
 
 ```
 alter table temp_memory_20211019 add index idx_key(`key`),add index idx_expiry(expiry),add index idx_size_in_bytes(size_in_bytes);
 ```
 
-至此，准备工作就做好了
+So far, the preparations are done
 
 
 
