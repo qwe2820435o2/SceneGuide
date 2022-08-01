@@ -89,11 +89,11 @@ So far, the preparations are done
 
 
 
-## 3. 具体分析什么
+## 3. what to analyze
 
-> 以下列举一些常用的分析需求
+> Here are some common analysis requirements
 
-### 3.1 查询key的个数
+### 3.1 Query the number of keys
 
 ```
 select count(*) from temp_memory_20211019;
@@ -101,7 +101,7 @@ select count(*) from temp_memory_20211019;
 
 
 
-### 3.2 查询总的内存占用
+### 3.2 Query the total memory usage
 
 ```
 select sum(size_in_bytes) from temp_memory_20211019;
@@ -109,7 +109,7 @@ select sum(size_in_bytes) from temp_memory_20211019;
 
 
 
-### 3.3 查询内存占用最高的10个key
+### 3.3 Query the 10 keys with the highest memory usage
 
 ```
 select * from temp_memory_20211019 order by size_in_bytes desc limit 10;
@@ -117,7 +117,7 @@ select * from temp_memory_20211019 order by size_in_bytes desc limit 10;
 
 
 
-### 3.4 查询value个数1000个以上的list
+### 3.4 Query a list with more than 1000 values
 
 ```
 select * from temp_memory_20211019 where type=’list’ and num_elements >= 1000;
@@ -125,7 +125,7 @@ select * from temp_memory_20211019 where type=’list’ and num_elements >= 100
 
 
 
-### 3.5 查询哪些业务占用内存较高
+### 3.5 Querying which services occupy the most memory
 
 ```
 SELECT `key`,COUNT(1),SUM(size_in_bytes) sumData FROM temp_memory_20211019 GROUP BY substr(`key`,1,5) ORDER BY sumData DESC;
@@ -133,7 +133,7 @@ SELECT `key`,COUNT(1),SUM(size_in_bytes) sumData FROM temp_memory_20211019 GROUP
 
 
 
-### 3.6 查询某业务总占用内存
+### 3.6 Query the total memory occupied by a business
 
 ```
 SELECT SUM(size_in_bytes) sumData FROM temp_memory_20211019 where `KEY` LIKE 'sc:%'
@@ -141,7 +141,7 @@ SELECT SUM(size_in_bytes) sumData FROM temp_memory_20211019 where `KEY` LIKE 'sc
 
 
 
-### 3.7 查询某业务内key分别占用内存
+### 3.7 Query the memory occupied by the keys in a business
 
 ```
 SELECT `KEY`,size_in_bytes sumData FROM temp_memory_20211019 where `KEY` LIKE 'sc:%'
