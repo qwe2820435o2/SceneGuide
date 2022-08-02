@@ -2,29 +2,29 @@
 
 
 
-## 1. 请求响应耗时分析
+## 1. Time-consuming analysis of request and response
 
-一个完整的请求响应，时间耗费主要分为3部分：
+A complete request response that the time consumption is mainly divided into 3 parts：
 
-1. 链接的创建与回收
+1. Link creation and recycling
 
-2. 网络IO
+2. network IO
 
-3. 命令实际
-
-
-
-例：
-
-需要查询100个userId的详情信息
+3. Command actual time
 
 
 
-常规做法：遍历100个key，循环查询，组装数据返回
+example:
 
-推荐做法：mget、pipeline批量获取
+Need to query the details of 100 userIds
 
-mget、pipeline节省了链接的创建与回收、网络IO的时间
+
+
+Conventional practice: traverse 100 keys, loop query, assemble data and return
+
+Recommended practice: mget, pipeline batch acquisition
+
+mget, pipeline saves the time of link creation and recycling, network IO
 
 
 
