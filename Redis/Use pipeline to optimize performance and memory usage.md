@@ -28,29 +28,29 @@ mget, pipeline saves the time of link creation and recycling, network IO
 
 
 
-## 2. Redis cluster pipeline实现思路
+## 2. Redis cluster pipeline implementation ideas
 
-mget、pipeline不适用于cluster集群模式
+mget, pipeline are not applicable to cluster cluster mode
 
-要想适用批处理，需要做改造，思路如下：
+In order to apply batch processing, it needs to be transformed. The ideas are as follows:
 
-* 客户端
+* client
 
-  计算key落到的slot槽位，然后根据slot槽位与节点的关联关系可以得到key属于哪个节点，然后每个节点开启pipeline执行命令
+  Calculate the slot where the key falls, and then according to the relationship between the slot and the node, you can get which node the key belongs to, and then each node opens the pipeline to execute the command
 
-* 服务端
+* Server
 
-  key发送到某个节点，若该key属于这个节点，则会返回值；若不属于，则返回重定向信息
+  The key is sent to a node, if the key belongs to this node, it will return the value; if it does not belong, it will return the redirection information
 
-* key本身
+* the key itself
 
-  通过HashTag可以自己设定将同一类型的key映射到同一个实例上去
+  Through HashTag, you can set yourself to map the same type of key to the same instance
 
   
 
-## 3. pipeline使用前后性能比对
+## 3. Performance comparison before and after pipeline use
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2c35b810789b42f0a441a9e238993962.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LiA5p2h5b6I6ICB55qE6IWK6IKJ,size_20,color_FFFFFF,t_70,g_se,x_16)
+![在这里插入图片描述](../Material/image/After pipeline use.png)
 
 
 
