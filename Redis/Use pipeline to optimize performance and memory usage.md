@@ -50,7 +50,7 @@ In order to apply batch processing, it needs to be transformed. The ideas are as
 
 ## 3. Performance comparison before and after pipeline use
 
-![在这里插入图片描述](../Material/image/After pipeline use.png)
+![After pipeline use](../Material/image/After pipeline use.png)
 
 
 
