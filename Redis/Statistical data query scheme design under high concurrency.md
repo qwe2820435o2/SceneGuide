@@ -1,1 +1,0 @@
-# Statistical data query scheme design under high concurrency
