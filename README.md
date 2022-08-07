@@ -1,7 +1,6 @@
 **Project Instruction** 
 
 - Record all kinds of intractable diseases encountered in daily life, give possible solutions
-- Look at the essence from the phenomenon, sort out the problem points, pursue the cause and effect relationship
 
 
 
@@ -9,6 +8,10 @@
 
 ```
 SceneGuide
+├─Design                       Design Scenes
+│  ├─
+|  └─   
+│       
 ├─Docker                       Docker Scenes
 │  ├─
 |  └─           
