@@ -13,4 +13,10 @@ The following is the overall flow chart：
 
 ![Counting Design — Whole Process](../Material/image/Counting%20Design%20—%20Whole%20Process.png)
 
+## 3. Details
 
+### 3.1 Time window
+
+### 3.2 Persistence
+
+### 3.3 Query
