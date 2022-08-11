@@ -49,3 +49,5 @@ Get the current timestamp, calculate the time window index of the current day in
 
 
 ### 3.3 Query
+
+In order to further optimize the performance, we use the pipeline for Redis query
