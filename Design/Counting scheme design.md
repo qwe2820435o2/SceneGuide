@@ -43,5 +43,9 @@ Because the Set collection is associated with the date and time window, the expi
 Get the current timestamp, calculate the time window index of the current day in the code, and then query the data in the corresponding collection
 
 ### 3.2 Persistence
+> The point is to reduce lock conflicts
+
+![Counting Design — Persistence details](../Material/image/Counting%20Design%20—%20Persistence%20details.png)
+
 
 ### 3.3 Query
