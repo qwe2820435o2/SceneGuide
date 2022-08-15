@@ -8,6 +8,10 @@
 ## Detail
 ### Stock data migration
 
+* Xtrabackup is used to generate data snapshots to new tables
+
+* The current data offset is recorded in preparation for incremental synchronization
+
 ### Incremental data migration
 
 ### Data verifying program
