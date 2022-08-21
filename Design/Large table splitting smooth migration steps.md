@@ -27,8 +27,10 @@
 4. The detailed comparison is to traverse the MD5 values of each record in the batch and compare their MD5 values
 5. Find out the id whose MD5 value comparison fails and record it to the specified file
 
-### Program double writing
-> 
+### Program double writting
+> Double write is used to replace incremental synchronization of cannel
+
+
 
 ### Program query switch
 
