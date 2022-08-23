@@ -35,3 +35,6 @@
 
 ### Program query switch
 
+Step by step switch to new lookup table according to business priority
+
+### Verify that queries are all toggled
