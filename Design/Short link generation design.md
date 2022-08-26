@@ -29,6 +29,30 @@ This ID generation service can generate ids for different businesses and it can 
 
 ### 2.2 Base conversion
 
+#### 2.2.1 Generation principle
+
+A short code is usually composed of 62 letters or digits [A-Z, A-Z, 0-9]
+
+The length of a short code can be customized, but generally no more than 8 characters
+
+Here I choose base 10 to base 62. The reason why I choose base 62 is that the characters converted into base 62 are:0123456789 abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz, more in line with our visual habits, and can in the shortest possible short code to support more ID
+
+#### 2.2.2 Business short code
+
+The commonly used short codes are all 6-bit
+
+There are 56.8 billion combinations of 6-bit short codes :(26+26+10)^6 = 56800235584 which meets most application scenarios
+
+To support the short codes of different services, the first short code is set as the service code and the following short code is the service ID code
+
+This has two advantages
+
+One is that a single short link domain name can support a maximum of 62 service short codes
+
+Based on the common 6-bit short code, each service code can reach a maximum of 916132832 which meets our requirements
+
+Such as : https//www.xxx.com/A12tP6
+
 ### 2.3 Long link deduplication
 
 ### 2.4 .Short link mapping
