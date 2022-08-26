@@ -23,6 +23,10 @@ The second is the long link deduplication operation when long links generate sho
 
 ### 2.1 Globally unique tracking number
 
+Our system has ID generation service which can be used to generate globally unique bill numbers
+
+This ID generation service can generate ids for different businesses and it can support short link generation for our different activities
+
 ### 2.2 Base conversion
 
 ### 2.3 Long link deduplication
