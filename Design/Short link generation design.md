@@ -53,6 +53,16 @@ Based on the common 6-bit short code, each service code can reach a maximum of 9
 
 Such as : https//www.xxx.com/A12tP6
 
+In the traditional short code generation scheme, the ID is shared by all services
+
+Different services are divided into ids based on their ranges
+
+The second advantage of our scheme avoids the traditional scope division problem
+
+Different services can have their own ids, which can be incrementing from 2 bits to ensure the shortest possible short code
+
+For example: https//www.xxx.com/A0
+
 ### 2.3 Long link deduplication
 
 ### 2.4 .Short link mapping
