@@ -71,7 +71,9 @@ If there are no special requirements, I will design a one-to-one correspondence 
 
 Borrow the setex of redis for deduplication, set the expiration time and do the deduplication measures in the recent period
 
-### 2.4 .Short link mapping
+### 2.4 Short link mapping
+
+The mapping relationship between short links and long links is one-to-one, so here we need to maintain a full mapping relationship and store it in Redis as key-value
 
 ## 3. Detail process
 
