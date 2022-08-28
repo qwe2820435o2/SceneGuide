@@ -69,6 +69,7 @@ There may be repeated long links to generate short links
 
 If there are no special requirements, I will design a one-to-one correspondence here to prevent the waste of short codes
 
+Borrow the setex of redis for deduplication, set the expiration time and do the deduplication measures in the recent period
 
 ### 2.4 .Short link mapping
 
