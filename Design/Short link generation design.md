@@ -83,5 +83,13 @@ If the business requirement is short-term, we set an expiration time for the key
 
 #### 2.4.2 long time
 
+If the business needs are long-term, we will not set the expiration time for the key first to prevent the Redis recycling strategy from being recycled by mistake
+
+In order to clear data in batches in the later stage, the key setting has certain rules
+
+Main business: secondary business code: business short code, for example: activity: a: 12tP6
+
+This has the advantage that when the activity ends, data can be deleted in batches according to the business prefix which greatly saves memory
+
 ## 3. Detail process
 
