@@ -75,5 +75,13 @@ Borrow the setex of redis for deduplication, set the expiration time and do the 
 
 The mapping relationship between short links and long links is one-to-one, so here we need to maintain a full mapping relationship and store it in Redis as key-value
 
+According to different business timeliness requirements, it is divided into two categories
+
+#### 2.4.1 short time
+
+If the business requirement is short-term, we set an expiration time for the key and the expiration expires
+
+#### 2.4.2 long time
+
 ## 3. Detail process
 
