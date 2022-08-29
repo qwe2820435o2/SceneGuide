@@ -101,3 +101,5 @@ The overall process consists of two parts which are short code generation and sh
 
 ### 3.2 Short code routing
 
+![Short link generation design — Short code routing](../Material/image/Short%20link%20generation%20design%20—%20Short%20code%20routing.png)
+
