@@ -93,3 +93,10 @@ This has the advantage that when the activity ends, data can be deleted in batch
 
 ## 3. Detail process
 
+The overall process consists of two parts which are short code generation and short code routing
+
+### 3.1 Short code generation
+
+
+### 3.2 Short code routing
+
