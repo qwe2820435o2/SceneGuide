@@ -22,6 +22,12 @@
 
 ## 3. Turn on compression before the JDK way serialization
 
+|     Memory     | Redis Itself takes up | after |
+| :------------: | :-------------: | :-------------: |
+| used_memory | 848480 | 1162472 |
+| used_memory_human | 828.59K | 1.11M |
+| used_memory_rss | 2719744 | 3002368 |
+| used_memory_rss_human | 2.59M | 2.86M |
 
 ## 4. Open compression, JDK way serialization, compression depth =1
 
