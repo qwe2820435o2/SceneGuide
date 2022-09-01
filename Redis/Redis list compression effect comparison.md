@@ -31,6 +31,12 @@
 
 ## 4. Open compression, JDK way serialization, compression depth =1
 
+|     Memory     | Redis Itself takes up | after |
+| :------------: | :-------------: | :-------------: |
+| used_memory | 848656 | 897176 |
+| used_memory_human | 828.77K | 876.15K |
+| used_memory_rss | 3100672 | 3100672 |
+| used_memory_rss_human | 2.96M | 2.96M |
 
 ## 5. Serialization in Json mode before turning on compression
 
