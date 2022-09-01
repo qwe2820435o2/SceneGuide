@@ -55,5 +55,3 @@
 | used_memory_human | 828.77K | 868.55K |
 | used_memory_rss | 3063808 | 3063808 |
 | used_memory_rss_human | 2.92M | 2.92M |
-
-## 7. Overall than
