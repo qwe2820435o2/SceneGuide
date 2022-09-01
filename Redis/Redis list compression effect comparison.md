@@ -40,6 +40,12 @@
 
 ## 5. Serialization in Json mode before turning on compression
 
+|     Memory     | Redis Itself takes up | after |
+| :------------: | :-------------: | :-------------: |
+| used_memory | 848480 | 1008264 |
+| used_memory_human | 828.59K | 984.63K |
+| used_memory_rss | 2723840 | 2990080 |
+| used_memory_rss_human | 2.60M | 2.85M |
 
 ## 6. After compression is enabled, it is serialized in Json mode with compression depth =1
 
