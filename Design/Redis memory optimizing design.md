@@ -1,4 +1,0 @@
-# Redis memory optimizing design
-
-
-
