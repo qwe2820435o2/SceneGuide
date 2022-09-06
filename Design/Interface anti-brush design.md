@@ -23,7 +23,11 @@ The reality is that the old version is already on the app market, and there is n
 We can only think about behavioral risk control
 
 ### H5 Interface
+> The H5 page has no version problems and can be updated directly, so the man-machine verification can be used directly
 
-
+**Prevention method：**
+1. Integrated man-machine verification
+2. Request parameters with signature for identity verification
+3. 
 
 ### Client interface
