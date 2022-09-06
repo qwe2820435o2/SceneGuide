@@ -28,6 +28,9 @@ We can only think about behavioral risk control
 **Prevention method：**
 1. Integrated man-machine verification
 2. Request parameters with signature for identity verification
-3. 
+3. Request behavior control
+   1. Monitor Ip minute, hour, day, month behavior
+   2. Monitor Uid minute, hour, day, month behavior
+   3. Monitor DeviceCode minute, hour, day, month behavior
 
 ### Client interface
