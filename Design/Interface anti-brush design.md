@@ -35,3 +35,11 @@ We can only think about behavioral risk control
 
 ### Client interface
 > The old version of the client has been launched on the app market, so only selective pop-up man-machine verification can be performed according to the version number
+
+**Prevention method：**
+1. Integrated man-machine verification(optional)
+2. Request parameters with signature for identity verification
+3. Request behavior control
+   1. Monitor Ip minute, hour, day, month behavior
+   2. Monitor Uid minute, hour, day, month behavior
+   3. Monitor DeviceCode minute, hour, day, month behavior
