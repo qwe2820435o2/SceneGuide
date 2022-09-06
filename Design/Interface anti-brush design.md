@@ -34,3 +34,4 @@ We can only think about behavioral risk control
    3. Monitor DeviceCode minute, hour, day, month behavior
 
 ### Client interface
+> The old version of the client has been launched on the app market, so only selective pop-up man-machine verification can be performed according to the version number
