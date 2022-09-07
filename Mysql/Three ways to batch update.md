@@ -37,5 +37,19 @@ It also has disadvantages, that is: the intermediate table needs to be borrowed,
 
 ## InsertOrUpdate method batch update
 
+```mysql
+insert into video (id, stream)
+        values
+<foreach collection="videoList" item="video" index="index" separator=",">
+		(#{video.id}, 0)
+</foreach>
+on duplicate key update
+stream = stream + values(stream)
+```
+
+The most recommended batch update method is this
+
+It neither needs to borrow the intermediate table, but also achieves the purpose of updating the stream corresponding to the id
+
 
 
