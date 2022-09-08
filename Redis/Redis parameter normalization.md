@@ -11,6 +11,6 @@
 | 7    | numTestsPerEvictionRun        | When detecting idle connections, the number of connections detected each time, if it is a negative number -n, it means that 1/n connections are detected | 3       | 3       |                                                              |
 | 8    | blockWhenExhausted            | "When the connection in the connection pool is exhausted, whether to block and wait when creating a new connection. false will throw an exception, true will block until the timeout maxWaitMillis" | TRUE    | TRUE    |                                                              |
 | 9    | maxWaitMillis                 | When the connection pool is exhausted, the caller's maximum waiting time (in milliseconds), -1 means blocking all the time | -1      | 2000    | Indicates a maximum wait of 2 seconds when blocking          |
-| 10   |                               |                                                              |         |         |                                                              |
-| 11   |                               |                                                              |         |         |                                                              |
+| 10   | testOnBorrow                  | Whether to check the validity of the connection every time a connection is borrowed from the resource pool, the invalid connection will be released | FALSE   | TRUE    |                                                              |
+| 11   | testOnReturn                  | Whether to check the validity of the connection every time the connection is returned to the resource pool, the invalid connection will be released | FALSE   | FALSE   |                                                              |
 
