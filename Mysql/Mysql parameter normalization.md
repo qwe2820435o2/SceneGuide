@@ -12,4 +12,6 @@
 | 8    | minEvictableIdleTimeMillis    | Minimum time (in milliseconds) for a connection to remain idle in the pool without being recycled | 60000   | 240000   | Indicates that the connection is idle for a maximum of 4 minutes (note that it needs to be lower than the idle connection detection period) |
 | 9    | testOnBorrow                  | Whether to verify when a connection is taken from the connection pool, if the verification fails, delete the connection from the pool and try to take another connection | FALSE   | TRUE     |                                                              |
 | 10   | testOnReturn                  | Whether to verify when a connection is used up and returned to the connection pool | FALSE   | TRUE     |                                                              |
+| 11   | validationQuery               | The query SQL used to validate the connection before the connection pool returns it to the caller | null    | select 1 |                                                              |
+| 12   | validationQueryTimeout        | SQL query validation timeout (seconds), a value less than or equal to 0 means disabled | -1      | 2        |                                                              |
 
