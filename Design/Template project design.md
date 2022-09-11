@@ -17,6 +17,9 @@ bp-template-dao             Mapper dependencies
 
 Runnable Jar:
 
+bp-template-service         External interface service
+bp-template-manager         Management background interface service
+
 
 ```
 
