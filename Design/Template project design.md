@@ -6,6 +6,7 @@
 - Currently integrated components include: MySQL, Dubbo, RabbitMQ, Redis, MongoDB, Kafka, Apollo, XXL-JOB, Caffeine, etc
 
 **Project Structure** 
+> For each business service, modules can be selected for project construction according to the actual situation
 
 ```
 
