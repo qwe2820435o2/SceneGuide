@@ -11,6 +11,9 @@
 
 Dependency Jar:
 
+bp-template-api             Interface, model dependencies
+bp-template-common          Tools, constants dependencies
+bp-template-dao             Mapper dependencies
 
 Runnable Jar:
 
