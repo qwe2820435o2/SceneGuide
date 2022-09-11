@@ -12,16 +12,16 @@
 
 Dependency Jar:
 
-bp-template-api             Interface, model dependencies
-bp-template-common          Tools, constants dependencies
-bp-template-dao             Mapper dependencies
+bp-template-api         (required)             Interface, model dependencies
+bp-template-common      (optional)             Tools, constants dependencies
+bp-template-dao         (optional)             Mapper dependencies
 
 Runnable Jar:
 
-bp-template-service         External interface service
-bp-template-manager         Management background interface service
-bp-template-bg              Asynchronous consumption service
-bp-template-task            Scheduled task service
+bp-template-service     (required)             External interface service
+bp-template-manager     (optional)             Management background interface service
+bp-template-bg          (optional)             Asynchronous consumption service
+bp-template-task        (optional)             Scheduled task service
 
 
 ```
