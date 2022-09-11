@@ -19,6 +19,8 @@ Runnable Jar:
 
 bp-template-service         External interface service
 bp-template-manager         Management background interface service
+bp-template-bg              Asynchronous consumption service
+bp-template-task            Scheduled task service
 
 
 ```
