@@ -47,4 +47,11 @@ bp-template-server
          ├─channel              channel type interface
          └─game                 game type interface
 
+├─bp-template-common    Jar Dependencies
+   ├─conmon                 Public constant
+   │  
+   │  
+   │  
+   └─utils                  Tools
+
 ```
