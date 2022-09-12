@@ -43,8 +43,8 @@ bp-template-server
    └─service                Interface
       ├─channel                 channel type interface
       ├─game                    game type interface
-      └─manager
-         ├─channel 
-         └─game
+      └─manager             Management background interface
+         ├─channel              channel type interface
+         └─game                 game type interface
 
 ```
