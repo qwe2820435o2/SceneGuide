@@ -30,3 +30,21 @@ bp-template-task        (optional)             Scheduled task service
 
 ## 3. Structure Detail 
 
+```
+
+bp-template-server
+├─bp-template-api       Jar Dependencies
+   ├─model                  Model
+   │  ├─dto                     data transfer object 
+   │  ├─entity                  persistent object
+   │  ├─qo                      query object
+   │  ├─valid                   check object
+   │  └─vo                      value object
+   └─service                Interface
+      ├─channel
+      ├─game
+      └─manager
+         ├─channel 
+         └─game
+
+```
