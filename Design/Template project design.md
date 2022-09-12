@@ -55,8 +55,8 @@ bp-template-server
    └─utils                  Tools
 
 ├─bp-template-dao       Jar Dependencies
-   ├─manager                
-   ├─dao                    
+   ├─manager                Redis, MongoDB operation related
+   ├─dao                    Data aggregation, transformation related
    ├─mapper                 
    └─model                  
 
