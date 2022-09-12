@@ -41,8 +41,8 @@ bp-template-server
    │  ├─valid                   check object
    │  └─vo                      value object
    └─service                Interface
-      ├─channel
-      ├─game
+      ├─channel                 channel type interface
+      ├─game                    game type interface
       └─manager
          ├─channel 
          └─game
