@@ -55,6 +55,9 @@ bp-template-server
    └─utils                  Tools
 
 ├─bp-template-dao       Jar Dependencies
-                 
+   ├─manager                
+   ├─dao                    
+   ├─mapper                 
+   └─model                  
 
 ```
