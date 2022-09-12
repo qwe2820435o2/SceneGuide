@@ -49,9 +49,9 @@ bp-template-server
 
 ├─bp-template-common    Jar Dependencies
    ├─conmon                 Public constant
-   │  
-   │  
-   │  
+   │  ├─constans                constant type
+   │  ├─enums                   enums type
+   │  └─exception               exception type
    └─utils                  Tools
 
 ```
