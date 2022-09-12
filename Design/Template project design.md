@@ -57,7 +57,7 @@ bp-template-server
 ├─bp-template-dao       Jar Dependencies
    ├─manager                Redis, MongoDB operation related
    ├─dao                    Data aggregation, transformation related
-   ├─mapper                 
-   └─model                  
+   ├─mapper                 Mapper
+   └─model                  Model
 
 ```
