@@ -60,4 +60,8 @@ bp-template-server
    ├─mapper                 Mapper
    └─model                  Model
 
+├─bp-template-service   External interface service
+   ├─Startup                Project startup class
+   ├─core                   Core module
+
 ```
