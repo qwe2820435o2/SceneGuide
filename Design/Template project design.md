@@ -78,6 +78,9 @@ bp-template-server
    │  └─utils                   tools
    └─template               Business module
       ├─cache                   cache operation 
-      ├─controller              http interface
+      ├─controller              provide http interface
+      ├─dubbo                   provide rpc interface 
+      │  ├─app                      app type rpc interface
+      │  └─manager                  Management background rpc interface
 
 ```
