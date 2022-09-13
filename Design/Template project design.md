@@ -63,7 +63,10 @@ bp-template-server
 ├─bp-template-service   External interface service
    ├─Startup                Project startup class
    ├─core                   Core module
-   │  ├─annotation              Annotation
-   │  ├─aspect                  Aspect
+   │  ├─annotation              annotation
+   │  ├─aspect                  aspect
+   │  ├─config                  config
+   │  │  ├─kafka                    kafka config
+   │  │  ├─rabbitmq                 rabbitmq config
 
 ```
