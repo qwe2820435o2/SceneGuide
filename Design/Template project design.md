@@ -71,5 +71,10 @@ bp-template-server
    │  │  ├─redis                    redis config
    │  │  ├─root                     basic config
    │  │  └─xxljob                   task config
+   │  ├─exception               exception
+   │  ├─interceptor             interceptor
+   │  ├─mapper                  mapper
+   │  ├─model                   model
+   │  └─utils                   tools
 
 ```
