@@ -82,5 +82,7 @@ bp-template-server
       ├─dubbo                   provide rpc interface 
       │  ├─app                      app type rpc interface
       │  └─manager                  Management background rpc interface
+      ├─kafka                       kafka operation
+      ├─manager                     rpc interface manager operation
 
 ```
