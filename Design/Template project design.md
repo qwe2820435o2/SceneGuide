@@ -76,5 +76,8 @@ bp-template-server
    │  ├─mapper                  mapper
    │  ├─model                   model
    │  └─utils                   tools
+   └─template               Business module
+      ├─cache                   cache operation 
+      ├─controller              http interface
 
 ```
