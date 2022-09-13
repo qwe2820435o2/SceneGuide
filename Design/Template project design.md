@@ -68,5 +68,8 @@ bp-template-server
    │  ├─config                  config
    │  │  ├─kafka                    kafka config
    │  │  ├─rabbitmq                 rabbitmq config
+   │  │  ├─redis                    redis config
+   │  │  ├─root                     basic config
+   │  │  └─xxljob                   task config
 
 ```
