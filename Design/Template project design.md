@@ -114,5 +114,8 @@ bp-template-server
 │     ├─manager                     rpc interface manager operation
 │     ├─rabbit                      rabbit operation
 │     └─service                     service operation
+└─resources                 Resource directory
+   ├─application.yml            Project configuration
+   └─logback-spring.xml         Log configuration
 
 ```
