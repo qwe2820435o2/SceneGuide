@@ -33,7 +33,7 @@ bp-template-task        (optional)             Scheduled task service
 ```
 
 bp-template-server
-├─bp-template-api       Jar Dependencies
+└─bp-template-api       Jar Dependencies
    ├─model                  Model
    │  ├─dto                     data transfer object 
    │  ├─entity                  persistent object
@@ -47,45 +47,48 @@ bp-template-server
          ├─channel              channel type interface
          └─game                 game type interface
 
-├─bp-template-common    Jar Dependencies
+└─bp-template-common    Jar Dependencies
    ├─conmon                 Public constant
    │  ├─constans                constant type
    │  ├─enums                   enums type
    │  └─exception               exception type
    └─utils                  Tools
 
-├─bp-template-dao       Jar Dependencies
+└─bp-template-dao       Jar Dependencies
    ├─manager                Redis, MongoDB operation related
    ├─dao                    Data aggregation, transformation related
    ├─mapper                 Mapper
    └─model                  Model
 
 ├─bp-template-service   External interface service
-   ├─Startup                Project startup class
-   ├─core                   Core module
-   │  ├─annotation              annotation
-   │  ├─aspect                  aspect
-   │  ├─config                  config
-   │  │  ├─kafka                    kafka config
-   │  │  ├─rabbitmq                 rabbitmq config
-   │  │  ├─redis                    redis config
-   │  │  ├─root                     basic config
-   │  │  └─xxljob                   task config
-   │  ├─exception               exception
-   │  ├─interceptor             interceptor
-   │  ├─mapper                  mapper
-   │  ├─cover                   vo,dto,entity,qo cover
-   │  ├─model                   model
-   │  └─utils                   tools
-   └─template               Business module
-      ├─cache                   cache operation 
-      ├─controller              provide http interface
-      ├─dubbo                   provide rpc interface 
-      │  ├─app                      app type rpc interface
-      │  └─manager                  Management background rpc interface
-      ├─kafka                       kafka operation
-      ├─manager                     rpc interface manager operation
-      ├─rabbit                      rabbit operation
-      └─service                     service operation
+│  ├─Startup                Project startup class
+│  ├─core                   Core module
+│  │  ├─annotation              annotation
+│  │  ├─aspect                  aspect
+│  │  ├─config                  config
+│  │  │  ├─kafka                    kafka config
+│  │  │  ├─rabbitmq                 rabbitmq config
+│  │  │  ├─redis                    redis config
+│  │  │  ├─root                     basic config
+│  │  │  └─xxljob                   task config
+│  │  ├─exception               exception
+│  │  ├─interceptor             interceptor
+│  │  ├─mapper                  mapper
+│  │  ├─cover                   vo,dto,entity,qo cover
+│  │  ├─model                   model
+│  │  └─utils                   tools
+│  └─template               Business module
+│     ├─cache                   cache operation 
+│     ├─controller              provide http interface
+│     ├─dubbo                   provide rpc interface 
+│     │  ├─app                      app type rpc interface
+│     │  └─manager                  Management background rpc interface
+│     ├─kafka                       kafka operation
+│     ├─manager                     rpc interface manager operation
+│     ├─rabbit                      rabbit operation
+│     └─service                     service operation
+└─resources                 Resource directory
+   ├─application.yml            Project configuration
+   └─logback-spring.xml         Log configuration
 
 ```
