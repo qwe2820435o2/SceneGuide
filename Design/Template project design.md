@@ -85,5 +85,7 @@ bp-template-server
       │  └─manager                  Management background rpc interface
       ├─kafka                       kafka operation
       ├─manager                     rpc interface manager operation
+      ├─rabbit                      rabbit operation
+      └─service                     service operation
 
 ```
