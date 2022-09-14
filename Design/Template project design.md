@@ -100,7 +100,12 @@ bp-template-server
 │  │  │  ├─rabbitmq                 rabbitmq config
 │  │  │  ├─redis                    redis config
 │  │  │  └─root                     basic config
-
+│  │  ├─exception               exception
+│  │  ├─interceptor             interceptor
+│  │  ├─mapper                  mapper
+│  │  ├─cover                   vo,dto,entity,qo cover
+│  │  ├─model                   model
+│  │  └─utils                   tools
 
 
 ```
