@@ -106,6 +106,13 @@ bp-template-server
 │  │  ├─cover                   vo,dto,entity,qo cover
 │  │  ├─model                   model
 │  │  └─utils                   tools
-
+│  └─template               Business module
+│     ├─cache                   cache operation 
+│     ├─controller              provide manager http interface
+│     ├─dubbo                   provide manager rpc interface 
+│     ├─kafka                       kafka operation
+│     ├─manager                     rpc interface manager operation
+│     ├─rabbit                      rabbit operation
+│     └─service                     service operation
 
 ```
