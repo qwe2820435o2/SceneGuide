@@ -69,8 +69,7 @@ bp-template-server
 │  │  │  ├─kafka                    kafka config
 │  │  │  ├─rabbitmq                 rabbitmq config
 │  │  │  ├─redis                    redis config
-│  │  │  ├─root                     basic config
-│  │  │  └─xxljob                   task config
+│  │  │  └─root                     basic config
 │  │  ├─exception               exception
 │  │  ├─interceptor             interceptor
 │  │  ├─mapper                  mapper
@@ -79,10 +78,8 @@ bp-template-server
 │  │  └─utils                   tools
 │  └─template               Business module
 │     ├─cache                   cache operation 
-│     ├─controller              provide http interface
-│     ├─dubbo                   provide rpc interface 
-│     │  ├─app                      app type rpc interface
-│     │  └─manager                  Management background rpc interface
+│     ├─controller              provide app http interface
+│     ├─dubbo                   provide app rpc interface 
 │     ├─kafka                       kafka operation
 │     ├─manager                     rpc interface manager operation
 │     ├─rabbit                      rabbit operation
@@ -90,5 +87,17 @@ bp-template-server
 └─resources                 Resource directory
    ├─application.yml            Project configuration
    └─logback-spring.xml         Log configuration
+
+
+
+├─bp-template-manager   Management background interface service
+│  ├─Startup                Project startup class
+│  ├─core                   Core module
+│  │  ├─annotation              annotation
+│  │  ├─aspect                  aspect
+│  │  ├─config                  config
+
+
+
 
 ```
