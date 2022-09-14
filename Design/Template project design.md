@@ -74,6 +74,7 @@ bp-template-server
    │  ├─exception               exception
    │  ├─interceptor             interceptor
    │  ├─mapper                  mapper
+   │  ├─cover                   vo,dto,entity,qo cover
    │  ├─model                   model
    │  └─utils                   tools
    └─template               Business module
