@@ -124,6 +124,36 @@ bp-template-server
 
 
 
-
+├─bp-template-bg   External interface service
+│  ├─Startup                Project startup class
+│  ├─core                   Core module
+│  │  ├─annotation              annotation
+│  │  ├─aspect                  aspect
+│  │  ├─config                  config
+│  │  │  ├─kafka                    kafka config
+│  │  │  ├─rabbitmq                 rabbitmq config
+│  │  │  ├─redis                    redis config
+│  │  │  └─root                     basic config
+│  │  ├─exception               exception
+│  │  ├─interceptor             interceptor
+│  │  ├─mapper                  mapper
+│  │  ├─cover                   vo,dto,entity,qo cover
+│  │  ├─model                   model
+│  │  └─utils                   tools
+│  └─template               Business module
+│     ├─cache                   cache operation 
+│     ├─controller              provide app http interface
+│     ├─dubbo                   provide app rpc interface 
+│     ├─kafka                       kafka operation
+│     │  ├─consumer                     consumer operation
+│     │  └─producer                     producer operation
+│     ├─manager                     rpc interface manager operation
+│     ├─rabbit                      rabbit operation
+│     │  ├─consumer                     consumer operation
+│     │  └─producer                     producer operation
+│     └─service                     service operation
+└─resources                 Resource directory
+   ├─application.yml            Project configuration
+   └─logback-spring.xml         Log configuration
 
 ```
