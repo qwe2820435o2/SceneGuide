@@ -124,7 +124,7 @@ bp-template-server
 
 
 
-├─bp-template-bg   External interface service
+├─bp-template-bg   Asynchronous consumption service
 │  ├─Startup                Project startup class
 │  ├─core                   Core module
 │  │  ├─annotation              annotation
