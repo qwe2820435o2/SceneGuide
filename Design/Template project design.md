@@ -81,8 +81,10 @@ bp-template-server
 │     ├─controller              provide app http interface
 │     ├─dubbo                   provide app rpc interface 
 │     ├─kafka                       kafka operation
+│     │  └─producer                     producer operation
 │     ├─manager                     rpc interface manager operation
 │     ├─rabbit                      rabbit operation
+│     │  └─producer                     producer operation
 │     └─service                     service operation
 └─resources                 Resource directory
    ├─application.yml            Project configuration
@@ -111,11 +113,17 @@ bp-template-server
 │     ├─controller              provide manager http interface
 │     ├─dubbo                   provide manager rpc interface 
 │     ├─kafka                       kafka operation
+│     │  └─producer                     producer operation
 │     ├─manager                     rpc interface manager operation
 │     ├─rabbit                      rabbit operation
+│     │  └─producer                     producer operation
 │     └─service                     service operation
 └─resources                 Resource directory
    ├─application.yml            Project configuration
    └─logback-spring.xml         Log configuration
+
+
+
+
 
 ```
