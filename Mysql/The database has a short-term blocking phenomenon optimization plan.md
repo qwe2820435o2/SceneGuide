@@ -2,6 +2,7 @@
 > Adding fields to a large table causes the database to be blocked for a short time, which in turn blocks the SQL query requests of the API's normal business, resulting in inaccessibility
 
 ## 1. Project Druid link pool configuration
+> Note: waitTime and connectTimeout are configured first, queryTimeout and socketTimeout need to wait for the api slow query to be transformed and then enabled
 
 
 
