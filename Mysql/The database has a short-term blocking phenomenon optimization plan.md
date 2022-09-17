@@ -4,7 +4,13 @@
 ## 1. Project Druid link pool configuration
 > Note: waitTime and connectTimeout are configured first, queryTimeout and socketTimeout need to wait for the api slow query to be transformed and then enabled
 
+### 1.1 waitTime
 
+Get mysql connection wait time. Originally 10000 (10 seconds), modified to: 5000
+
+```
+<property name="maxWait" value="5000" />
+```
 
 
 
