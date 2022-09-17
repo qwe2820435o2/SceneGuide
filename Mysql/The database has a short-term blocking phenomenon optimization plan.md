@@ -12,6 +12,10 @@ Get mysql connection wait time. Originally 10000 (10 seconds), modified to: 5000
 <property name="maxWait" value="5000" />
 ```
 
+### 1.2 connectTimeout
+
+The default tcp connection establishment timeout time is 0, modified to: 5000
+
 
 
 
