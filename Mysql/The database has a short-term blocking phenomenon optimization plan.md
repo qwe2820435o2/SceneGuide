@@ -16,6 +16,10 @@ Get mysql connection wait time. Originally 10000 (10 seconds), modified to: 5000
 
 The default tcp connection establishment timeout time is 0, modified to: 5000
 
+```
+<property name="url" value="jdbc:mysql://10.116.55.1:3306/platform_user?characterEncoding=UTF-8&amp;connectTimeout=5000" />
+```
+
 
 
 
