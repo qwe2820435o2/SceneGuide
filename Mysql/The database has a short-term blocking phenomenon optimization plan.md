@@ -36,6 +36,8 @@ After configuring the parameters, the application service will start the backend
 
 If the mysql execution exceeds the configured time, the backend thread will send the kill command, which will end the execution of the sql statement
 
-
+```
+<property name="queryTimeout" value="30" />
+```
 
 
