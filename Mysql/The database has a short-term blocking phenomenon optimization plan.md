@@ -40,4 +40,4 @@ If the mysql execution exceeds the configured time, the backend thread will send
 <property name="queryTimeout" value="30" />
 ```
 
-
+### 1.5 Upgrade mysql-connector to version 5.1.44 or later
