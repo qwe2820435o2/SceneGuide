@@ -28,7 +28,13 @@ The client sends SQL statements and waits for the response time of the MySQL ser
 <property name="url" value="jdbc:mysql://10.116.55.1:3306/platform_user?characterEncoding=UTF-8&amp;socketTimeout=40000/>
 ```
 
+### 1.4 queryTimeout
 
+SQL statement execution timeout, tentatively set to 30 seconds (configuration tentative)
+
+After configuring the parameters, the application service will start the backend thread before sending the sql statement to check whether the execution of mysql will time out
+
+If the mysql execution exceeds the configured time, the backend thread will send the kill command, which will end the execution of the sql statement
 
 
 
