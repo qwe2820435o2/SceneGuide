@@ -24,7 +24,9 @@ The default tcp connection establishment timeout time is 0, modified to: 5000
 
 The client sends SQL statements and waits for the response time of the MySQL service. Defaults to 0 depending on the OS to time out after 30 minutes. Modify it to 40000 (the configuration is tentatively set for 40 seconds)
 
-
+```
+<property name="url" value="jdbc:mysql://10.116.55.1:3306/platform_user?characterEncoding=UTF-8&amp;socketTimeout=40000/>
+```
 
 
 
