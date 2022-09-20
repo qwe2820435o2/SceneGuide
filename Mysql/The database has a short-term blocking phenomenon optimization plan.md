@@ -49,3 +49,6 @@ If the mysql execution exceeds the configured time, the backend thread will send
   <version>5.1.44</version>
 </dependency>
 ```
+
+## 2. Increase the query data Redis cache
+
