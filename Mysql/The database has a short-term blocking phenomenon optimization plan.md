@@ -53,3 +53,5 @@ If the mysql execution exceeds the configured time, the backend thread will send
 ## 2. Increase the query data Redis cache
 > When calling the interface, check the database directly every time
 
+Construct multi-level cache, first cache locally, then redis cache, and finally check mysql
+
