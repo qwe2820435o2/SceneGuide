@@ -51,4 +51,5 @@ If the mysql execution exceeds the configured time, the backend thread will send
 ```
 
 ## 2. Increase the query data Redis cache
+> When calling the interface, check the database directly every time
 
