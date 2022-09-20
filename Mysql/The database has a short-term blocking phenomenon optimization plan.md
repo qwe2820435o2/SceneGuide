@@ -56,3 +56,7 @@ If the mysql execution exceeds the configured time, the backend thread will send
 Construct multi-level cache, first cache locally, then redis cache, and finally check mysql
 
 ## 3. Optimizing slow SQL queries
+
+Sort out all the slow queries of the slave library and export the EXCEL table
+
+Distributed to each project leader for targeted optimization
