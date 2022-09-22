@@ -7,8 +7,11 @@
 1. The library file is large, and the loading consumes memory
 2. The library file is placed in the project, which increases the size of the package body
 
-## Stage 2: Extract the IP database file to an external directory
+## Stage 2: Extract the IP database file to an external shared folder
 
+**Advantages:** reduce the size of the package body, and share a piece of data for multiple projects
+
+**Issue:** Still consumes a lot of memory after loading
 
 
 
