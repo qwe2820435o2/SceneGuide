@@ -18,7 +18,11 @@
 
 **Advantages:** No need to pay attention to the local Ip library file, only deal with the redis cache
 
+**Issue:** 
 
+Excessive concentration of hot data and high concurrency will lead to a high number of tcp links on a redis node
+
+The phenomenon reflected in the client is an error: could not get a resource from the pool
 
 
 
