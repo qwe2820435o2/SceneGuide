@@ -16,7 +16,7 @@
 ## Stage 3: Extract the IP database data to the redis
 > draw on the B+ tree structure to design the structure of level 1 index, level 2 index, and level 3 pointing to the final data
 
-
+**Advantages:** No need to pay attention to the local Ip library file, only deal with the redis cache
 
 
 
