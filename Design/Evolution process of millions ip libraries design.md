@@ -25,7 +25,7 @@ Excessive concentration of hot data and high concurrency will lead to a high num
 The phenomenon reflected in the client is an error: could not get a resource from the pool
 
 
-
+## Stage 4: Increase local cache, cache hotspot IP, carry concurrent
 
 
 
