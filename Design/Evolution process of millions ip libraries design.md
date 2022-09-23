@@ -33,3 +33,5 @@ The phenomenon reflected in the client is an error: could not get a resource fro
 
 
 ## Stage 5: Follow-up optimization ideas
+
+Level 1 and level 2 indexes are placed in the local cache, which can effectively reduce the number of links to redis
