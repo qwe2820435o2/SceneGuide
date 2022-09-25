@@ -34,7 +34,11 @@ SceneGuide
 │ 
 ├─Mysql                        Mysql Scenes
 │  ├─
-|  └─           
+|  └─    
+│       
+├─Other                        Other Scenes
+│  ├─                               Code review template
+|  └─                               Comparison of AES and RSA pressure velocity measurement rate
 │ 
 ├─RabbitMQ                     RabbitMQ Scenes
 │  ├─
