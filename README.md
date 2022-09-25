@@ -12,6 +12,9 @@ SceneGuide
 │  ├─                               Counting scheme design
 │  ├─                               Evolution process of millions ip libraries design
 │  ├─                               Interface anti-brush design
+│  ├─                               Large table splitting smooth migration steps
+│  ├─                               Short link generation design
+|  └─                               Template project design
 │       
 ├─Docker                       Docker Scenes
 │  ├─
