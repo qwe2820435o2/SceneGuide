@@ -14,7 +14,13 @@ This not only has an impact on the technical statistical performance, but also i
 
 ### 1.2 Detail information
 
-
+| Conference theme   |                    |
+| ---------- | :--------------------------------------------- |
+| sponsor     |                                    |
+| Place       |  |
+| time       |                                      |
+| meeting host |                                  |
+| Conference judges   |                        |
 
 
 ## 2. Review related materials
