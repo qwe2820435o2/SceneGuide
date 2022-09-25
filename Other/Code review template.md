@@ -27,8 +27,8 @@ This not only has an impact on the technical statistical performance, but also i
 
 | Review information | Details                                                         |
 | -------- | :----------------------------------------------------------- |
-| Involved projects |     |
-| Involving branches |  |
+| Involved projects |  platform-counting-service，platform-counting-bg   |
+| Involving branches | fix-stream-calculate |
 | Development program |                         |
 | flow chart  |  |
 | data model |                              |
