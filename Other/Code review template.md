@@ -14,13 +14,13 @@ This not only has an impact on the technical statistical performance, but also i
 
 ### 1.2 Detail information
 
-| Conference theme   |                    |
+| Conference theme   |      (Example: Statistical counting capability independent service)              |
 | ---------- | :--------------------------------------------- |
-| sponsor     |                                    |
-| Place       |  |
-| time       |                                      |
-| meeting host |                                  |
-| Conference judges   |                        |
+| sponsor     |                  (Example: kris)                  |
+| Place       | 150 Tanglin Road，Singapore |
+| time       |          2022-05-27                            |
+| meeting host |               (Example: kris)                   |
+| Conference judges   |          (Example: kris，tom)              |
 
 
 ## 2. Review related materials
