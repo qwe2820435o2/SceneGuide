@@ -45,7 +45,13 @@ SceneGuide
 |  └─           
 │ 
 ├──Redis                       Redis Scenes
-│  ├─            
+│  ├─                               Client error that could not get a resource from the pool
+│  ├─                               Data backup and recovery
+│  ├─                               Fast batch execution of redis commands
+│  ├─                               Memory usage optimization
+│  ├─           
+│  ├─           
+│  ├─           
 │  └─   
 |
 └─ README.md                   File Description 
