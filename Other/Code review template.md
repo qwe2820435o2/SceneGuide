@@ -16,14 +16,22 @@ This not only has an impact on the technical statistical performance, but also i
 
 | Conference theme   |      (Example: Statistical counting capability independent service)              |
 | ---------- | :--------------------------------------------- |
-| sponsor     |                  (Example: kris)                  |
+| Sponsor     |                  (Example: kris)                  |
 | Place       | 150 Tanglin Road，Singapore |
-| time       |          2022-05-27                            |
-| meeting host |               (Example: kris)                   |
+| Time       |          2022-05-27                            |
+| Meeting host |               (Example: kris)                   |
 | Conference judges   |          (Example: kris，tom)              |
 
 
 ## 2. Review related materials
+
+| Review information | Details                                                         |
+| -------- | :----------------------------------------------------------- |
+| Involved projects |     |
+| Involving branches |  |
+| Development program |                         |
+| flow chart  |  |
+| data model |                              |
 
 ## 3. Review rules
 
