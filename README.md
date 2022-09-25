@@ -49,10 +49,10 @@ SceneGuide
 │  ├─                               Data backup and recovery
 │  ├─                               Fast batch execution of redis commands
 │  ├─                               Memory usage optimization
-│  ├─           
-│  ├─           
-│  ├─           
-│  └─   
+│  ├─                               RDB memory analysis
+│  ├─                               Redis list compression effect comparison
+│  ├─                               Redis parameter normalization
+│  └─                               Use pipeline to optimize performance and memory usage
 |
 └─ README.md                   File Description 
 
