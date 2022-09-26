@@ -37,6 +37,13 @@ This not only has an impact on the technical statistical performance, but also i
 
 ## 3.1 classification
 
+| problem level | detail                                                         |
+| ---------- | :----------------------------------------------------------- |
+| S          |                                         |
+| A          |                                        |
+| B          |  |
+| C          |                    |
+
 ## 3.2 question type
 
 ## 4. Review process
