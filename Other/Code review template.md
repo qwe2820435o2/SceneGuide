@@ -41,8 +41,8 @@ This not only has an impact on the technical statistical performance, but also i
 | ---------- | :----------------------------------------------------------- |
 | S          |             **Required**, which affects the function                            |
 | A          |                    **Required**, which affects performance                    |
-| B          |  |
-| C          |                    |
+| B          | Optimization : comment/log/code specification (host: for new/independent services, use the Ali plug-in to scan it again), it is strictly forbidden to encapsulate objects with Map |
+| C          |          Suggestion/optimization , class code is too long, too many judgments, hard-coded          |
 
 ## 3.2 question type
 
