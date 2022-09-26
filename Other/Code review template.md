@@ -39,8 +39,8 @@ This not only has an impact on the technical statistical performance, but also i
 
 | problem level | detail                                                         |
 | ---------- | :----------------------------------------------------------- |
-| S          |                                         |
-| A          |                                        |
+| S          |             **Required**, which affects the function                            |
+| A          |                    **Required**, which affects performance                    |
 | B          |  |
 | C          |                    |
 
