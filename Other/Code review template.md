@@ -35,6 +35,10 @@ This not only has an impact on the technical statistical performance, but also i
 
 ## 3. Review rules
 
+## 3.1 classification
+
+## 3.2 question type
+
 ## 4. Review process
 
 ## 5. Review report
