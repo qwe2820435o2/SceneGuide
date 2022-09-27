@@ -50,9 +50,9 @@ This not only has an impact on the technical statistical performance, but also i
 
 | step |   detail                                                       |
 | ---- | :----------------------------------------------------------- |
-| 1.   |                                          |
-|      | 1.1                          |
-|      | 1.2                             |
+| 1.   |         Analyze the feasibility of the development plan                                 |
+|      | 1.1           Whether the current development plan can meet the requirements               |
+|      | 1.2         Is there any performance problem for the C-side interface?                    |
 |      | 1.3                              |
 |      | 1.4  |
 | 2.   |                                                      |
