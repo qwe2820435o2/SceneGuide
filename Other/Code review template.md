@@ -58,9 +58,9 @@ This not only has an impact on the technical statistical performance, but also i
 | 2.   |             code review                                         |
 |      | 2.1             The sponsor guides the host to read the code                     |
 |      | 2.2              Before the host goes to read, use the Ali code plugin to scan the file          |
-|      | 2.3                                  |
-|      | 2.4                                          |
-|      | 2.5                          |
-|      | 2.6                                  |
+|      | 2.3                   The moderator conducts day reading according to the functional link               |
+|      | 2.4                    Sponsor records problem points                      |
+|      | 2.5               The sponsor completes the review report and gives the deadline           |
+|      | 2.6                      Submit the review report to gitlab for storage            |
 
 ## 5. Review report
