@@ -31,7 +31,7 @@ This not only has an impact on the technical statistical performance, but also i
 | Involving branches | fix-stream-calculate |
 | Development program |         [Counting scheme design](../Design/Counting scheme design.md)                |
 | flow chart  | [Counting Design — Whole Process](../Material/image/Counting%20Design%20—%20Whole%20Process.png) |
-| data model |                              |
+| data model |             [data model design](../Design/Counting scheme design.md)                  |
 
 
 
