@@ -35,6 +35,9 @@ This not only has an impact on the technical statistical performance, but also i
 
 ## 3. Review rules
 
+[Address](../Material/md/Question details.md)
+
+
 ## 3.1 classification
 
 | problem level | detail                                                         |
