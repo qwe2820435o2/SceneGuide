@@ -64,3 +64,10 @@ This not only has an impact on the technical statistical performance, but also i
 |      | 2.6                      Submit the review report to gitlab for storage            |
 
 ## 5. Review report
+
+| level | question | detail | Modify completion time |
+| ---- | ------ | :--- | ------------ |
+| S    |        |      |              |
+| A    |        |      |              |
+| B    |        |      |              |
+| C    |        |      |              |
