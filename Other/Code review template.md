@@ -29,13 +29,16 @@ This not only has an impact on the technical statistical performance, but also i
 | -------- | :----------------------------------------------------------- |
 | Involved projects |  platform-counting-service，platform-counting-bg   |
 | Involving branches | fix-stream-calculate |
-| Development program |         [Address](../Design/Counting scheme design.md)                |
-| flow chart  |  |
+| Development program |         [Counting scheme design](../Design/Counting scheme design.md)                |
+| flow chart  | [Counting Design — Whole Process](../Material/image/Counting%20Design%20—%20Whole%20Process.png) |
 | data model |                              |
+
+
+
 
 ## 3. Review rules
 
-[Address](../Material/md/Question details.md)
+[Review rules](../Material/md/Question details.md)
 
 
 ## 3.1 classification
