@@ -29,5 +29,6 @@ Push to Harbor, an enterprise-level private repository ——> Delete locally ge
 cat /root/.jenkins/secrets/initialAdminPassword
 ```
 
+### Install recommended plugins
 
 
