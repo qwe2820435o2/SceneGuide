@@ -8,3 +8,5 @@ Maven into a jar package ——> Copy the jar to the specified directory accordi
 2. Mirror build based on build parameters on Jenkins ——> Jenkins packages images according to Dockerfile ——> 
 Push to Harbor, an enterprise-level private repository ——> Delete locally generated images
 
+3. Humpback lightweight container management tool ——> Pull the image from the repository ——> Deploy containers for each host
+
