@@ -14,3 +14,9 @@ Push to Harbor, an enterprise-level private repository ——> Delete locally ge
 **address:** https://jenkins.io/
 
 ### Download the Jenkins package from the official website
+
+1. Put jenkins.war in /usr/local
+
+2. Execute nohup java -jar httpPort=8080 jenkins.war & to start the jenkins server
+
+3. Access IP+8080 port to see
