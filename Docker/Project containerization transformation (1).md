@@ -10,3 +10,5 @@ Push to Harbor, an enterprise-level private repository ——> Delete locally ge
 
 3. Humpback lightweight container management tool ——> Pull the image from the repository ——> Deploy containers for each host
 
+## Install Jenkins
+
