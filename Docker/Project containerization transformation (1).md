@@ -25,3 +25,9 @@ Push to Harbor, an enterprise-level private repository ——> Delete locally ge
 
 ### View password
 
+```shell script
+cat /root/.jenkins/secrets/initialAdminPassword
+```
+
+
+
