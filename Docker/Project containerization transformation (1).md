@@ -31,4 +31,4 @@ cat /root/.jenkins/secrets/initialAdminPassword
 
 ### Install recommended plugins
 
-
+![Install plugins](../Material/image/Project%20containerization%20transformation%20(1)%20—%20install%20plugin%20.png)
