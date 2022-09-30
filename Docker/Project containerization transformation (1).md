@@ -20,3 +20,5 @@ Push to Harbor, an enterprise-level private repository ——> Delete locally ge
 2. Execute nohup java -jar httpPort=8080 jenkins.war & to start the jenkins server
 
 3. Access IP+8080 port to see
+
+![Download Jenkins](../Material/image/Project%20containerization%20transformation%20(1)%20—%20download%20jenkins%20.png)
