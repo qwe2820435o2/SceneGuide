@@ -35,7 +35,7 @@ cat /root/.jenkins/secrets/initialAdminPassword
 
 ### Set account password
 
-
+![Install plugins](../Material/image/Project%20containerization%20transformation%20(1)%20—%20Set%20account%20password%20.png)
 
 
 
