@@ -16,3 +16,5 @@ tar -zxvf apache-maven-3.5.0-bin.tar.gz
 ```
 
 ### Set MAVEN_HOME
+
+1. vim /etc/profile
