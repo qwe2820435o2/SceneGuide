@@ -59,7 +59,10 @@ tar zxvf git-2.12.2.tar.gz
 ```
 
 ### Compile and install
-
+```shell script
+cd git-2.12.2/
+./configure --prefix=/usr/local/git-2.12.2 && make install
+```
 
 
 
