@@ -31,3 +31,7 @@ source /etc/profile
 ## Install Git
 
 ### Install gcc
+
+```shell script
+yum install gcc
+```
