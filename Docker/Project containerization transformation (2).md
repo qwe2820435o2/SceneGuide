@@ -53,6 +53,7 @@ yum install gcc perl-ExtUtils-MakeMaker
 wget -P /usr/local/git-2.12.2 https://www.kernel.org/pub/software/scm/git/git-2.12.2.tar.gz
 ```
 
+### Unzip the source package
 
 
 
