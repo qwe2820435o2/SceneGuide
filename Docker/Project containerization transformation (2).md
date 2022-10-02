@@ -58,6 +58,7 @@ wget -P /usr/local/git-2.12.2 https://www.kernel.org/pub/software/scm/git/git-2.
 tar zxvf git-2.12.2.tar.gz
 ```
 
+### Compile and install
 
 
 
