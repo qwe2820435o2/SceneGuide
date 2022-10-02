@@ -27,3 +27,5 @@ export PATH=$PATH:$MAVEN_HOME/bin
 ```shell script
 source /etc/profile
 ```
+
+## Install Git
