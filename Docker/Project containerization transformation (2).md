@@ -35,3 +35,19 @@ source /etc/profile
 ```shell script
 yum install gcc
 ```
+
+### Install g++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
