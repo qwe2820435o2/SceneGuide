@@ -37,11 +37,16 @@ yum install gcc
 ```
 
 ### Install g++
+```shell script
+yum install gcc-c++
+```
 
+### Install the required packages for compilation
 
-
-
-
+```shell script
+yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+yum install gcc perl-ExtUtils-MakeMaker
+```
 
 
 
