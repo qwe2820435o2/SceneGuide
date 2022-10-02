@@ -29,3 +29,5 @@ source /etc/profile
 ```
 
 ## Install Git
+
+### Install gcc
