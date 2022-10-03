@@ -86,6 +86,15 @@ cd git-2.12.2/
 ## Configure SSH Server
 1. Click System Management - System Settings
 2. Scroll down to find publish over ssh, where Passphrase is the password of the 137 machine
+```properties
+Name is the name
+
+Hostname is the machine ip
+
+Username is the account
+
+Remote Directory is the directory accessible by jenkins
+```
 
 
 
