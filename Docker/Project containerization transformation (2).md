@@ -65,5 +65,14 @@ cd git-2.12.2/
 ```
 
 ### Configure Git_HOME
+```shell script
+1. vim /etc/profile
+2. Configure the Git installation path as Git_HOME
+   export Git_HOME=/usr/local/git-2.12.2
+   export PATH=$PATH:$Git_HOME/bin
+
+```
+
+
 
 
