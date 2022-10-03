@@ -84,6 +84,8 @@ cd git-2.12.2/
 ![Install plugin](../Material/image/Project%20containerization%20transformation%20(2)%20—%20install%20plugin.png)
 
 ## Configure SSH Server
+1. Click System Management - System Settings
+2. Scroll down to find publish over ssh, where Passphrase is the password of the 137 machine
 
 
 
