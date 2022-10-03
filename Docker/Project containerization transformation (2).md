@@ -78,6 +78,6 @@ cd git-2.12.2/
 
 ## Install the publish over ssh plugin
 ### Find the plugin in optional plugins
-
+![publish over ssh plugin](../Material/image/Project%20containerization%20transformation%20(2)%20—%20publish%20over%20ssh%20plugin.png)
 
 
