@@ -76,6 +76,7 @@ cd git-2.12.2/
    git --version
 ```
 
+## Install the publish over ssh plugin
 
 
 
