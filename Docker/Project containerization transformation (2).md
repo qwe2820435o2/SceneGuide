@@ -83,3 +83,17 @@ cd git-2.12.2/
 ### After checking it, click Install directly
 ![Install plugin](../Material/image/Project%20containerization%20transformation%20(2)%20—%20install%20plugin.png)
 
+## Configure SSH Server
+
+
+
+
+
+
+
+
+
+
+
+
+
