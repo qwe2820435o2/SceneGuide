@@ -101,6 +101,8 @@ Remote Directory is the directory accessible by jenkins
 
 ### Create free-style software projects
 
+![Create free-style software projects](../Material/image/Project%20containerization%20transformation%20(2)%20—%20Create%20free-style%20software%20projects.png)
+
 
 
 
