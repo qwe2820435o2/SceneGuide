@@ -105,7 +105,7 @@ Remote Directory is the directory accessible by jenkins
 
 ### Take the project on github as an example
 
-
+![Take the project on github as an example](../Material/image/Project%20containerization%20transformation%20(2)%20—%20Take%20the%20project%20on%20github%20as%20an%20example.png)
 
 
 
