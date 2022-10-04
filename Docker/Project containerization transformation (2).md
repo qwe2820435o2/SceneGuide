@@ -112,3 +112,4 @@ Remote Directory is the directory accessible by jenkins
 2. Click to discard old builds, set the number of days to save the build, and the maximum number of builds
 ![Configure the project address](../Material/image/Project%20containerization%20transformation%20(2)%20—%20Configure%20the%20project%20address.png)
 
+### Configure build parameters
