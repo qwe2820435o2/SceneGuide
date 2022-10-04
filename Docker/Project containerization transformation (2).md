@@ -113,3 +113,6 @@ Remote Directory is the directory accessible by jenkins
 ![Configure the project address](../Material/image/Project%20containerization%20transformation%20(2)%20—%20Configure%20the%20project%20address.png)
 
 ### Configure build parameters
+
+Project name, path to place the jar package
+![Configure the project address](../Material/image/Project%20containerization%20transformation%20(2)%20—%20Configure%20build%20parameters.png)
