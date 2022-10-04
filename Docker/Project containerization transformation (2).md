@@ -109,5 +109,5 @@ Remote Directory is the directory accessible by jenkins
 
 ### Configure the project address
 1. Check the Github project and fill in the project address
-
+2. Click to discard old builds, set the number of days to save the build, and the maximum number of builds
 
