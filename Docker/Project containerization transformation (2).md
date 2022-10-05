@@ -140,3 +140,6 @@ Here, the 137 machine is the ssh Server configured globally by Jenkins, and PROJ
 
 ### View build status
 ![Configure source code management](../Material/image/Project%20containerization%20transformation%20(2)%20—%20View%20build%20status.png)
+
+### View build log
+![Configure source code management](../Material/image/Project%20containerization%20transformation%20(2)%20—%20View%20build%20log.png)
