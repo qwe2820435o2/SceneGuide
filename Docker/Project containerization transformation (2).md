@@ -124,3 +124,13 @@ Project name, path to place the jar package
 **Fill in the github account password here**
 
 ![Configure source code management](../Material/image/Project%20containerization%20transformation%20(2)%20—%20Fill%20in%20the%20github%20account%20password%20here.png)
+
+### Configure Maven builds
+
+
+
+
+
+
+
+
