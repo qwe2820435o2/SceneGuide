@@ -138,3 +138,4 @@ Here, the 137 machine is the ssh Server configured globally by Jenkins, and PROJ
 ### Parameterized build directory
 ![Configure source code management](../Material/image/Project%20containerization%20transformation%20(2)%20—%20Parameterized%20build%20directory.png)
 
+### View build status
