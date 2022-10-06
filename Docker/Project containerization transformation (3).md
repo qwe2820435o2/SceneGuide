@@ -14,3 +14,13 @@ tar -zxvf apache-maven-3.5.0-bin.tar.gz
 ```
 
 ### Configure MAVEN_HOME
+
+1. edit profile
+```shell script
+vim /etc/profile
+```
+
+
+
+
+
