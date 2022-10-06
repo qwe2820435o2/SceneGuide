@@ -19,12 +19,13 @@ tar -zxvf apache-maven-3.5.0-bin.tar.gz
 ```shell script
 vim /etc/profile
 ```
-
-2. Configure the Maven installation path to MAVEN_HOME
+2.Configure the Maven installation path to MAVEN_HOME
 ```shell script
 export MAVEN_HOME=/usr/local/maven
 export PATH=$PATH:$MAVEN_HOME/bin
 ```
-
-
+3.Effective immediately after modification
+```shell script
+source /etc/profile
+```
 
