@@ -36,3 +36,6 @@ systemctl restart docker
 ```
 
 ### Test if the installation is successful
+```shell script
+docker run hello-world
+```
