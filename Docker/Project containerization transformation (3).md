@@ -25,3 +25,6 @@ sudo yum install docker-ce
 ```
 
 ### Start Docker
+```shell script
+sudo systemctl start docker
+```
