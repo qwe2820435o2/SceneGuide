@@ -15,3 +15,6 @@ sudo yum remove docker \
 	                  docker-engine-selinux \
 	                  docker-engine
 ```
+
+### Install the latest version
+
