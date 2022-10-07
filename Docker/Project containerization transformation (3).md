@@ -30,3 +30,7 @@ sudo systemctl start docker
 ```
 
 ### Set startup
+```shell script
+systemctl daemon-reload
+systemctl restart docker
+```
