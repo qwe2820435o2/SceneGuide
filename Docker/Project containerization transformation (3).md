@@ -39,3 +39,21 @@ systemctl restart docker
 ```shell script
 docker run hello-world
 ```
+
+![Test if the installation is successful](../Material/image/Project%20containerization%20transformation%20(3)%20—%20Test%20if%20the%20installation%20is%20successful.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
