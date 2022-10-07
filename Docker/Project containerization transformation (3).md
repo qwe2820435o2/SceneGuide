@@ -34,3 +34,5 @@ sudo systemctl start docker
 systemctl daemon-reload
 systemctl restart docker
 ```
+
+### Test if the installation is successful
