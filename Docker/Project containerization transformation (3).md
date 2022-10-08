@@ -57,7 +57,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 ### Test if the installation is successful
-
+```shell script
+docker-compose --version
+```
 
 
 
