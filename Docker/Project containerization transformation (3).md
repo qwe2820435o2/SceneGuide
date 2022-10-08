@@ -52,7 +52,9 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-
 
 ### Setting permissions
 
-
+```shell script
+sudo chmod +x /usr/local/bin/docker-compose
+```
 
 
 
