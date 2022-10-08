@@ -44,7 +44,7 @@ docker run hello-world
 
 ## Docker Compose installation
 
-
+### Install the latest version
 
 
 
