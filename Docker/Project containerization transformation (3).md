@@ -56,7 +56,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-
+### Test if the installation is successful
 
 
 
