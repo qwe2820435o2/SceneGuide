@@ -60,6 +60,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```shell script
 docker-compose --version
 ```
+![Test if the installation is successful](../Material/image/Project%20containerization%20transformation%20(3)%20—%20test%20docker-compose%20install.png)
 
 
 
