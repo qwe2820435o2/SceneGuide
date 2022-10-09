@@ -65,7 +65,7 @@ docker-compose --version
 
 ### Get the package address
 
-
+**Version package address:** https://github.com/goharbor/harbor/releases
 
 
 
