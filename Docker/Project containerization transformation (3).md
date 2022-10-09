@@ -67,6 +67,10 @@ docker-compose --version
 
 **Version package address:** https://github.com/goharbor/harbor/releases
 
+![Version package address](../Material/image/Project%20containerization%20transformation%20(3)%20—%20harbor%20address.png)
+
+
+
 
 
 
