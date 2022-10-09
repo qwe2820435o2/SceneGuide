@@ -76,7 +76,7 @@ docker-compose --version
 wget https://storage.googleapis.com/harbor-releases/release-1.7.0/harbor-online-installer-v1.7.1.tgz
 ```
 
-
+### Decompress
 
 
 
