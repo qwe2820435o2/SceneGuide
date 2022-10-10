@@ -105,3 +105,20 @@ Access the host ip, jump to this page, the installation is successful
 ## Push and pull images
 
 ### Configure the repository for the http protocol
+
+Docker's default repository address is https protocol, but harbor repository defaults to http protocol.
+
+If you need to use the http protocol warehouse, you need to make the following settings in the /etc/docker/daemon.json configuration file of docker:
+
+
+
+
+
+
+
+
+
+
+
+
+
