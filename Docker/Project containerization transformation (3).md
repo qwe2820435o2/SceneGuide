@@ -82,7 +82,11 @@ tar -zxvf harbor-online-installer-v1.7.1.tgz
 ```
 
 ### Change setting
+```shell script
+vim harbor.cfg
+```
 
+**Modify the hostname to the ip of the machine:**
 
 
 
