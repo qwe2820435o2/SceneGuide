@@ -101,3 +101,5 @@ vim harbor.cfg
 Access the host ip, jump to this page, the installation is successful
 
 ![test harbor install](../Material/image/Project%20containerization%20transformation%20(3)%20—%20test%20harbor%20install.png)
+
+## Push and pull images
