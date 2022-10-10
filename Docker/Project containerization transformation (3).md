@@ -119,7 +119,11 @@ If you need to use the http protocol warehouse, you need to make the following s
 
 ### Login
 
+Enter account and password
 
+```shell script
+docker login 192.168.92.139
+```
 
 
 
