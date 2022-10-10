@@ -127,7 +127,11 @@ docker login 192.168.92.139
 
 ### Making Tag
 
+Just use our previous hello-world image for testing
 
+```shell script
+docker tag hello-world 192.168.92.139/library/hello-world
+```
 
 
 
