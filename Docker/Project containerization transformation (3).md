@@ -92,3 +92,6 @@ vim harbor.cfg
 
 
 ### Install
+```shell script
+./install.sh
+```
