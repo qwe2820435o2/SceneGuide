@@ -88,5 +88,6 @@ vim harbor.cfg
 
 **Modify the hostname to the ip of the machine:**
 
+![Change harbor ip](../Material/image/Project%20containerization%20transformation%20(3)%20—%20Change%20harbor%20ip.png)
 
 
