@@ -95,3 +95,5 @@ vim harbor.cfg
 ```shell script
 ./install.sh
 ```
+
+### Test if the installation is successful
