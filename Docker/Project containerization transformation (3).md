@@ -110,7 +110,12 @@ Docker's default repository address is https protocol, but harbor repository def
 
 If you need to use the http protocol warehouse, you need to make the following settings in the /etc/docker/daemon.json configuration file of docker:
 
-
+```json
+{
+  "registry-mirrors": ["https://th3wopsw.mirror.aliyuncs.com"],
+  "insecure-registries": ["192.168.92.139"]
+}
+```
 
 
 
