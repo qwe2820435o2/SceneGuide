@@ -147,6 +147,8 @@ docker push 192.168.92.139/library/hello-world
 
 You can click to enter the mirror warehouse, copy the pull statement, and execute
 
-
+```shell script
+docker pull 192.168.92.139/library/hello-world:latest
+```
 
 
