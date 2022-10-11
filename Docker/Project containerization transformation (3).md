@@ -143,7 +143,7 @@ docker push 192.168.92.139/library/hello-world
 
 ![Push image finish](../Material/image/Project%20containerization%20transformation%20(3)%20—%20pushing%20image%20finish.png)
 
-
+### Pulling image
 
 
 
