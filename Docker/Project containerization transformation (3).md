@@ -135,6 +135,10 @@ docker tag hello-world 192.168.92.139/library/hello-world
 
 ### Push
 
+```shell script
+docker push 192.168.92.139/library/hello-world
+```
+
 
 
 
