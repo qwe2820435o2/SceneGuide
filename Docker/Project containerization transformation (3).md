@@ -151,4 +151,5 @@ You can click to enter the mirror warehouse, copy the pull statement, and execut
 docker pull 192.168.92.139/library/hello-world:latest
 ```
 
+![Pulling image](../Material/image/Project%20containerization%20transformation%20(3)%20—%20pulling%20image.png)
 
