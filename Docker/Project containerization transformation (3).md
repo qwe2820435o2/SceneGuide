@@ -145,6 +145,8 @@ docker push 192.168.92.139/library/hello-world
 
 ### Pulling image
 
+You can click to enter the mirror warehouse, copy the pull statement, and execute
+
 
 
 
