@@ -133,11 +133,13 @@ Just use our previous hello-world image for testing
 docker tag hello-world 192.168.92.139/library/hello-world
 ```
 
-### Push
+### Pushing image
 
 ```shell script
 docker push 192.168.92.139/library/hello-world
 ```
+
+![Push image](../Material/image/Project%20containerization%20transformation%20(3)%20—%20pushing%20image.png)
 
 
 
