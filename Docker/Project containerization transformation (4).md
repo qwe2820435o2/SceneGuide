@@ -22,3 +22,5 @@ With Dockerfile, when we need to customize our own additional requirements, we o
 
 
 Dockerfile is divided into four parts: basic image information, maintainer information, image operation instructions, and container startup execution instructions.
+
+At the beginning, the name of the image on which it is based must be specified, and then the maintainer information will generally be specified.
