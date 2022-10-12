@@ -14,3 +14,4 @@ After downloading the tar package, unzip it.
 
 Dockerfile is a text file that contains instructions, each instruction builds a layer, so the content of each instruction is to describe how the layer should be constructed.
 
+With Dockerfile, when we need to customize our own additional requirements, we only need to add or modify instructions on the Dockerfile to regenerate the image, saving the trouble of typing commands.
