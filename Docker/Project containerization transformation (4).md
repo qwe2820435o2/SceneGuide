@@ -21,7 +21,11 @@ With Dockerfile, when we need to customize our own additional requirements, we o
 ![File formating](../Material/image/Project%20containerization%20transformation%20(4)%20—%20File%20formating.png)
 
 
-Dockerfile is divided into four parts: basic image information, maintainer information, image operation instructions, and container startup execution instructions.
+**Dockerfile is divided into four parts:** 
+1. basic image information
+2. maintainer information
+3. image operation instructions
+4. container startup execution instructions.
 
 At the beginning, the name of the image on which it is based must be specified, and then the maintainer information will generally be specified.
 
