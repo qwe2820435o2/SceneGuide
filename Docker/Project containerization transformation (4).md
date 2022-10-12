@@ -26,3 +26,5 @@ Dockerfile is divided into four parts: basic image information, maintainer infor
 At the beginning, the name of the image on which it is based must be specified, and then the maintainer information will generally be specified.
 
 Followed by the mirror operation instructions, such as the RUN instruction.
+
+Each time a RUN instruction is executed, a new layer is added to the image and submitted
