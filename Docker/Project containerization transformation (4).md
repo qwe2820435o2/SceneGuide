@@ -11,3 +11,6 @@ After downloading the tar package, unzip it.
 ![Basic image production includes content](../Material/image/Project%20containerization%20transformation%20(4)%20—%20Basic%20image%20production%20includes%20content.png)
 
 ## Dockerfile
+
+Dockerfile is a text file that contains instructions, each instruction builds a layer, so the content of each instruction is to describe how the layer should be constructed.
+
