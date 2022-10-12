@@ -17,3 +17,5 @@ Dockerfile is a text file that contains instructions, each instruction builds a 
 With Dockerfile, when we need to customize our own additional requirements, we only need to add or modify instructions on the Dockerfile to regenerate the image, saving the trouble of typing commands.
 
 ### File formating
+
+![File formating](../Material/image/Project%20containerization%20transformation%20(4)%20—%20File%20formating.png)
