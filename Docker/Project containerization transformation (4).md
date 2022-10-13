@@ -45,6 +45,9 @@ Finally, there is the CMD command to specify the operation command when running 
 Docker service start, stop, restart: service docker start(stop restart)
 Show docker images: docker images
 Delete docker image: docker rmi -f [image id]
+Show running containers: docker ps
+Show all containers: docker ps –a
+Stop the container: docker stop [containerId]
 ```
 
 
