@@ -34,3 +34,5 @@ Followed by the mirror operation instructions, such as the RUN instruction.
 Each time a RUN instruction is executed, a new layer is added to the image and submitted
 
 Finally, there is the CMD command to specify the operation command when running the container.
+
+### Detailed command
