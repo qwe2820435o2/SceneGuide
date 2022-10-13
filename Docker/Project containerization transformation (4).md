@@ -36,3 +36,5 @@ Each time a RUN instruction is executed, a new layer is added to the image and s
 Finally, there is the CMD command to specify the operation command when running the container.
 
 ### Detailed command
+
+![File formating](../Material/image/Project%20containerization%20transformation%20(4)%20—%20command%20detail.png)
