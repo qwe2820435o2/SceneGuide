@@ -41,7 +41,11 @@ Finally, there is the CMD command to specify the operation command when running 
 
 ### Docker common commands
 
-
+```shell script
+Docker service start, stop, restart: service docker start(stop restart)
+Show docker images: docker images
+Delete docker image: docker rmi -f [image id]
+```
 
 
 
