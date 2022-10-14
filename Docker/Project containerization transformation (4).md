@@ -54,6 +54,10 @@ Download the image: docker pull
 Image tagging: docker tag Current image name: TAG Warehouse address/image name: TAG
 Image upload warehouse: docker push warehouse address/image name: TAG
 Enter the container: docker exec -it [containerId] /bin/sh
+Execute command: docker exec [containerId] -it [command]
+Container console logs: docker logs -f [containerId]
+Copy the file to the container: docker cp /directory/filename Container ID: container directory
+Copy the container file to the local: docker cp container ID: file path local path
 ```
 
 
