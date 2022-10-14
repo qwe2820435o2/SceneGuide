@@ -51,6 +51,9 @@ Stop the container: docker stop [containerId]
 Delete container: docker rm [containerId]
 Start the container: docker start [containerId]
 Download the image: docker pull
+Image tagging: docker tag Current image name: TAG Warehouse address/image name: TAG
+Image upload warehouse: docker push warehouse address/image name: TAG
+Enter the container: docker exec -it [containerId] /bin/sh
 ```
 
 
