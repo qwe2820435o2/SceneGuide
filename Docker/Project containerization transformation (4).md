@@ -62,6 +62,8 @@ Copy the container file to the local: docker cp container ID: file path local pa
 
 ## Make a base image
 
+### Write Dockerfile
+
 
 
 
