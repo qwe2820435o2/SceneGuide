@@ -60,6 +60,7 @@ Copy the file to the container: docker cp /directory/filename Container ID: cont
 Copy the container file to the local: docker cp container ID: file path local path
 ```
 
+## Make a base image
 
 
 
