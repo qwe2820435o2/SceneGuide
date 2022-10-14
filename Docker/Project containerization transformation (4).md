@@ -48,6 +48,9 @@ Delete docker image: docker rmi -f [image id]
 Show running containers: docker ps
 Show all containers: docker ps –a
 Stop the container: docker stop [containerId]
+Delete container: docker rm [containerId]
+Start the container: docker start [containerId]
+Download the image: docker pull
 ```
 
 
