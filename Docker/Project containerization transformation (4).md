@@ -118,7 +118,12 @@ ENTRYPOINT ["/usr/testimage/tomcat/bin/startup.sh"]
 
 #### Build an image from a Dockerfile
 
+**Enter the directory where the dockerfile file is located and execute the command:**
 
+```shell script
+docker build -t ${IMAGES_NAME}:$TAG .
+```
 
-
+${IMAGES_NAME} ：image name
+$TAG：version number
 
