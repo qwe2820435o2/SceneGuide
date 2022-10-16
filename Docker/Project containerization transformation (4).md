@@ -80,6 +80,12 @@ ENV REFRESHED_AT 2019-01-13
 #set time zone
 ENV TZ=Asia/Shanghai
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+#Handling encoding issues
+ENV LANG C.UTF-8
+#RUN locale-gen en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
+ENV LC_ALL en_US.UTF-8
 ```
 
 
