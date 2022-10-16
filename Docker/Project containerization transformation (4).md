@@ -98,6 +98,10 @@ RUN mkdir tomcat
 ADD jdk1.8.0_144 /usr/testimage/jdk/
 #Copy the files in the host's tomcat directory to the mirror's /usr/testimage/tomcat directory
 ADD apache-tomcat-7.0.57 /usr/testimage/tomcat/
+#Change the mirror directory and enter the /etc directory
+WORKDIR /etc
+#Create a configuration file directory under /etc/ to store configuration files
+RUN mkdir -p testimage/conf/cy
 ```
 
 
