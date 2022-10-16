@@ -102,6 +102,14 @@ ADD apache-tomcat-7.0.57 /usr/testimage/tomcat/
 WORKDIR /etc
 #Create a configuration file directory under /etc/ to store configuration files
 RUN mkdir -p testimage/conf/cy
+#Setting environment
+ENV JAVA_HOME=/usr/testimage/jdk
+ENV JRE_HOME=$JAVA_HOME/jre
+ENV CLASSPATH=.:$JRE_HOME/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+ENV PATH=/sbin:$JAVA_HOME/bin:$PATH
+ENV TOMCAT_HOME=/usr/testimage/tomcat
+ENV CATALINA_HOME=/usr/testimage/tomcat
+ENV CATALINA_BASE=/usr/testimage/tomcat
 ```
 
 
