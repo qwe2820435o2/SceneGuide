@@ -86,6 +86,14 @@ ENV LANG C.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
+#Switch the mirror directory and enter the /usr directory
+WORKDIR /usr
+RUN mkdir testimage
+WORKDIR /usr/testimage
+#Create a jdk directory under /usr/ to store jdk files
+RUN mkdir jdk
+#Create a tomcat directory under /usr/ to store tomcat
+RUN mkdir tomcat
 ```
 
 
