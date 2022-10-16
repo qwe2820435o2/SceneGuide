@@ -71,7 +71,15 @@ touch Dockerfile
 
 #### Edit dockerfile
 ```shell script
-
+#Introduce the virtual system as the underlying image
+FROM centos:7
+#author
+MAINTAINER kris
+#create date
+ENV REFRESHED_AT 2019-01-13
+#set time zone
+ENV TZ=Asia/Shanghai
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 ```
 
 
