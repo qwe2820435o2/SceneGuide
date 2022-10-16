@@ -94,6 +94,10 @@ WORKDIR /usr/testimage
 RUN mkdir jdk
 #Create a tomcat directory under /usr/ to store tomcat
 RUN mkdir tomcat
+#Copy the files in the jdk directory of the host to the /usr/testimage/jdk directory of the mirror
+ADD jdk1.8.0_144 /usr/testimage/jdk/
+#Copy the files in the host's tomcat directory to the mirror's /usr/testimage/tomcat directory
+ADD apache-tomcat-7.0.57 /usr/testimage/tomcat/
 ```
 
 
