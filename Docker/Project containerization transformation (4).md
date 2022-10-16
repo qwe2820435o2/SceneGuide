@@ -65,7 +65,9 @@ Copy the container file to the local: docker cp container ID: file path local pa
 ### Write Dockerfile
 
 #### Create dockerfile
-
+```shell script
+touch Dockerfile
+```
 
 
 
