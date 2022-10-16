@@ -110,6 +110,10 @@ ENV PATH=/sbin:$JAVA_HOME/bin:$PATH
 ENV TOMCAT_HOME=/usr/testimage/tomcat
 ENV CATALINA_HOME=/usr/testimage/tomcat
 ENV CATALINA_BASE=/usr/testimage/tomcat
+#public port
+EXPOSE 8090
+#set startup command
+ENTRYPOINT ["/usr/testimage/tomcat/bin/startup.sh"]
 ```
 
 
