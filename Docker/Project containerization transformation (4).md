@@ -116,8 +116,7 @@ EXPOSE 8090
 ENTRYPOINT ["/usr/testimage/tomcat/bin/startup.sh"]
 ```
 
-
-
+#### Build an image from a Dockerfile
 
 
 
