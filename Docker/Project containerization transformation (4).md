@@ -127,3 +127,5 @@ docker build -t ${IMAGES_NAME}:$TAG .
 ${IMAGES_NAME} ：image name
 $TAG：version number
 
+![Build an image from a Dockerfile](../Material/image/Project%20containerization%20transformation%20(4)%20—%20Build%20an%20image%20from%20a%20Dockerfile.png)
+
