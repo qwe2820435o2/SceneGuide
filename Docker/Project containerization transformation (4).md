@@ -133,6 +133,8 @@ $TAG：version number
 
 #### Verify that the image is generated
 
+![Verify that the image is generated](../Material/image/Project%20containerization%20transformation%20(4)%20—%20Verify%20that%20the%20image%20is%20generated.png)
+
 
 
 
