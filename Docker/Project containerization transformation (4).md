@@ -129,3 +129,4 @@ $TAG：version number
 
 ![Build an image from a Dockerfile](../Material/image/Project%20containerization%20transformation%20(4)%20—%20Build%20an%20image%20from%20a%20Dockerfile.png)
 
+**Note: There is a space and a dot after the command, which cannot be missing.**
