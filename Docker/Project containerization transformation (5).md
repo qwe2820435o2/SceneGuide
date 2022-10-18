@@ -14,3 +14,5 @@
 ### catalina.sh file
 
 The tomcat memory is set in catalina.sh, packaged into the mirrored tomcat, and the memory size is limited for parameter tuning.
+
+### demo-0.0.1-SNAPSHOT.war
