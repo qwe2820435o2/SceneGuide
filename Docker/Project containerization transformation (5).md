@@ -18,3 +18,5 @@ The tomcat memory is set in catalina.sh, packaged into the mirrored tomcat, and 
 ### demo-0.0.1-SNAPSHOT.war
 
 Project war package, used for test packaging
+
+### Dockerfile file
