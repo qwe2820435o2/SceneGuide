@@ -10,3 +10,5 @@
 ## Contents required for packaging images
 
 ![20mertial detail](../Material/image/Project%20containerization%20transformation%20(5)%20—%20mertial%20detail.png)
+
+### catalina.sh file
