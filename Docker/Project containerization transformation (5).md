@@ -12,3 +12,5 @@
 ![20mertial detail](../Material/image/Project%20containerization%20transformation%20(5)%20—%20mertial%20detail.png)
 
 ### catalina.sh file
+
+The tomcat memory is set in catalina.sh, packaged into the mirrored tomcat, and the memory size is limited for parameter tuning.
