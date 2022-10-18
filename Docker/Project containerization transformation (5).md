@@ -8,3 +8,5 @@
 **PS:** Both machines here need to install docker. For the specific installation tutorial, please refer to my previous article
 
 ## Contents required for packaging images
+
+![20mertial detail](../Material/image/Project%20containerization%20transformation%20(5)%20—%20mertial%20detail.png)
