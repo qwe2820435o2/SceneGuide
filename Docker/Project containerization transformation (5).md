@@ -37,4 +37,11 @@ WORKDIR /usr/testimage/tomcat/webapps
 
 # Create a directory under /usr/testimage/tomcat/webapps to store the war package of the web project
 RUN mkdir demo-0.0.1-SNAPSHOT
+
+# Copy the war to the directory
+ADD demo-0.0.1-SNAPSHOT.war  /usr/testimage/tomcat/webapps/demo-0.0.1-SNAPSHOT
+
+# Switch the directory of the mirror and enter the /usr/testimage/tomcat/webapps directory
+WORKDIR /usr//testimage/tomcat/webapps/demo-0.0.1-SNAPSHOT
+
 ```
