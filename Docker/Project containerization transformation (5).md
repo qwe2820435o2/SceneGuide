@@ -26,4 +26,9 @@ Project war package, used for test packaging
 FROM base:1.0
 # author
 MAINTAINER Travis
+# log
+ENV REFRESHED_AT 2019-01-13
+
+# Copy the external configuration file to tomcat (different projects have different tomcat configurations, so this configuration is separate)
+ADD catalina.sh  /usr/testimage/tomcat/bin/catalina.sh
 ```
