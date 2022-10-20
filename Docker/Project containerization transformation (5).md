@@ -44,4 +44,8 @@ ADD demo-0.0.1-SNAPSHOT.war  /usr/testimage/tomcat/webapps/demo-0.0.1-SNAPSHOT
 # Switch the directory of the mirror and enter the /usr/testimage/tomcat/webapps directory
 WORKDIR /usr//testimage/tomcat/webapps/demo-0.0.1-SNAPSHOT
 
+# Unzip the war package and delete the war package
+RUN jar -xvf demo-0.0.1-SNAPSHOT.war
+RUN rm  -rf demo-0.0.1-SNAPSHOT.war
+
 ```
