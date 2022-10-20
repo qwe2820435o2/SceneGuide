@@ -31,4 +31,10 @@ ENV REFRESHED_AT 2019-01-13
 
 # Copy the external configuration file to tomcat (different projects have different tomcat configurations, so this configuration is separate)
 ADD catalina.sh  /usr/testimage/tomcat/bin/catalina.sh
+
+# Switch the directory of the mirror and enter the /usr/testimage/tomcat/webapps directory
+WORKDIR /usr/testimage/tomcat/webapps
+
+# Create a directory under /usr/testimage/tomcat/webapps to store the war package of the web project
+RUN mkdir demo-0.0.1-SNAPSHOT
 ```
