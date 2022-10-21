@@ -53,7 +53,7 @@ RUN rm  -rf demo-0.0.1-SNAPSHOT.war
 ## Create a new api_image packaging task
 **ps: The ssh plugin is required here. The plugin has requirements for the jenkins version. If not, please upgrade the jenkins version**
 
-
+### Log in to the Harbor warehouse on the machine where Jenkins is deployed
 
 
 
