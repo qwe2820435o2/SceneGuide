@@ -49,3 +49,5 @@ RUN jar -xvf demo-0.0.1-SNAPSHOT.war
 RUN rm  -rf demo-0.0.1-SNAPSHOT.war
 
 ```
+
+## Create a new api_image packaging task
