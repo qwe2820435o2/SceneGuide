@@ -55,6 +55,14 @@ RUN rm  -rf demo-0.0.1-SNAPSHOT.war
 
 ### Log in to the Harbor warehouse on the machine where Jenkins is deployed
 
+Authentication is required before pushing images to the repository
+
+Enter account and password
+
+```shell script
+docker login 192.168.92.139
+```
+
 
 
 
