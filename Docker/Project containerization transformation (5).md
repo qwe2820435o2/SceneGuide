@@ -67,7 +67,7 @@ docker login 192.168.92.139
 
 ssh settings in system management - system configuration
 
-
+![Configure SSH hosts](../Material/image/Project%20containerization%20transformation%20(5)%20—%20Configure%20SSH%20hosts.png)
 
 
 
