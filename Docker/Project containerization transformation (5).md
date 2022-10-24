@@ -96,7 +96,7 @@ docker rmi 192.168.92.139/library/${IMAGE_NAME}:$DATE
 
 ### View logs in Console Output
 
-
+![View logs in Console Output](../Material/image/Project%20containerization%20transformation%20(5)%20—%20View%20logs%20in%20Console%20Output.png)
 
 
 
