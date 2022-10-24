@@ -75,6 +75,8 @@ ssh settings in system management - system configuration
 
 ### Configure the ssh packaging script
 
+![Configure the ssh packaging script](../Material/image/Project%20containerization%20transformation%20(5)%20—Configure%20the%20ssh%20packaging%20script.png)
+
 
 
 
