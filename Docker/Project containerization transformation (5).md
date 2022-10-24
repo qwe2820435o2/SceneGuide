@@ -83,6 +83,11 @@ cd /usr/local/testjar/${IMAGE_NAME}
 docker build --no-cache -t ${IMAGE_NAME}:$DATE .
 sleep 1
 docker tag ${IMAGE_NAME}:$DATE 192.168.92.139/library/${IMAGE_NAME}:$DATE
+docker push 192.168.92.139/library/${IMAGE_NAME}:$DATE
+sleep 1
+docker rmi ${IMAGE_NAME}:$DATE
+sleep 1
+docker rmi 192.168.92.139/library/${IMAGE_NAME}:$DATE
 ```
 
 
