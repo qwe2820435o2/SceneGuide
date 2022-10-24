@@ -94,6 +94,8 @@ docker rmi 192.168.92.139/library/${IMAGE_NAME}:$DATE
 
 ![Package test](../Material/image/Project%20containerization%20transformation%20(5)%20—%20Package%20test.png)
 
+### View logs in Console Output
+
 
 
 
