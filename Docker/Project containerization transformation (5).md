@@ -77,7 +77,13 @@ ssh settings in system management - system configuration
 
 ![Configure the ssh packaging script](../Material/image/Project%20containerization%20transformation%20(5)%20—Configure%20the%20ssh%20packaging%20script.png)
 
-
+```shell script
+DATE=`date +%Y%m%d%H%M%S`
+cd /usr/local/testjar/${IMAGE_NAME}
+docker build --no-cache -t ${IMAGE_NAME}:$DATE .
+sleep 1
+docker tag ${IMAGE_NAME}:$DATE 192.168.92.139/library/${IMAGE_NAME}:$DATE
+```
 
 
 
