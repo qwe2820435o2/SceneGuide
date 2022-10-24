@@ -101,6 +101,7 @@ docker rmi 192.168.92.139/library/${IMAGE_NAME}:$DATE
 
 ### View mirrors in Harbor repository
 
+![View mirrors in Harbor repository](../Material/image/Project%20containerization%20transformation%20(5)%20—%20View%20mirrors%20in%20Harbor%20repository.png)
 
 
 
