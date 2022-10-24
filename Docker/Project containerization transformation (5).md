@@ -73,6 +73,8 @@ ssh settings in system management - system configuration
 
 ![Set discard old builds with parameterized builds](../Material/image/Project%20containerization%20transformation%20(5)%20—Set%20discard%20old%20builds%20with%20parameterized%20builds.png)
 
+### Configure the ssh packaging script
+
 
 
 
