@@ -2,9 +2,9 @@
 
 ## 1. Background
 
-北京时间2021-12-07 16:00，大数据部门在跑批次任务，导致服务器内存急剧减少，然后ZK、Kafka相继自杀
-
-随之而来的，kafka消息发送失败，并且阻塞了正常功能
+1. 2021-12-07 16:00 Beijing time, running batch tasks
+2. The server memory decreased sharply, and then ZK and Kafka committed suicide one after another
+3. kafka message sending failed and blocking normal function
 
 ## 2. Check
 
