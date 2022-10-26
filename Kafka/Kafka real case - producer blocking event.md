@@ -14,11 +14,10 @@ Although the original leader of zk has died, it can be observed from the log tha
 
 Then, we turn our attention to kafka.
 
-原因：主要是测服topic的分区未设置冗余导致的，未设置冗余，不算真正的高可用
+reason:
+1. When the memory of the Linux machine is insufficient, the process that occupies the most memory will be killed first, so kafka is killed
+2. The partition of the test service topic is not redundant, and it is not really high availability.
 
-具体细节，我这里就不细说了，有个哥们的文章写得很详细，推荐给大家
-
-[Kafka生产真实案例-生产者阻塞事件](https://blog.csdn.net/RIGHTSONG/article/details/114839511)
 
 
 
