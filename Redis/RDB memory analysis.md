@@ -129,6 +129,12 @@ select * from temp_memory_20211019 where type=’list’ and num_elements >= 100
 
 ```
 SELECT `key`,COUNT(1),SUM(size_in_bytes) sumData FROM temp_memory_20211019 GROUP BY substr(`key`,1,5) ORDER BY sumData DESC;
+
+select substring_index(`key`,'_',3),count(*),sum(size_in_bytes)
+from temp_memory_20211019 
+group by substring_index(`key`,'_',3)
+order by sum(size_in_bytes) desc
+limit 100;
 ```
 
 
