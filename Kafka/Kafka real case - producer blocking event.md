@@ -1,12 +1,12 @@
 # Kafka real case - producer blocking event
 
-## 1. 背景
+## 1. Background
 
 北京时间2021-12-07 16:00，大数据部门在跑批次任务，导致服务器内存急剧减少，然后ZK、Kafka相继自杀
 
 随之而来的，kafka消息发送失败，并且阻塞了正常功能
 
-## 2. 排查
+## 2. Check
 
 zk部署有3个节点，虽然zk的原leader挂了，但从日志观察到，已经新选举出新leader，暂时可排除嫌疑
 
