@@ -8,9 +8,11 @@
 
 ## 2. Check
 
-zk部署有3个节点，虽然zk的原leader挂了，但从日志观察到，已经新选举出新leader，暂时可排除嫌疑
+There are 3 nodes in zk deployment. 
 
-随后，我们将目光移向kafka，我这里直接说最终结论吧。
+Although the original leader of zk has died, it can be observed from the log that a new leader has been newly elected, and the suspicion can be ruled out temporarily.
+
+Then, we turn our attention to kafka.
 
 原因：主要是测服topic的分区未设置冗余导致的，未设置冗余，不算真正的高可用
 
