@@ -15,3 +15,8 @@ I use the server here: kafka_2.10-0.8.2.1.tgz, the client used 0.8.1 originally,
         <version>0.8.2.1</version>
 </dependency>
 ```
+
+
+When using kafka, it should be noted that the version of the kafka client (kafka-client) must correspond to the version of the kafka server.
+
+Otherwise, the message sending will fail.
