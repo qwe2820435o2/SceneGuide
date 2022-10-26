@@ -3,3 +3,5 @@
 **Reason：**
 
 The client version is inconsistent with the server version
+
+**Solution:**
