@@ -6,3 +6,6 @@
 ```
 If we want redis to be used only as a pure memory cache, then all persistence mechanisms of RDB and AOF can be disabled
 ```
+
+2. How to back up
+
