@@ -12,3 +12,5 @@ If we want redis to be used only as a pure memory cache, then all persistence me
 ```
 Through RDB or AOF, the data in the redis memory can be persisted to the disk, and then the data can be backed up to other places, such as cloud services
 ```
+
+3. How to take advantage of backup
