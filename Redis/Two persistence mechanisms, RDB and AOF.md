@@ -14,3 +14,11 @@ Through RDB or AOF, the data in the redis memory can be persisted to the disk, a
 ```
 
 3. How to take advantage of backup
+
+```
+If redis hangs, the memory on the server and the data on the disk are lost
+
+You can copy the previous data from the cloud service and put it in the specified directory
+
+
+```
