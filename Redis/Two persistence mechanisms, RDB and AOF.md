@@ -20,5 +20,6 @@ If redis hangs, the memory on the server and the data on the disk are lost
 
 You can copy the previous data from the cloud service and put it in the specified directory
 
+Restart redis, redis will automatically restore the data in memory according to the data in the persistent data file, and continue to provide external services
 
 ```
