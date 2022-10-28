@@ -33,3 +33,9 @@ When redis restarts, AOF will be used to rebuild the data, because the data in A
 ```
 
 # Advantages of RDB Persistence Mechanism
+
+1. RDB will generate multiple data files, each of which represents the data of redis at a certain moment
+
+```
+
+```
