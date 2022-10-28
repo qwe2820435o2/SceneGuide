@@ -23,3 +23,5 @@ You can copy the previous data from the cloud service and put it in the specifie
 Restart redis, redis will automatically restore the data in memory according to the data in the persistent data file, and continue to provide external services
 
 ```
+
+4. Which recovery data is more complete
