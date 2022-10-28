@@ -42,3 +42,5 @@ This method of multiple data files is very suitable for cold backup.
 This complete data file can be sent to some remote secure storage, such as Amazon's S3 cloud service.
 
 ```
+
+2. RDB has very little impact on the read and write services provided by redis.
