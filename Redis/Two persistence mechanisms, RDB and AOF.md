@@ -43,4 +43,8 @@ This complete data file can be sent to some remote secure storage, such as Amazo
 
 ```
 
-2. RDB has very little impact on the read and write services provided by redis.
+2. RDB has very little impact on the read and write services provided by redis
+
+```
+Redis can maintain high performance, because the main redis process only needs to fork a child process, and let the child process perform disk IO operations for RDB persistence.
+```
