@@ -39,6 +39,6 @@ When redis restarts, AOF will be used to rebuild the data, because the data in A
 ```
 This method of multiple data files is very suitable for cold backup.
 
-
+This complete data file can be sent to some remote secure storage, such as Amazon's S3 cloud service.
 
 ```
