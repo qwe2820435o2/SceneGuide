@@ -25,3 +25,9 @@ Restart redis, redis will automatically restore the data in memory according to 
 ```
 
 4. Which recovery data is more complete
+
+```
+Both RDB and AOF persistence mechanisms are used at the same time.
+
+When redis restarts, AOF will be used to rebuild the data, because the data in AOF is more complete
+```
