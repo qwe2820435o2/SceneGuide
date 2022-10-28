@@ -37,5 +37,8 @@ When redis restarts, AOF will be used to rebuild the data, because the data in A
 1. RDB will generate multiple data files, each of which represents the data of redis at a certain moment
 
 ```
+This method of multiple data files is very suitable for cold backup.
+
+
 
 ```
