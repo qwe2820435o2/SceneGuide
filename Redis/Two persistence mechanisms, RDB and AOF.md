@@ -31,3 +31,5 @@ Both RDB and AOF persistence mechanisms are used at the same time.
 
 When redis restarts, AOF will be used to rebuild the data, because the data in AOF is more complete
 ```
+
+# Advantages of RDB Persistence Mechanism
