@@ -1,22 +1,23 @@
 # Kafka real case - producer blocking event
 
-## 1. 背景
+## 1. Background
 
-北京时间2021-12-07 16:00，大数据部门在跑批次任务，导致服务器内存急剧减少，然后ZK、Kafka相继自杀
+1. 2021-12-07 16:00 Beijing time, running batch tasks
+2. The server memory decreased sharply, and then ZK and Kafka committed suicide one after another
+3. kafka message sending failed and blocking normal function
 
-随之而来的，kafka消息发送失败，并且阻塞了正常功能
+## 2. Check
 
-## 2. 排查
+There are 3 nodes in zk deployment. 
 
-zk部署有3个节点，虽然zk的原leader挂了，但从日志观察到，已经新选举出新leader，暂时可排除嫌疑
+Although the original leader of zk has died, it can be observed from the log that a new leader has been newly elected, and the suspicion can be ruled out temporarily.
 
-随后，我们将目光移向kafka，我这里直接说最终结论吧。
+Then, we turn our attention to kafka.
 
-原因：主要是测服topic的分区未设置冗余导致的，未设置冗余，不算真正的高可用
+reason:
+1. When the memory of the Linux machine is insufficient, the process that occupies the most memory will be killed first, so kafka is killed
+2. The partition of the test service topic is not redundant, and it is not really high availability.
 
-具体细节，我这里就不细说了，有个哥们的文章写得很详细，推荐给大家
-
-[Kafka生产真实案例-生产者阻塞事件](https://blog.csdn.net/RIGHTSONG/article/details/114839511)
 
 
 

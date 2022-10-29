@@ -36,9 +36,12 @@ bp-template-server
 └─bp-template-api       Jar Dependencies
    ├─model                  Model
    │  ├─dto                     data transfer object 
-   │  ├─entity                  persistent object
+   │  │  ├─req                      req dto
+   │  │  ├─resp                     resp dto
+   │  │  └─common                   common dto
+   │  ├─po                      persistent object
    │  ├─qo                      query object
-   │  ├─valid                   check object
+   │  ├─bo                      business object
    │  └─vo                      value object
    └─service                Interface
       ├─channel                 channel type interface
