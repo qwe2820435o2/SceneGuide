@@ -50,3 +50,5 @@ Redis can maintain high performance, because the main redis process only needs t
 ```
 
 3. Compared with the AOF persistence mechanism, it is faster to restart and restore the redis process directly based on the RDB data file
+
+# Disadvantages of RDB Persistence Mechanism
