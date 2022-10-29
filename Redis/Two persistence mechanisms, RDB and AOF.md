@@ -1,4 +1,4 @@
-# Two persistence mechanisms, RDB and AOF
+# 1. Two persistence mechanisms, RDB and AOF
 > RDB persistence mechanism, which performs periodic persistence of data in redis
 
 1. Use as pure memory
@@ -32,23 +32,34 @@ Both RDB and AOF persistence mechanisms are used at the same time.
 When redis restarts, AOF will be used to rebuild the data, because the data in AOF is more complete
 ```
 
-# Advantages of RDB Persistence Mechanism
+# 2. Advantages of RDB Persistence Mechanism
 
-1. RDB will generate multiple data files, each of which represents the data of redis at a certain moment
+## 2.1 Section one
 
 ```
+RDB will generate multiple data files, each of which represents the data of redis at a certain moment
+
 This method of multiple data files is very suitable for cold backup.
 
 This complete data file can be sent to some remote secure storage, such as Amazon's S3 cloud service.
 
 ```
 
-2. RDB has very little impact on the read and write services provided by redis
+## 2.2 Section two
 
 ```
+RDB has very little impact on the read and write services provided by redis
+
 Redis can maintain high performance, because the main redis process only needs to fork a child process, and let the child process perform disk IO operations for RDB persistence.
 ```
 
-3. Compared with the AOF persistence mechanism, it is faster to restart and restore the redis process directly based on the RDB data file
+## 2.3 Section three
 
-# Disadvantages of RDB Persistence Mechanism
+```
+Compared with the AOF persistence mechanism, it is faster to restart and restore the redis process directly based on the RDB data file
+
+```
+
+# 3. Disadvantages of RDB Persistence Mechanism
+
+## 
