@@ -48,3 +48,5 @@ This complete data file can be sent to some remote secure storage, such as Amazo
 ```
 Redis can maintain high performance, because the main redis process only needs to fork a child process, and let the child process perform disk IO operations for RDB persistence.
 ```
+
+3. Compared with the AOF persistence mechanism, it is faster to restart and restore the redis process directly based on the RDB data file.
