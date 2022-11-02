@@ -62,4 +62,4 @@ Compared with the AOF persistence mechanism, it is faster to restart and restore
 
 # 3. Disadvantages of RDB Persistence Mechanism
 
-## 
+## 3.1 RDB data is less than AOF
