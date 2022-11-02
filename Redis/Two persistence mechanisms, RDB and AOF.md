@@ -73,3 +73,7 @@ At this time, you have to accept that once the redis process goes down, the data
 ```
 
 ## 3.2 Generation of RDB may affect service
+
+```markdown
+Every time RDB executes the RDB snapshot data file generation by forking a subprocess, if the data file is particularly large, it may cause the service provided to the client to be suspended for several milliseconds, or even several seconds
+```
