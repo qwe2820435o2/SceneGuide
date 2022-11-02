@@ -71,3 +71,5 @@ Generally speaking, RDB data snapshot files are generated every 5 minutes or lon
 
 At this time, you have to accept that once the redis process goes down, the data of the last 5 minutes will be lost.
 ```
+
+## 3.2 Generation of RDB may affect service
