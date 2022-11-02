@@ -63,3 +63,11 @@ Compared with the AOF persistence mechanism, it is faster to restart and restore
 # 3. Disadvantages of RDB Persistence Mechanism
 
 ## 3.1 RDB data is less than AOF
+
+```markdown
+If you want to lose as little data as possible when redis fails, then RDB is not as good as AOF
+
+Generally speaking, RDB data snapshot files are generated every 5 minutes or longer
+
+At this time, you have to accept that once the redis process goes down, the data of the last 5 minutes will be lost.
+```
