@@ -89,7 +89,7 @@ Generally, AOF will perform an fsync operation through a background thread every
 
 ```
 
-
+## 4.2 High write performance
 
 
 
