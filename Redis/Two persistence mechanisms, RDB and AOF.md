@@ -100,6 +100,16 @@ The writing performance is very high, and the file is not easy to be damaged
 
 ## 4.3 AOF log file is written asynchronously
 
+```markdown
+Even if the AOF log file is too large, a background rewrite operation occurs, it will not affect the client's read and write
+
+Because when the log is rewritten, the instructions in it will be compressed, and a minimum log that needs to be restored will be created.
+
+When creating a new log file, the old log file is still written as usual
+
+When the new merged log file is ready, swap the old and new log files
+
+```
 
 
 
