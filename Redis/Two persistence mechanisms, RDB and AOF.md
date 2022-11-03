@@ -91,7 +91,12 @@ Generally, AOF will perform an fsync operation through a background thread every
 
 ## 4.2 High write performance
 
+```markdown
+AOF log files are written in append-only mode, so there is no disk addressing overhead
 
+The writing performance is very high, and the file is not easy to be damaged
+
+```
 
 
 
