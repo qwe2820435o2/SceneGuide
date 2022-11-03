@@ -116,6 +116,12 @@ When the new merged log file is ready, swap the old and new log files
 ```markdown
 Commands in the AOF log file are recorded in a very readable way, which is ideal for emergency recovery from catastrophic accidental deletions
 
+For example, accidentally clearing all data with the flushall command
+
+As long as the background rewrite has not occurred at this time, you can immediately copy the AOF file and delete the last flushall command.
+
+Put the AOF file back, and all data can be automatically recovered through the recovery mechanism
+
 ```
 
 
