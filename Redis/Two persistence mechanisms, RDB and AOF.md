@@ -113,6 +113,10 @@ When the new merged log file is ready, swap the old and new log files
 
 ## 4.4 Suitable as an emergency recovery
 
+```markdown
+Commands in the AOF log file are recorded in a very readable way, which is ideal for emergency recovery from catastrophic accidental deletions
+
+```
 
 
 
