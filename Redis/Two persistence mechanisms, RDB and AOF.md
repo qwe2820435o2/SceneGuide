@@ -79,3 +79,5 @@ Every time RDB executes the RDB snapshot data file generation by forking a subpr
 ```
 
 # 4. Advantages of AOF Persistence Mechanism
+
+## 4.1 Lose less data
