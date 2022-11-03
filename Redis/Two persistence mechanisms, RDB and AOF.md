@@ -98,6 +98,8 @@ The writing performance is very high, and the file is not easy to be damaged
 
 ```
 
+## 4.3 AOF log file is written asynchronously
+
 
 
 
