@@ -81,3 +81,26 @@ Every time RDB executes the RDB snapshot data file generation by forking a subpr
 # 4. Advantages of AOF Persistence Mechanism
 
 ## 4.1 Lose less data
+
+```markdown
+AOF can better protect data from loss
+
+Generally, AOF will perform an fsync operation through a background thread every 1 second, and lose up to 1 second of data
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
