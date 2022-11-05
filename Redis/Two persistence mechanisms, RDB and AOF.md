@@ -164,3 +164,12 @@ In order to avoid bugs caused by the rewrite process, each rewrite is not based 
 ```markdown
 Don't just use RDB as that will cause you to lose a lot of data
 ```
+
+## 6.2 Don't just use AOF
+
+```markdown
+Also don't just use AOF, because there are two problems with that
+
+1. Using AOF for cold backup, without RDB for cold backup, the recovery speed is faster
+2. RDB generates data snapshots simply and rudely every time, which is more robust and can avoid bugs in the complex backup and recovery mechanism of AOF
+```
