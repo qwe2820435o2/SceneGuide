@@ -135,7 +135,14 @@ For the same data, AOF log files are usually larger than RDB data snapshot files
 
 ## 5.2 Lower performance than RDB
 
+```markdown
+After AOF is enabled, the supported write QPS will be lower than the write QPS supported by RDB
 
+Because AOF is generally configured to fsync log files every second
+
+Of course, fsync once per second, the performance is still very high
+
+```
 
 
 
