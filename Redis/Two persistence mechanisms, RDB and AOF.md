@@ -160,3 +160,7 @@ In order to avoid bugs caused by the rewrite process, each rewrite is not based 
 # 6. How to choose between RDB and AOF
 
 ## 6.1 Use both
+
+```markdown
+Don't just use RDB as that will cause you to lose a lot of data
+```
