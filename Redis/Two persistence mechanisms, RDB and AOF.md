@@ -144,5 +144,5 @@ Of course, fsync once per second, the performance is still very high
 
 ```
 
-
+## 5.3 AOF file is easily damaged
 
