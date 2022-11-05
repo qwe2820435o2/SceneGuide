@@ -146,3 +146,12 @@ Of course, fsync once per second, the performance is still very high
 
 ## 5.3 AOF file is easily damaged
 
+```markdown
+
+In the past, there was a bug in AOF
+
+when data recovery was performed through the log recorded by AOF, the exact same data was not recovered.
+
+
+
+```
