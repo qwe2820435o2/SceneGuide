@@ -128,6 +128,10 @@ Put the AOF file back, and all data can be automatically recovered through the r
 
 ## 5.1 Bigger than RDB
 
+```markdown
+For the same data, AOF log files are usually larger than RDB data snapshot files
+
+```
 
 
 
