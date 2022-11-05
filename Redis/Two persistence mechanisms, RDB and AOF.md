@@ -156,3 +156,5 @@ In order to avoid bugs caused by the rewrite process, each rewrite is not based 
 
 
 ```
+
+# 6. How to choose between RDB and AOF
