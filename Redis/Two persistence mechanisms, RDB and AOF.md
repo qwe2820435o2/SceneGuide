@@ -133,6 +133,7 @@ For the same data, AOF log files are usually larger than RDB data snapshot files
 
 ```
 
+## 5.2 Lower performance than RDB
 
 
 
