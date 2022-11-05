@@ -152,7 +152,7 @@ In the past, there was a bug in AOF
 
 when data recovery was performed through the log recorded by AOF, the exact same data was not recovered.
 
-
+In order to avoid bugs caused by the rewrite process, each rewrite is not based on the old instruction log for merge, but based on the data in the memory at that time to rebuild the instruction
 
 
 ```
