@@ -126,6 +126,9 @@ Put the AOF file back, and all data can be automatically recovered through the r
 
 # 5. Disadvantages of AOF Persistence Mechanism
 
+## 5.1 Bigger than RDB
+
+
 
 
 
