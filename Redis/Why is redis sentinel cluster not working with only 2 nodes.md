@@ -6,5 +6,9 @@
 ```markdown
 If the Sentinel cluster deploys only 2 Sentinel instances, quorum=1
 
+	+----+         +----+
+	| M1 |---------| R1 |
+	| S1 |         | S2 |
+	+----+         +----+
 
 ```
