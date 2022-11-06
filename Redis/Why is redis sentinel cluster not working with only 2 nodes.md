@@ -2,3 +2,9 @@
 
 ## 1. Reason
 > Sentinel cluster must deploy more than 2 nodes
+
+```markdown
+If the Sentinel cluster deploys only 2 Sentinel instances, quorum=1
+
+
+```
