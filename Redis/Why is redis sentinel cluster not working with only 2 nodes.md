@@ -23,4 +23,6 @@ If both sentinels are running, failover can be performed.
 
 But if the entire machine running on M1 and S1 goes down, then there is only one sentinel left
 
+At this point there is no majority to allow failover to be performed, although there is an R1 on the other machine, the failover will not be performed
+
 ```
