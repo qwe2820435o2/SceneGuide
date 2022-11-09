@@ -26,3 +26,5 @@ But if the entire machine running on M1 and S1 goes down, then there is only one
 At this point there is no majority to allow failover to be performed, although there is an R1 on the other machine, the failover will not be performed
 
 ```
+
+## 2. Classic 3 Node Sentinel Cluster
