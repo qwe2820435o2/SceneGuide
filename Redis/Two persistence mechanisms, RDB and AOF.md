@@ -180,6 +180,15 @@ Also don't just use AOF, because there are two problems with that
 
 1. Don't just use RDB as that will cause you to lose a lot of data
 2. Also don't just use AOF, because then there are two problems for two reasons.
+
 First, you use AOF as a cold backup, without RDB as a cold backup, the recovery speed is faster;
+
 Second, RDB generates data snapshots simply and rudely every time, which is more robust and can avoid bugs in the complex backup and recovery mechanism of AOF.
+
+3. Combined use of AOF and RDB persistence mechanisms
+
+Use AOF to ensure that data is not lost, as the first choice for data recovery;
+
+Use RDB for different degrees of cold backup. When AOF files are lost or damaged, you can also use RDB for fast data recovery
+
 ```
