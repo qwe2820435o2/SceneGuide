@@ -173,3 +173,5 @@ Also don't just use AOF, because there are two problems with that
 1. Using AOF for cold backup, without RDB for cold backup, the recovery speed is faster
 2. RDB generates data snapshots simply and rudely every time, which is more robust and can avoid bugs in the complex backup and recovery mechanism of AOF
 ```
+
+## 6.3 How to choose between RDB and AOF
