@@ -175,3 +175,8 @@ Also don't just use AOF, because there are two problems with that
 ```
 
 ## 6.3 How to choose between RDB and AOF
+
+```markdown
+1. Don't just use RDB as that will cause you to lose a lot of data
+
+```
