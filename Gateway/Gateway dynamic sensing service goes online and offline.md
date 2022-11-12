@@ -22,3 +22,5 @@ The key is to know in advance which instance is about to go offline, and then ro
 
 ```
 
+## 2. How to implement
+
