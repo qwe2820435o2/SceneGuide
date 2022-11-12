@@ -48,3 +48,5 @@ The key is to know in advance which instance is about to go offline, and then ro
 **The third point is actually the practice of common registration centers on the market, but zookeeper lacks the online and offline service management function compared to other registration centers, and we need to implement it ourselves**
 
 ![Points 1 and 2 cases](../Material/image/Gateway%20dynamic%20sensing%20service%20goes%20online%20and%20offline%20—%20Points%203%20case%20analysis.png)
+
+#### 2.2.3 Points 4 case
