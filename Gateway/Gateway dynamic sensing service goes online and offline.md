@@ -45,3 +45,4 @@ The key is to know in advance which instance is about to go offline, and then ro
 
 #### 2.2.2 Points 3 case
 
+**The third point is actually the practice of common registration centers on the market, but zookeeper lacks the online and offline service management function compared to other registration centers, and we need to implement it ourselves**
