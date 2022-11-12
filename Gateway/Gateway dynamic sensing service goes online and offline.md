@@ -37,6 +37,11 @@ The key is to know in advance which instance is about to go offline, and then ro
 
 ### 2.2 Case analysis
 
+#### 2.2.1 Points 1 and 2 cases
+
 **Points 1 and 2 are just to alleviate the problem, but in fact it does not solve the problem in the end, because the gateway is still a hindsight**
 
 ![Jemalloc memory](../Material/image/Gateway%20dynamic%20sensing%20service%20goes%20online%20and%20offline%20—%20Points%201%20and%202%20cases%20analysis.png)
+
+#### 2.2.2 Points 3 case
+
