@@ -37,5 +37,6 @@ The key is to know in advance which instance is about to go offline, and then ro
 
 ### 2.2 Case analysis
 
+**Points 1 and 2 are just to alleviate the problem, but in fact it does not solve the problem in the end, because the gateway is still a hindsight**
 
 
