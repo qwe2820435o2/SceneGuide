@@ -31,6 +31,7 @@ The key is to know in advance which instance is about to go offline, and then ro
 1. Reduce the gateway synchronization registry time interval and increase the instance cache synchronization frequency                difficulty level：★
 2. Monitor Zookeeper temporary node change events, and actively refresh the instance cache                                            difficulty level：★★
 3. Actively notify the gateway to offline an instance in advance                                                                      difficulty level：★★✰
+4. Change the registration center to form, use the off-the-shelf implementation scheme                                                difficulty level：★★★✰
 
 ```
 
