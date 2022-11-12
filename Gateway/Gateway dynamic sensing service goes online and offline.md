@@ -29,7 +29,7 @@ The key is to know in advance which instance is about to go offline, and then ro
 ```markdown
 
 1. Reduce the gateway synchronization registry time interval and increase the instance cache synchronization frequency                difficulty level：★
-
+2. Monitor Zookeeper temporary node change events, and actively refresh the instance cache                                            difficulty level：★★
 
 ```
 
