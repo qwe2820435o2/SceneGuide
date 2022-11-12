@@ -25,3 +25,14 @@ The key is to know in advance which instance is about to go offline, and then ro
 ## 2. How to implement
 
 ### 2.1 Current feasibility
+
+```markdown
+
+1. Reduce the gateway synchronization registry time interval and increase the instance cache synchronization frequency                difficulty level：★
+
+
+```
+
+
+
+
