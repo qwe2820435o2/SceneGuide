@@ -55,3 +55,4 @@ The key is to know in advance which instance is about to go offline, and then ro
 
 ![Points 4 cases](../Material/image/Gateway%20dynamic%20sensing%20service%20goes%20online%20and%20offline%20—%20Points%204%20case%20analysis.png)
 
+## 3. Implementation in the industry
