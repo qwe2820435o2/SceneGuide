@@ -59,3 +59,5 @@ The key is to know in advance which instance is about to go offline, and then ro
 > Comparing the implementation of the dynamic perception service of the Nacos registration center of the Ali system
 
 ![Implementation in the industry](../Material/image/Gateway%20dynamic%20sensing%20service%20goes%20online%20and%20offline%20—%20Implementation%20in%20the%20industry.png)
+
+## 4. Design
