@@ -75,5 +75,6 @@ The key is to know in advance which instance is about to go offline, and then ro
 3. The gateway receives the node information of the service in near real time, and performs traffic screening on the node
 4. Continue with automated publishing. When the release is successful, the service will register the node information with Zookeeper
 5. Listen to the node generation event of zookeeper
+6. When an event is monitored, notify the gateway to unblock the node of the blocked traffic
 
 ```
