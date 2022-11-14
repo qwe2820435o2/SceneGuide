@@ -78,3 +78,5 @@ The key is to know in advance which instance is about to go offline, and then ro
 6. When an event is monitored, notify the gateway to unblock the node of the blocked traffic
 
 ```
+
+#### 4.1.2 Compensation measures
