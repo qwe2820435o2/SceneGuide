@@ -53,7 +53,11 @@ The key is to know in advance which instance is about to go offline, and then ro
 
 **Point 4, the change is relatively large, there is a certain risk, and it takes more time to complete**
 
+People who have used this component on the Internet have mixed reviews, and there is uncertainty, so do not consider using this solution
+
 ![Points 4 cases](../Material/image/Gateway%20dynamic%20sensing%20service%20goes%20online%20and%20offline%20—%20Points%204%20case%20analysis.png)
+
+
 
 ## 3. Implementation in the industry
 > Comparing the implementation of the dynamic perception service of the Nacos registration center of the Ali system
@@ -81,3 +85,4 @@ The key is to know in advance which instance is about to go offline, and then ro
 
 #### 4.1.2 Compensation measures
 > Due to the weak reliability of zookeeper event monitoring, an additional compensation measure is required
+
