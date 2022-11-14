@@ -80,3 +80,4 @@ The key is to know in advance which instance is about to go offline, and then ro
 ```
 
 #### 4.1.2 Compensation measures
+> Due to the weak reliability of zookeeper event monitoring, an additional compensation measure is required
