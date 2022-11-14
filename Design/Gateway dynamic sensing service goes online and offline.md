@@ -70,6 +70,6 @@ The key is to know in advance which instance is about to go offline, and then ro
 
 ```markdown
 
-
+1. Before deployment, notify the configuration service about the node about to be published, and then the publishing thread sleeps for 20 seconds
 
 ```
