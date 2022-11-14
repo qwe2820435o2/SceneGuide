@@ -65,3 +65,11 @@ The key is to know in advance which instance is about to go offline, and then ro
 ### 4.1 Case one
 
 ![Case one](../Material/image/Gateway%20dynamic%20sensing%20service%20goes%20online%20and%20offline%20—%20Case%20one.png)
+
+#### 4.1.1 Event direction
+
+```markdown
+
+
+
+```
