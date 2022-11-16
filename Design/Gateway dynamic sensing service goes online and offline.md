@@ -86,3 +86,8 @@ People who have used this component on the Internet have mixed reviews, and ther
 #### 4.1.2 Compensation measures
 > Due to the weak reliability of zookeeper event monitoring, an additional compensation measure is required
 
+```markdown
+
+1. Regularly scan nodes filtered by the gateway
+
+```
