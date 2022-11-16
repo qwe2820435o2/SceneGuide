@@ -90,5 +90,6 @@ People who have used this component on the Internet have mixed reviews, and ther
 
 1. Regularly scan nodes filtered by the gateway
 2. Compare the current timestamp with the previously recorded timestamp
+3. Initiate http detection for nodes with a time difference of more than 2 minutes
 
 ```
