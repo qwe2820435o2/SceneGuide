@@ -105,7 +105,7 @@ People who have used this component on the Internet have mixed reviews, and ther
 1. Notify the deletion of the zk node and bring the node information http
 2. Traverse the gateway node, find the service node, then continue to traverse, find the specified node, and delete it
 3. Publish service
-
+4. When the service is published successfully, the node information will be re-registered to the registration center
 
 ```
 
