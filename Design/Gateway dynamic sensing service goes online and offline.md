@@ -97,3 +97,15 @@ People who have used this component on the Internet have mixed reviews, and ther
 
 
 ### 4.2 Case two
+
+#### 4.2.1 Event direction
+
+
+
+
+
+
+
+
+
+
