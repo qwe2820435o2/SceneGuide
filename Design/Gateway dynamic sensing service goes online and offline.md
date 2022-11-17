@@ -94,3 +94,6 @@ People who have used this component on the Internet have mixed reviews, and ther
 4. If the node is healthy, remove it from the gateway's filter
 
 ```
+
+
+### 4.2 Case two
