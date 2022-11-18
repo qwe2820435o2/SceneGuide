@@ -18,8 +18,11 @@ SceneGuide
 |  └─                               Template project design
 │       
 ├─Docker                       Docker Scenes
-│  ├─
-|  └─           
+│  ├─                               Project containerization transformation (1)
+│  ├─                               Project containerization transformation (2)
+│  ├─                               Project containerization transformation (3)
+│  ├─                               Project containerization transformation (4)
+│  └─                               Project containerization transformation (5)
 │ 
 ├─Elasticsearch                Es Scenes
 │  ├─
