@@ -32,8 +32,8 @@ SceneGuide
 |  └─           
 │ 
 ├─Kafka                        Kafka Scenes
-│  ├─
-|  └─           
+│  ├─                               Consumers do not receive messages
+|  └─                               Kafka real case - producer blocking event
 │ 
 ├─MongDB                       MongoDB Scenes
 │  ├─
