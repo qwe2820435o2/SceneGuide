@@ -11,6 +11,7 @@ SceneGuide
 ├─Design                       Design Scenes
 │  ├─                               Counting scheme design
 │  ├─                               Evolution process of millions ip libraries design
+│  ├─                               Gateway dynamic sensing service goes online and offline
 │  ├─                               Interface anti-brush design
 │  ├─                               Large table splitting smooth migration steps
 │  ├─                               Short link generation design
