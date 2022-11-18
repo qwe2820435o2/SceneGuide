@@ -98,6 +98,9 @@ People who have used this component on the Internet have mixed reviews, and ther
 
 ### 4.2 Case two
 
+![Case one](../Material/image/Gateway%20dynamic%20sensing%20service%20goes%20online%20and%20offline%20—%20Case%20one.png)
+
+
 #### 4.2.1 Event direction
 
 ```markdown
