@@ -60,7 +60,9 @@ SceneGuide
 │  ├─                               RDB memory analysis
 │  ├─                               Redis list compression effect comparison
 │  ├─                               Redis parameter normalization
-│  └─                               Use pipeline to optimize performance and memory usage
+│  ├─                               Two persistence mechanisms, RDB and AOF
+│  ├─                               Use pipeline to optimize performance and memory usage
+│  └─                               Why is redis sentinel cluster not working with only 2 nodes
 |
 └─ README.md                   File Description 
 
