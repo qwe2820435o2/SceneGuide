@@ -40,8 +40,9 @@ SceneGuide
 |  └─           
 │ 
 ├─Mysql                        Mysql Scenes
-│  ├─
-|  └─    
+│  ├─                               Mysql parameter normalization
+│  ├─                               The database has a short-term blocking phenomenon optimization plan
+|  └─                               Three ways to batch update
 │       
 ├─Other                        Other Scenes
 │  ├─                               Code review template
