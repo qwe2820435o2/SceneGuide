@@ -32,3 +32,7 @@ the spring container is a parent container that stores Mapper proxy objects and 
 ```
 
 # 5. Attention
+
+```markdown
+1. The child container can access the objects of the parent container, and the parent container cannot access the objects in the child container
+```
