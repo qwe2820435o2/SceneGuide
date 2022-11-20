@@ -10,3 +10,5 @@ In the project,
 only <context:property-placeholder location="classpath*:properties/*.properties"/> 
 is configured in applicationContext.xml, not in spring-mvc.xml
 ```
+
+# 3. Solution
