@@ -12,3 +12,8 @@ is configured in applicationContext.xml, not in spring-mvc.xml
 ```
 
 # 3. Solution
+
+```markdown
+1. Corresponding to the container scan, write a property configuration file
+2. Or the parent container injects the attribute, provides getter and setter methods externally, and the child container obtains it through the getter method
+```
