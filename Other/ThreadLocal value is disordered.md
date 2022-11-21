@@ -34,3 +34,15 @@ The second: User B -> Gateway -> Service -> interceptor No B Info(token expire o
 ### 2.3 Solution
 
 After the request is completed, in the interceptor life cycle method **afterCompletion**, clear the value in ThreadLocal
+
+```markdown
+@Override
+public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+
+    //ThreadLocal使用完清除，防止被线程复用
+    userInfoThreadLocal.remove();
+    locationThreadLocal.remove();
+
+    super.afterCompletion(request, response, handler, ex);
+}
+```
