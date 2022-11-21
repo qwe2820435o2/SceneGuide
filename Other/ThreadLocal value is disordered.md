@@ -25,6 +25,8 @@ ThreadLocal is used in the service interceptor, which is not a problem in itself
 
 The next time the request comes, the thread is reused and the data obtained in the last request is obtained.
 
-
+Example:
+The first:  User A -> Gateway -> Service -> interceptor Set A Info -> Get A Info 
+The second: User B -> Gateway -> Service -> interceptor No B Info(token expire or other else) -> But still get A Info      
 
 ```
