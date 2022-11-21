@@ -32,3 +32,5 @@ The second: User B -> Gateway -> Service -> interceptor No B Info(token expire o
 ```
 
 ### 2.3 Solution
+
+After the request is completed, in the interceptor life cycle method **afterCompletion**, clear the value in ThreadLocal
