@@ -15,3 +15,5 @@ It's so weird, isn't it?
 ### 2.1 Overall process
 
 ![Overall process](../Material/image/ThreadLocal%20value%20is%20disordered.png)
+
+### 2.2 Reason
