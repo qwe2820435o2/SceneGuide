@@ -17,3 +17,14 @@ It's so weird, isn't it?
 ![Overall process](../Material/image/ThreadLocal%20value%20is%20disordered.png)
 
 ### 2.2 Reason
+
+```
+Our service is deployed in Tomcat and uses thread pool technology
+
+ThreadLocal is used in the service interceptor, which is not a problem in itself, but the information stored in the current thread is not destroyed after each use. 
+
+The next time the request comes, the thread is reused and the data obtained in the last request is obtained.
+
+
+
+```
