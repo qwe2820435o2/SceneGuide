@@ -13,3 +13,5 @@ It's so weird, isn't it?
 > Recently introduced a new component: gateway, will it be the variable that it brings?
 
 ### 2.1 Overall process
+
+![Overall process](../Material/image/ThreadLocal%20value%20is%20disordered.png)
