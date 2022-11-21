@@ -11,3 +11,5 @@ It's so weird, isn't it?
 
 ## 2. Check
 > Recently introduced a new component: gateway, will it be the variable that it brings?
+
+### 2.1 Overall process
