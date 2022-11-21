@@ -30,3 +30,5 @@ The first:  User A -> Gateway -> Service -> interceptor Set A Info -> Get A Info
 The second: User B -> Gateway -> Service -> interceptor No B Info(token expire or other else) -> But still get A Info      
 
 ```
+
+### 2.3 Solution
