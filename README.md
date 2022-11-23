@@ -46,7 +46,9 @@ SceneGuide
 │       
 ├─Other                        Other Scenes
 │  ├─                               Code review template
-|  └─                               Comparison of AES and RSA pressure velocity measurement rate
+│  ├─                               Comparison of AES and RSA pressure velocity measurement rate
+│  ├─                               Spring parent-child container get value issue
+|  └─                               ThreadLocal value is disordered
 │ 
 ├─RabbitMQ                     RabbitMQ Scenes
 │  ├─
