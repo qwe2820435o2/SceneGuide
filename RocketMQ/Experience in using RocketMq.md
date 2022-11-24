@@ -13,3 +13,5 @@ Message consumer, responsible for consuming messages, generally the background s
 ### 1.3 Push Consumer
 
 A type of Consumer. Applications usually register a Listener interface with the Consumer object. Once a message is received, the Consumer object immediately calls back the Listener interface method.
+
+### 1.4 Pull Consumer
