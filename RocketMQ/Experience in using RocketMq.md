@@ -9,3 +9,5 @@ Message producer, responsible for generating messages, generally the business sy
 ### 1.2 Consumer
 
 Message consumer, responsible for consuming messages, generally the background system is responsible for asynchronous consumption
+
+### 1.3 Push Consumer
