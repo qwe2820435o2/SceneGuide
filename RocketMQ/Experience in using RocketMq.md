@@ -12,4 +12,4 @@ Message consumer, responsible for consuming messages, generally the background s
 
 ### 1.3 Push Consumer
 
-Consumer的一种，应用通常向Consumer对象注册一个Listener接口，一旦收到消息，Consumer对象立刻回调Listener接口方法
+A type of Consumer. Applications usually register a Listener interface with the Consumer object. Once a message is received, the Consumer object immediately calls back the Listener interface method.
