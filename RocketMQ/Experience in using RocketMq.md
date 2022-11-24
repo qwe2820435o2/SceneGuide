@@ -5,3 +5,5 @@
 ### 1.1 Produce
 
 Message producer, responsible for generating messages, generally the business system is responsible for generating messages
+
+### 1.2 Consumer
