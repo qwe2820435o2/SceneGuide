@@ -27,3 +27,5 @@ The collection name of a type of Producer, this type of Producer usually sends a
 The collection name of a type of Consumer. This type of Consumer usually consumes a type of message, and the consumption logic is consistent
 
 ### 1.7 Broker
+
+Message relay role, responsible for storing and forwarding messages, also known as Server
