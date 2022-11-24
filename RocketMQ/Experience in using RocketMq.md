@@ -17,3 +17,5 @@ A type of Consumer. Applications usually register a Listener interface with the 
 ### 1.4 Pull Consumer
 
 A type of Consumer, the application usually actively calls the Consumer's pull message method to pull messages from the Broker, and the initiative is controlled by the application
+
+### 1.5 ProducerGroup
