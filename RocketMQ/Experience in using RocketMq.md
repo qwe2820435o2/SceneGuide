@@ -19,3 +19,5 @@ A type of Consumer. Applications usually register a Listener interface with the 
 A type of Consumer, the application usually actively calls the Consumer's pull message method to pull messages from the Broker, and the initiative is controlled by the application
 
 ### 1.5 ProducerGroup
+
+The collection name of a type of Producer, this type of Producer usually sends a type of message, and the sending logic is consistent
