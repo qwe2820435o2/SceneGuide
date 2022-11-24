@@ -23,3 +23,5 @@ A type of Consumer, the application usually actively calls the Consumer's pull m
 The collection name of a type of Producer, this type of Producer usually sends a type of message, and the sending logic is consistent
 
 ### 1.6 Consumer Group
+
+The collection name of a type of Consumer. This type of Consumer usually consumes a type of message, and the consumption logic is consistent
