@@ -29,3 +29,5 @@ The collection name of a type of Consumer. This type of Consumer usually consume
 ### 1.7 Broker
 
 Message relay role, responsible for storing and forwarding messages, also known as Server
+
+### 1.8 NameService
