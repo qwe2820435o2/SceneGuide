@@ -15,3 +15,5 @@ Message consumer, responsible for consuming messages, generally the background s
 A type of Consumer. Applications usually register a Listener interface with the Consumer object. Once a message is received, the Consumer object immediately calls back the Listener interface method.
 
 ### 1.4 Pull Consumer
+
+A type of Consumer, the application usually actively calls the Consumer's pull message method to pull messages from the Broker, and the initiative is controlled by the application
