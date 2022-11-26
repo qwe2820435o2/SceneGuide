@@ -33,3 +33,5 @@ Message relay role, responsible for storing and forwarding messages, also known 
 ### 1.8 NameService
 
 Responsible for routing, management
+
+### 1.9 Broadcast consumption
