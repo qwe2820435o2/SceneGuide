@@ -38,3 +38,4 @@ Responsible for routing, management
 
 A message is consumed by multiple consumers
 
+Even if these Consumers belong to the same Consumer Group, the message will be consumed once by each Consumer in the Consumer Group
