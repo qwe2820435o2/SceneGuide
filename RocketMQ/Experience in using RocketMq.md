@@ -50,6 +50,9 @@ For example, a Topic has 9 messages, and a Consumer Group has 3 instances
 
 Then each instance only consumes 3 of the messages
 
+
+**Consumption patterns:**
+
 ![Cluster consumption](../Material/image/Experience%20in%20using%20RocketMq%20—%20Cluster%20consumption.png)
 
 
