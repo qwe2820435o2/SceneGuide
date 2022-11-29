@@ -46,3 +46,5 @@ The Consumer Group concept in broadcast consumption can be considered meaningles
 
 Consumer instances in a Consumer Group share consumption messages evenly
 
+For example, a Topic has 9 messages, and a Consumer Group has 3 instances
+
