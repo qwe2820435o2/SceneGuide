@@ -44,3 +44,5 @@ The Consumer Group concept in broadcast consumption can be considered meaningles
 
 ### 1.10 Cluster consumption
 
+Consumer instances in a Consumer Group share consumption messages evenly
+
