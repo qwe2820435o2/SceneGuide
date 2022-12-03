@@ -60,3 +60,7 @@ Then each instance only consumes 3 of the messages
 ![Deploy patterns](../Material/image/Experience%20in%20using%20RocketMq%20—%20deploy%20consumption.png)
 
 ## 2. Summary of Production Problems
+
+```markdown
+1. Under the same topic in different jvms, the tag subscriptions are inconsistent, resulting in inconsistent message status and consumption congestion
+```
