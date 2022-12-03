@@ -81,5 +81,5 @@ The most common problems in production are: inconsistent message status, which l
 1. Multiple Consumers are started in different JVMs, and different Topics are configured for the same Consumer ID
 2. The same topic but different tags, which eventually leads to inconsistent subscription relationships and messages that do not meet expectations
 3. Check whether there are registered consumers on the topic under the consumer group corresponding to the corresponding message
-
+4. For business deduplication processing, it can be restricted according to the unique order number in the business or the messageId of rocketMq
 ```
