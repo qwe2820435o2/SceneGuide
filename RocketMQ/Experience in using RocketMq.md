@@ -63,4 +63,5 @@ Then each instance only consumes 3 of the messages
 
 ```markdown
 1. Under the same topic in different jvms, the tag subscriptions are inconsistent, resulting in inconsistent message status and consumption congestion
+2. The topic subscriptions of consumers under the same consumer group are inconsistent, resulting in inconsistent message status and consumption congestion
 ```
