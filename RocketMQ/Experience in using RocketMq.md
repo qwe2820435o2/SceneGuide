@@ -76,3 +76,7 @@ Then each instance only consumes 3 of the messages
 The most common problems in production are: inconsistent message status, which leads to message squeeze, such as the two problems a and b mentioned above
 
 ### 3.2 Solution
+
+```markdown
+Multiple Consumers are started in different JVMs, and different Topics are configured for the same Consumer ID
+```
