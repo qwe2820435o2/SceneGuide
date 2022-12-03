@@ -68,3 +68,5 @@ Then each instance only consumes 3 of the messages
 4. There is no consumer registration under a certain broker
 5. The network is unstable or the consumer is restarted, and the message is repeatedly consumed
 ```
+
+## 3. Summary of production experience
