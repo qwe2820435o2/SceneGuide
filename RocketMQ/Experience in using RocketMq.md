@@ -65,4 +65,5 @@ Then each instance only consumes 3 of the messages
 1. Under the same topic in different jvms, the tag subscriptions are inconsistent, resulting in inconsistent message status and consumption congestion
 2. The topic subscriptions of consumers under the same consumer group are inconsistent, resulting in inconsistent message status and consumption congestion
 3. After a certain consumer goes offline, the offline status is not synchronized with the entire cluster
+4. There is no consumer registration under a certain broker
 ```
