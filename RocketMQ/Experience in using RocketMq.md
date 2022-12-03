@@ -55,5 +55,5 @@ Then each instance only consumes 3 of the messages
 
 ![Cluster consumption](../Material/image/Experience%20in%20using%20RocketMq%20—%20Cluster%20consumption.png)
 
-
+**deploy patterns:**
 
