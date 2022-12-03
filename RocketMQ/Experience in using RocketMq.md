@@ -78,7 +78,8 @@ The most common problems in production are: inconsistent message status, which l
 ### 3.2 Solution
 
 ```markdown
-Multiple Consumers are started in different JVMs, and different Topics are configured for the same Consumer ID
+1. Multiple Consumers are started in different JVMs, and different Topics are configured for the same Consumer ID
+2. The same topic but different tags, which eventually leads to inconsistent subscription relationships and messages that do not meet expectations
+3. Check whether there are registered consumers on the topic under the consumer group corresponding to the corresponding message
 
-Or the same topic but different tags, which eventually leads to inconsistent subscription relationships and messages that do not meet expectations
 ```
