@@ -66,4 +66,5 @@ Then each instance only consumes 3 of the messages
 2. The topic subscriptions of consumers under the same consumer group are inconsistent, resulting in inconsistent message status and consumption congestion
 3. After a certain consumer goes offline, the offline status is not synchronized with the entire cluster
 4. There is no consumer registration under a certain broker
+5. The network is unstable or the consumer is restarted, and the message is repeatedly consumed
 ```
