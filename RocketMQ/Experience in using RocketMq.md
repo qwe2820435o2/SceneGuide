@@ -70,3 +70,7 @@ Then each instance only consumes 3 of the messages
 ```
 
 ## 3. Summary of production experience
+
+### 3.1 Issue
+
+The most common problems in production are: inconsistent message status, which leads to message squeeze, such as the two problems a and b mentioned above
