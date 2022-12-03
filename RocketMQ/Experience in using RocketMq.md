@@ -59,3 +59,4 @@ Then each instance only consumes 3 of the messages
 
 ![Deploy patterns](../Material/image/Experience%20in%20using%20RocketMq%20—%20deploy%20consumption.png)
 
+## 2. Summary of Production Problems
