@@ -18,3 +18,5 @@ The Collecting data is strongly related to the business, such as: comments, like
 
 Only after the operation is completed, we will report the buried point
 ```
+
+## 2. Technology Selection
