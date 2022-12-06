@@ -10,3 +10,5 @@ Collect user behavior data, such as: listening time, icon clicks, redirected pag
 Upload in batches and perform data cleaning on the reported data
 
 ```
+
+### 1.2 Business collecting
