@@ -4,7 +4,9 @@
 
 ### 1.1 Behavior collecting
 
-```markdown
+```
 Collect user behavior data, such as: listening time, icon clicks, redirected pages, etc
+
+Upload in batches and perform data cleaning on the reported data
 
 ```
