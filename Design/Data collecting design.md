@@ -24,6 +24,8 @@ Only after the operation is completed, we will report the buried point
 ```
 The daily magnitude of the data uploading interface is 100 million
 
+In view of this, we need to carefully evaluate the characteristics of each component and choose
+
 ```
 
 
