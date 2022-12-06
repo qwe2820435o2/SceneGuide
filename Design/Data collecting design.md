@@ -20,3 +20,15 @@ Only after the operation is completed, we will report the buried point
 ```
 
 ## 2. Technology Selection
+
+```
+The daily magnitude of the data uploading interface is 100 million
+
+```
+
+
+
+
+
+
+
