@@ -26,6 +26,9 @@ The daily magnitude of the data uploading interface is 100 million
 
 In view of this, we need to carefully evaluate the characteristics of each component and choose
 
+CDN: dynamic acceleration, intelligent selection of better routes back to source acquisition
+Nginx: Excellent reverse proxy server
+
 ```
 
 
