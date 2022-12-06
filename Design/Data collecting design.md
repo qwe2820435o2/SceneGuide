@@ -28,6 +28,8 @@ In view of this, we need to carefully evaluate the characteristics of each compo
 
 CDN: dynamic acceleration, intelligent selection of better routes back to source acquisition
 Nginx: Excellent reverse proxy server
+RabbitMQ: the functions are relatively comprehensive, which can meet a variety of usage scenarios
+Kafka: High-performance, low-latency messaging middleware
 
 ```
 
