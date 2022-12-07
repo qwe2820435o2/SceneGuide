@@ -46,7 +46,7 @@ Caffeine: excellent local cache
 
 ## 4. Link design
 
-
+### 4.1 Behavior collecting
 
 
 
