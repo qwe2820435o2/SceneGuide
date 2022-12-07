@@ -48,6 +48,11 @@ Caffeine: excellent local cache
 
 ### 4.1 Behavior collecting
 
+```markdown
+Behavior burying interface requests a lot
+
+In addition to simply verifying the accuracy of the data here, the information should be directly sent to the big data Kafka
+```
 
 
 
