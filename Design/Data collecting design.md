@@ -54,5 +54,6 @@ Behavior burying interface requests a lot
 In addition to simply verifying the accuracy of the data here, the information should be directly sent to the big data Kafka
 ```
 
+### 4.2 Business collecting
 
 
