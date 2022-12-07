@@ -71,4 +71,7 @@ The information is first sent to RabbitMQ, processed by its consumers, and then 
 ```markdown
 Due to network differences, the client will be divided into offline reporting and real-time reporting
 
+In the case of a weak network, report offline, that is: store locally, and report in batches when the network is smooth
+
+When the network is good, report directly in batches
 ```
