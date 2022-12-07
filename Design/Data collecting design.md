@@ -63,3 +63,5 @@ The information is first sent to RabbitMQ, processed by its consumers, and then 
 ```
 
 ## 5. Implementation details
+
+### 5.1 Behavior collecting
