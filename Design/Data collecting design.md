@@ -67,3 +67,8 @@ The information is first sent to RabbitMQ, processed by its consumers, and then 
 ### 5.1 Behavior collecting
 
 #### 5.1.1 Upload time
+
+```markdown
+Due to network differences, the client will be divided into offline reporting and real-time reporting
+
+```
