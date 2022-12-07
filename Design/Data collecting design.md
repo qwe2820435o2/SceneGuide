@@ -62,4 +62,4 @@ Due to the characteristics of the business buried point, the secondary forwardin
 The information is first sent to RabbitMQ, processed by its consumers, and then the data is sent to the big data Kafka
 ```
 
-
+## 5. Implementation details
