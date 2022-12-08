@@ -86,7 +86,22 @@ Therefore, data is stored first, and T+1 deweighting is performed on the big dat
 
 #### 5.1.3 Data format
 
+**Format:**
 
+```markdown
+Request：POST     application/x-www-from-urlencoded
+
+{
+    "commonParams":{
+        "extend_data":"",
+        "os":"android",
+        "lan":"en",
+        "imei":"89fc9bcffcb84959",
+        "imsi":"4ac123bcb615a5dc"
+    },
+    "events":"7615ffdbbb1f4e5f9b55ad010852848b"
+}
+```
 
 
 
