@@ -77,3 +77,7 @@ When the network is good, report directly in batches
 ```
 
 #### 5.1.2 Prevent duplicate upload
+
+```markdown
+The daily data volume of behavioral buried points is too large to perform real-time deweighting, which will affect performance
+```
