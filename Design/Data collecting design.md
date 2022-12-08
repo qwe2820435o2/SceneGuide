@@ -83,3 +83,19 @@ The daily data volume of behavioral buried points is too large to perform real-t
 
 Therefore, data is stored first, and T+1 deweighting is performed on the big data side
 ```
+
+#### 5.1.3 Data format
+
+
+
+
+
+
+
+
+
+
+
+
+
+
