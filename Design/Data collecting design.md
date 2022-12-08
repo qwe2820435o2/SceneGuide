@@ -75,3 +75,5 @@ In the case of a weak network, report offline, that is: store locally, and repor
 
 When the network is good, report directly in batches
 ```
+
+#### 5.1.2 Prevent duplicate upload
