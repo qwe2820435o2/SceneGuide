@@ -105,6 +105,11 @@ Request：POST     application/x-www-from-urlencoded
 
 **Field Description:**
 
+|    Field Name    |                     Desc                     | Type |
+| :----------: | :------------------------------------------: | :----: |
+| commonParams |             Public parameter, Json string              | String |
+|    events    | Dot product information JSONArray data, Compressed | String |
+
 
 
 
