@@ -80,4 +80,6 @@ When the network is good, report directly in batches
 
 ```markdown
 The daily data volume of behavioral buried points is too large to perform real-time deweighting, which will affect performance
+
+Therefore, data is stored first, and T+1 deweighting is performed on the big data side
 ```
