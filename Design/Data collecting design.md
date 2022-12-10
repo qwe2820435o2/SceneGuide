@@ -111,6 +111,9 @@ Request：POST     application/x-www-from-urlencoded
 |    events    | Dot product information JSONArray data, Compressed | String |
 
 
+#### 5.1.4 Data compress
+
+
 
 
 
