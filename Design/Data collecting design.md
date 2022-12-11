@@ -135,6 +135,11 @@ Consider using Bloom filters for deduplication
 
 #### 5.2.3 Data format
 
+```
+Because it involves the consumption of many different businesses, there is no restriction on the format
+
+It is controlled by the business itself, but it must follow the development specification
+```
 
 
 
