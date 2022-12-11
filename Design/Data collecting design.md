@@ -141,6 +141,8 @@ Because it involves the consumption of many different businesses, there is no re
 It is controlled by the business itself, but it must follow the development specification
 ```
 
+#### 5.2.5 Data compress
+
 
 
 
