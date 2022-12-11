@@ -127,6 +127,12 @@ When the business operation is executed successfully, the data is reported
 
 #### 5.2.2 Prevent duplicate upload
 
+```
+Involving business, real-time deduplication is required, and big data T+1 deduplication cannot be used
+
+Consider using Bloom filters for deduplication
+```
+
 
 
 
