@@ -133,6 +133,8 @@ Involving business, real-time deduplication is required, and big data T+1 dedupl
 Consider using Bloom filters for deduplication
 ```
 
+#### 5.2.3 Data format
+
 
 
 
