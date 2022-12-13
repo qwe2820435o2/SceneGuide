@@ -20,7 +20,8 @@ Pull is mainly used for system-level feed related, such feed messages almost inv
 
 This method can save more message storage resources, but it will be time-consuming for users to actively pull Feed messages, and it is also a test for interface performance
 
-
+The scene is as follows:
+System messages, user group messages, activity messages, etc.
 ```
 
 
