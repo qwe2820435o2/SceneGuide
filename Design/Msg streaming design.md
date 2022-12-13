@@ -26,3 +26,13 @@ System messages, user group messages, activity messages, etc.
 
 ## 2. Technology selection
 
+```
+The difficulty lies in the need to balance performance and resources
+
+In view of this, we need to carefully evaluate the characteristics of each component and choose
+
+CDN: Dynamic acceleration, intelligently select the best route back to the source for acquisition
+Nginx: A reverse proxy server with excellent performance
+Redis: Distributed cache with excellent performance and rich data types
+Caffeine: A high-performance local cache
+```
