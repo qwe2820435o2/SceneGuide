@@ -13,6 +13,8 @@ The scene is as follows:
 Artist's new album release, follow, comment, application private message, etc.
 ```
 
+### 1.2 Pull
+
 
 
 
