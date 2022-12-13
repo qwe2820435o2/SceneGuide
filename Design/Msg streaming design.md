@@ -24,5 +24,5 @@ The scene is as follows:
 System messages, user group messages, activity messages, etc.
 ```
 
-
+## 2. Technology selection
 
