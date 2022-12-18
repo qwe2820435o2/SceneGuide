@@ -36,3 +36,5 @@ Nginx: A reverse proxy server with excellent performance
 Redis: Distributed cache with excellent performance and rich data types
 Caffeine: A high-performance local cache
 ```
+
+## 3. Architecture design
