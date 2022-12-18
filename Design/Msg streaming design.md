@@ -40,3 +40,5 @@ Caffeine: A high-performance local cache
 ## 3. Architecture design
 
 ![Msg streaming design](../Material/image/Msg%20streaming%20design.png)
+
+## 4. Link design
