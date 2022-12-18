@@ -45,6 +45,10 @@ Caffeine: A high-performance local cache
 
 ### 4.1 Push Msg
 
+```markdown
+In order to optimize the performance of getting messages, we use Redis to store user messages
+```
+
 
 
 
