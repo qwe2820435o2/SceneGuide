@@ -56,6 +56,7 @@ The logged-in user obtains user information according to uid
 
 Users who are not logged in get device information according to the unique code of the device
 
+Each request will bring the currentMsgId, get the message larger than the MsgId, and delete the message smaller than the MsgId
 
 ```
 
