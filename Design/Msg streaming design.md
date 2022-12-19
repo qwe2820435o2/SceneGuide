@@ -47,6 +47,10 @@ Caffeine: A high-performance local cache
 
 ```markdown
 In order to optimize the performance of getting messages, we use Redis to store user messages
+
+Data structure usage: List
+
+
 ```
 
 
