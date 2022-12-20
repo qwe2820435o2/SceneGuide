@@ -15,6 +15,7 @@ SceneGuide
 │  ├─                               Gateway dynamic sensing service goes online and offline
 │  ├─                               Interface anti-brush design
 │  ├─                               Large table splitting smooth migration steps
+│  ├─                               Msg streaming design
 │  ├─                               Short link generation design
 |  └─                               Template project design
 │       
