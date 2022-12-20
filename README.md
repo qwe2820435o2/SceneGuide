@@ -10,6 +10,7 @@
 SceneGuide
 ├─Design                       Design Scenes
 │  ├─                               Counting scheme design
+│  ├─                               Data collecting design
 │  ├─                               Evolution process of millions ip libraries design
 │  ├─                               Gateway dynamic sensing service goes online and offline
 │  ├─                               Interface anti-brush design
