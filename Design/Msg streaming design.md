@@ -63,6 +63,7 @@ Users who are not logged in get device information according to the unique code 
 
 Each request will bring the currentMsgId, get the message larger than the MsgId, and delete the message smaller than the MsgId
 
+After pulling the message, in order to ensure that the capacity will not grow all the time, the message list will also be trimmed
 ```
 
 
