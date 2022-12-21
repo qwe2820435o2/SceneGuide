@@ -66,7 +66,7 @@ Each request will bring the currentMsgId, get the message larger than the MsgId,
 After pulling the message, in order to ensure that the capacity will not grow all the time, the message list will also be trimmed
 ```
 
-
+## 5. implementation details
 
 
 
