@@ -49,6 +49,8 @@ Caffeine: A high-performance local cache
 The service provides an RPC interface for sending messages
 
 When the upstream service performs business operations, it uniformly calls this interface to send messages
+
+Messages will be stuffed into different Redis Lists according to different business types
 ```
 
 ### 4.2 Push Msg
