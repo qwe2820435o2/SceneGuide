@@ -46,7 +46,7 @@ Caffeine: A high-performance local cache
 ### 4.1 Generate Msg
 
 ```markdown
-
+The service provides an RPC interface for sending messages
 ```
 
 ### 4.2 Push Msg
