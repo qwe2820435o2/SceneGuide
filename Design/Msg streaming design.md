@@ -47,6 +47,8 @@ Caffeine: A high-performance local cache
 
 ```markdown
 The service provides an RPC interface for sending messages
+
+When the upstream service performs business operations, it uniformly calls this interface to send messages
 ```
 
 ### 4.2 Push Msg
