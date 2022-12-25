@@ -84,6 +84,9 @@ After pulling the message, in order to ensure that the capacity will not grow al
 ### 5.2 Push Msg
 
 
+### 5.3 Pull Msg
+
+
 
 
 
