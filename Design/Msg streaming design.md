@@ -87,6 +87,7 @@ After pulling the message, in order to ensure that the capacity will not grow al
 ### 5.3 Pull Msg
 
 
+## 6. Optimization direction
 
 
 
