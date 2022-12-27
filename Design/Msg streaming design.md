@@ -84,6 +84,7 @@ After pulling the message, in order to ensure that the capacity will not grow al
 
 #### 5.1.1 Asynchronous Processing
 
+Send the key Id to RabbitMQ, which will be processed by consumers asynchronously and multi-threaded
 
 ### 5.2 Push Msg
 
