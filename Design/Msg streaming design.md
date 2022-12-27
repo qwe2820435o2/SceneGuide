@@ -88,6 +88,15 @@ Send the key Id to RabbitMQ, which will be processed by consumers asynchronously
 
 #### 5.1.2 Common Message Body
 
+```
+{
+	refer:"xxx",
+	data:{
+		
+	}
+}
+```
+
 ### 5.2 Push Msg
 
 
