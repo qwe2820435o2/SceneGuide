@@ -105,6 +105,8 @@ Call the global Id generation interface to get the globally unique msgId
 
 **Complete data:**
 
+Use local cache Caffeine and Redis to build a second-level cache, query and complete information based on the incoming Id
+
 ### 5.2 Push Msg
 
 
