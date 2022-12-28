@@ -99,6 +99,8 @@ Send the key Id to RabbitMQ, which will be processed by consumers asynchronously
 
 #### 5.1.3 Comsumer
 
+**Generate MsgId:**
+
 ### 5.2 Push Msg
 
 
