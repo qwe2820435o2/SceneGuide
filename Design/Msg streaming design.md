@@ -100,6 +100,7 @@ Send the key Id to RabbitMQ, which will be processed by consumers asynchronously
 #### 5.1.3 Comsumer
 
 **Generate MsgId:**
+Call the global Id generation interface to get the globally unique msgId
 
 ### 5.2 Push Msg
 
