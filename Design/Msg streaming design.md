@@ -109,6 +109,8 @@ Use local cache Caffeine and Redis to build a second-level cache, query and comp
 
 **Generate Msg:**
 
+1. Send msg to user' list
+
 ### 5.2 Push Msg
 
 
