@@ -26,13 +26,13 @@ Only after the operation is completed, we will report the buried point
 ## 2. Technology Selection
 
 ```
-The daily magnitude of the data uploading interface is 100 million
+The daily magnitude of the data-uploading interface is 100 million
 
-In view of this, we need to carefully evaluate the characteristics of each component and choose
+Because of this, we need to carefully evaluate the characteristics of each component and choose
 
 CDN: dynamic acceleration, intelligent selection of better routes back to source acquisition
 Nginx: excellent reverse proxy server
-RabbitMQ: the functions are relatively comprehensive, which can meet a variety of usage scenarios
+RabbitMQ: the functions are relatively comprehensive, and can meet a variety of usage scenarios
 Kafka: high-performance, low-latency messaging middleware
 Flink: high-performance, low-latency streaming computing
 Redis: distributed cache with excellent performance and rich data types
