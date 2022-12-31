@@ -18,7 +18,7 @@ Upload in batches and perform data cleaning on the reported data
 ```
 The server collecting
 
-The Collecting data is strongly related to the business, such as: comments, likes, favorites, etc
+The Collecting data is strongly related to the business, such as comments, likes, favorites, etc
 
 Only after the operation is completed, we will report the buried point
 ```
