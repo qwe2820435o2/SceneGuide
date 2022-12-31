@@ -144,7 +144,7 @@ It is controlled by the business itself, but it must follow the development spec
 #### 5.2.5 Data compress
 
 ```
-You can use the corresponding compression algorithm according to the actual situation, such as: Gzip, lz4, snapy, etc.
+You can use the corresponding compression algorithm according to the actual situation, such as Gzip, lz4, snapy, etc.
 ```
 
 
