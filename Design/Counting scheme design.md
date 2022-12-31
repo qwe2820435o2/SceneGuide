@@ -2,7 +2,7 @@
 
 ## 1. Background
 
-Business has statistical counting requirements of different dimensions
+The business has statistical counting requirements of different dimensions
 
 Now we need to design a general statistical counting scheme
 
