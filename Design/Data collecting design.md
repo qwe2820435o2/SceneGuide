@@ -57,7 +57,7 @@ In addition to simply verifying the accuracy of the data here, the information s
 ### 4.2 Business collecting
 
 ```markdown
-Due to the characteristics of the business buried point, the secondary forwarding after processing is required here
+Due to the characteristics of the business buried point, secondary forwarding after processing is required here
 
 The information is first sent to RabbitMQ, processed by its consumers, and then the data is sent to the big data Kafka
 ```
