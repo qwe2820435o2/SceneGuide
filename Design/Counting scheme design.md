@@ -24,7 +24,7 @@ The purpose is to optimize the stacking statistics performance
 
 **Solution:** 
 
-Borrow the concept of time window, take each time of the scheduled task as the benchmark, divide 1 day into multiple time windows, and only operate the aggregated data corresponding to the time window
+Borrow the concept of a time window, take each time of the scheduled task as the benchmark, divide 1 day into multiple time windows, and only operate the aggregated data corresponding to the time window
 
 | Timing scheduling cycle | Number of splittable time windows in 1 day | Rules corresponding to Set keys |
 | :---------------------: | :----------------------------------------: | :-----------------------------: |
