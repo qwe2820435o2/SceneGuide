@@ -79,7 +79,7 @@ When the network is good, report directly in batches
 #### 5.1.2 Prevent duplicate upload
 
 ```markdown
-The daily data volume of behavioral buried points is too large to perform real-time deweighting, which will affect performance
+The daily data volume of behavioral buried points is too large to perform real-time deweighting, which will affect the performance
 
 Therefore, data is stored first, and T+1 deweighting is performed on the big data side
 ```
@@ -89,7 +89,7 @@ Therefore, data is stored first, and T+1 deweighting is performed on the big dat
 **Format:**
 
 ```markdown
-Request：POST     application/x-www-from-urlencoded
+Request： POST      application/x-www-from-urlencoded
 
 {
     "commonParams":{
@@ -107,7 +107,7 @@ Request：POST     application/x-www-from-urlencoded
 
 |    Field Name    |                     Desc                     | Type |
 | :----------: | :------------------------------------------: | :----: |
-| commonParams |             Public parameter, Json string              | String |
+| commonParams |             Public parameter, JSON string              | String |
 |    events    | Dot product information JSONArray data, Compressed | String |
 
 
