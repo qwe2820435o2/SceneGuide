@@ -114,7 +114,7 @@ Request： POST      application/x-www-from-urlencoded
 #### 5.1.4 Data compress
 
 ```
-You can use the corresponding compression algorithm according to the actual situation, such as: Gzip, lz4, snapy, etc.
+You can use the corresponding compression algorithm according to the actual situation, such as Gzip, lz4, snapy, etc.
 ```
 
 ### 5.2 Business collecting
