@@ -13,14 +13,14 @@
 
 **Issue:** Still consumes a lot of memory after loading
 
-## Stage 3: Extract the IP database data to the redis
-> draw on the B+ tree structure to design the structure of level 1 index, level 2 index, and level 3 pointing to the final data
+## Stage 3: Extract the IP database data to the Redis
+> draw on the B+ tree structure to design the structure of the level 1 index, level 2 index, and level 3 points to the final data
 
-**Advantages:** No need to pay attention to the local Ip library file, only deal with the redis cache
+**Advantages:** No need to pay attention to the local Ip library file, only deal with the Redis cache
 
 **Issue:** 
 
-Excessive concentration of hot data and high concurrency will lead to a high number of tcp links on a redis node
+Excessive concentration of hot data and high concurrency will lead to a high number of TCP links on a Redis node
 
 The phenomenon reflected in the client is an error: could not get a resource from the pool
 
