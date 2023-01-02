@@ -18,7 +18,7 @@ Compared with other registries, this component is relatively native and lacks op
 
 The gateway dynamically senses the service going offline
 
-The key is to know in advance which instance is about to go offline, and then route traffic to other instances in advance
+The key is to know in advance which instance is about to go offline and then route traffic to other instances in advance
 
 ```
 
