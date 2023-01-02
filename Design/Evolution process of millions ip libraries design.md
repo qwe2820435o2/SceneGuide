@@ -25,13 +25,13 @@ Excessive concentration of hot data and high concurrency will lead to a high num
 The phenomenon reflected in the client is an error: could not get a resource from the pool
 
 
-## Stage 4: Increase local cache, cache hotspot IP, carry concurrent
+## Stage 4: Increase local cache, cache hotspot IP, and carry concurrent
 
-**Advantages:** Reduced 70% of ip requests to redis, and the number of tcp connections is stable
+**Advantages:** Reduced 70% of IP requests to Redis, and the number of tcp connections is stable
 
-**Issue:** The remaining 30% traffic still occupies a certain number of tcp links
+**Issue:** The remaining 30% of traffic still occupies a certain number of TCP links
 
 
 ## Stage 5: Follow-up optimization ideas
 
-Level 1 and level 2 indexes are placed in the local cache, which can effectively reduce the number of links to redis
+Level 1 and level 2 indexes are placed in the local cache, which can effectively reduce the number of links to Redis
