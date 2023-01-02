@@ -90,7 +90,7 @@ People who have used this component on the Internet have mixed reviews, and ther
 
 1. Regularly scan nodes filtered by the gateway
 2. Compare the current timestamp with the previously recorded timestamp
-3. Initiate http detection for nodes with a time difference of more than 2 minutes
+3. Initiate HTTP detection for nodes with a time difference of more than 2 minutes
 4. If the node is healthy, remove it from the gateway's filter
 
 ```
@@ -105,7 +105,7 @@ People who have used this component on the Internet have mixed reviews, and ther
 
 ```markdown
 
-1. Notify the deletion of the zk node and bring the node information http
+1. Notify the deletion of the zk node and bring the node information HTTP
 2. Traverse the gateway node, find the service node, then continue to traverse, find the specified node, and delete it
 3. Publish service
 4. When the service is published successfully, the node information will be re-registered to the registration center
