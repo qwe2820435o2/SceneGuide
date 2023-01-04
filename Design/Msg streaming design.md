@@ -78,6 +78,8 @@ After pulling the message, in order to ensure that the capacity will not grow al
 ```markdown
 Global messages, involving a wide range, but the number of messages itself is small
 
+For this feature, we use another way of thinking to achieve
+
 ```
 
 ## 5. implementation details
