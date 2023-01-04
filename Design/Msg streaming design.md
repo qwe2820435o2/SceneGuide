@@ -76,6 +76,7 @@ After pulling the message, in order to ensure that the capacity will not grow al
 ### 4.3 Pull Msg
 
 ```markdown
+Global messages, involving a wide range, but the number of messages itself is small
 
 ```
 
