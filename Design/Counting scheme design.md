@@ -11,8 +11,8 @@ Now we need to design a general statistical counting scheme
 
 The following is the overall flow chart：
 
-`![Counting Design — Whole Process](../Material/image/Counting%20Design%20—%20Whole%20Process.png)
-`
+![Counting Design — Whole Process](../Material/image/Counting%20Design%20—%20Whole%20Process.png)
+
 ## 3. Details
 
 ### 3.1 Time window
