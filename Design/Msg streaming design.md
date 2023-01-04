@@ -80,6 +80,10 @@ Global messages, involving a wide range, but the number of messages itself is sm
 
 For this feature, we use another way of thinking to achieve
 
+Data structure: List
+
+List is divided by region and stores all system messages in this region
+
 ```
 
 ## 5. implementation details
