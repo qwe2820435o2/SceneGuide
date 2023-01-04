@@ -84,6 +84,8 @@ Data structure: List
 
 List is divided by region and stores all system messages in this region
 
+Users will obtain the system information of the current area according to their own area
+
 ```
 
 ## 5. implementation details
