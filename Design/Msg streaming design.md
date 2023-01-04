@@ -86,6 +86,8 @@ List is divided by region and stores all system messages in this region
 
 Users will obtain the system information of the current area according to their own area
 
+Each request will bring the currentMsgId, get the message larger than the MsgId, and filter the message smaller than the MsgId
+
 ```
 
 ## 5. implementation details
