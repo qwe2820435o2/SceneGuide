@@ -57,12 +57,6 @@ Messages will be stuffed into different Redis Lists according to different busin
 
 ```markdown
 
-
-```
-
-### 4.3 Pull Msg
-
-```markdown
 In order to optimize the performance of getting messages, we use Redis to store user messages
 
 Data structure usage: List
@@ -76,6 +70,13 @@ Users who are not logged in get device information according to the unique code 
 Each request will bring the currentMsgId, get the message larger than the MsgId, and delete the message smaller than the MsgId
 
 After pulling the message, in order to ensure that the capacity will not grow all the time, the message list will also be trimmed
+
+```
+
+### 4.3 Pull Msg
+
+```markdown
+
 ```
 
 ## 5. implementation details
