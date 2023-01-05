@@ -1,4 +1,4 @@
-# Evolution process of millions IP libraries design
+# Evolution process of millions of IP libraries design
 > Purchased millions of IP libraries provided by third parties and provided them in the form of database files *.mmdb
 
 ## Stage 1: Load the Ip local database file provided by the third party when the project starts
