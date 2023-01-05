@@ -27,7 +27,7 @@ The phenomenon reflected in the client is an error: could not get a resource fro
 
 ## Stage 4: Increase local cache, cache hotspot IP, and carry concurrent
 
-**Advantages:** Reduced 70% of IP requests to Redis, and the number of tcp connections is stable
+**Advantages:** Reduced 70% of IP requests to Redis, and the number of TCP connections is stable
 
 **Issue:** The remaining 30% of traffic still occupies a certain number of TCP links
 
