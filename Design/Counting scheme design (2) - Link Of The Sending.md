@@ -1,6 +1,6 @@
 # Link Of The Sending
 
-## 1. Upload Time
+## 1. Triggered Time
 
 ```markdown
 
