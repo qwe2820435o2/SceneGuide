@@ -16,7 +16,7 @@ At this time, the counting of the business will be triggered
 
 ## 2. Common Data Format
 **DTO：**
-> 根据tableType、fieldType抽象映射到对应队列路由、数据表、字段
+> According to the tableType, fieldType abstract mapping to the corresponding queue route, data table, field
 
 
 ## Asynchronous Processing
