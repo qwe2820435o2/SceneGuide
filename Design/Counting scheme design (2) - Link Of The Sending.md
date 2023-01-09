@@ -58,3 +58,4 @@ enum FieldTypeEnum
 
 
 ## 3. Asynchronous Processing
+> Decoupling using message queues
