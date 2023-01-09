@@ -14,6 +14,9 @@ At this time, the counting of the business will be triggered
 ```
 
 
-## Common Data Format
+## 2. Common Data Format
+**DTO：**
+> 根据tableType、fieldType抽象映射到对应队列路由、数据表、字段
+
 
 ## Asynchronous Processing
