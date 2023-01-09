@@ -30,5 +30,13 @@ class SendReq
 
 > Store the specific data of the mapping
 
+```
+enum RoutingTypeEnum
+	//col route key
+	//music route key
+	//video route key
+	...
+```
+
 
 ## Asynchronous Processing
