@@ -26,5 +26,9 @@ class SendReq
 	Integer count			//count
 ```
 
+**Enum：**
+
+> Store the specific data of the mapping
+
 
 ## Asynchronous Processing
