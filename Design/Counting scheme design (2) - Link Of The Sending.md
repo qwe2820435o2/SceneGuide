@@ -46,5 +46,15 @@ enum TableTypeEnum
 	...
 ```
 
+```
+enum FieldTypeEnum
+	//collect field
+	//comment field
+	//share field
+	//stream field
+	//download field
+	...
+```
+
 
 ## Asynchronous Processing
