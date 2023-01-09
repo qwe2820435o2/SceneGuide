@@ -38,5 +38,13 @@ enum RoutingTypeEnum
 	...
 ```
 
+```
+enum TableTypeEnum
+	//col table
+	//music table
+	//video table
+	...
+```
+
 
 ## Asynchronous Processing
