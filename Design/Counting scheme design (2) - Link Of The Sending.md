@@ -18,5 +18,13 @@ At this time, the counting of the business will be triggered
 **DTO：**
 > According to the tableType, fieldType abstract mapping to the corresponding queue route, data table, field
 
+```
+class SendReq
+	Integer tableType		//table
+	Integer fieldType		//field
+	Integer itemId			//primary Id
+	Integer count			//count
+```
+
 
 ## Asynchronous Processing
