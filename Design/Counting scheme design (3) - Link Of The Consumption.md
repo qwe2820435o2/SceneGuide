@@ -11,3 +11,4 @@ Map table and field according to field tableType and fieldType respectively
 In order not to process too much data at one time, the delay queue is used for weaken the shaving
 
 * The popularity of Col, Music, and Video is regularly calculated for recommendation and search rankings every day
+* 1000 batches, calculate the delayTime, and the time interval between each batch is 6 seconds, so that a large batch of data updates can be evenly distributed to each time window
