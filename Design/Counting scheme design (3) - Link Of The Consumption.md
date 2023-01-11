@@ -22,3 +22,5 @@ C[Artist Popular Task] -- Send --> D((RabbitMQ))
 D((Delay queue)) -- Consume --> E((Col counting queue))
 E -- Consume --> F[Service: function of the counting]
 ```
+
+## 3. Full Counting Cache
