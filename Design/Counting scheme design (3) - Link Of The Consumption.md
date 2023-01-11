@@ -39,3 +39,14 @@ collect、comment、share、stream、download、popular
 value:
 total value
 ```
+
+```Select the data structure as Hash
+The key of Music:
+count:all:m:{musciId}
+
+field:
+download、collect、share、stream、popular
+
+value:
+total value
+```
