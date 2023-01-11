@@ -27,3 +27,4 @@ E -- Consume --> F[Service: function of the counting]
 > Warm up the full counting cache for user interface display, for example: the total number of playlists is 100,000, and every time you listen to a song, it will be +1 on its basis
 
 ### 3.1 Data Structure
+> Select the data structure as Hash
