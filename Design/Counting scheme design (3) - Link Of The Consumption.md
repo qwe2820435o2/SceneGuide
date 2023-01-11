@@ -28,3 +28,14 @@ E -- Consume --> F[Service: function of the counting]
 
 ### 3.1 Data Structure
 > Select the data structure as Hash
+
+```Select the data structure as Hash
+The key of Col:
+count:all:c:{colId}
+
+field:
+collect、comment、share、stream、download、popular
+
+value:
+total value
+```
