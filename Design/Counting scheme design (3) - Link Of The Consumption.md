@@ -50,3 +50,12 @@ download、collect、share、stream、popular
 value:
 total value
 ```
+
+### 3.2 Build Process
+
+
+
+
+
+
+
