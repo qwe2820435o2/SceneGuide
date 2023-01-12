@@ -84,6 +84,7 @@ total value
 ## 4. Delta Cache
 > Record incremental operations in real time, such as: a song list is listened to by the user for the first time, and its incremental playback number is 0, it will be +1 on the basis of it
 
+### 4.1 Data Structure
 
 
 
