@@ -77,6 +77,7 @@ total value
 
 * The cache invalidation time is 8 hours to ensure the final consistency of the cache and database data
 * Check the cache first, if not, check it from the database
+* Data changes during the period, through HINCRBY cache key & field synchronization changes
 
 
 
