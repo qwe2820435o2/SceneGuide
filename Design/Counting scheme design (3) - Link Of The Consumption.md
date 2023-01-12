@@ -59,5 +59,7 @@ total value
 
 2. hasKey() Determines whether the key exists
 
+3. hincrBy +1 to the number of fields
+
 
 
