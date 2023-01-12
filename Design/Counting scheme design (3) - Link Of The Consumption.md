@@ -55,7 +55,9 @@ total value
 
 #### 3.2.1 Data Construction
 
+1. Assemble Redis key according to Id and Field
 
+2. hasKey() Determines whether the key exists
 
 
 
