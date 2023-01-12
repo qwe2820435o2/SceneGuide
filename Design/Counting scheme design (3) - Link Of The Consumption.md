@@ -76,7 +76,7 @@ total value
 > In principle, redis data is unreliable due to problems such as cache failure, memory recycling, and persistence strategy selection, and the data in mysql shall prevail
 
 * The cache invalidation time is 8 hours to ensure the final consistency of the cache and database data
-
+* Check the cache first, if not, check it from the database
 
 
 
