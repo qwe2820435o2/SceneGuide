@@ -73,7 +73,7 @@ total value
 
 
 #### 3.2.2 Data Consistency
-
+> In principle, redis data is unreliable due to problems such as cache failure, memory recycling, and persistence strategy selection, and the data in mysql shall prevail
 
 
 
