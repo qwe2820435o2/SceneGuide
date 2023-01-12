@@ -81,6 +81,7 @@ total value
 * The timed task monitors the difference between the Redis value and the Mysql value. If the difference is too large, delete the cache and re-warm the data from Mysql
 
 
+## 4. Delta Cache
 
 
 
