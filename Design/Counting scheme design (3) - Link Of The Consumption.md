@@ -69,3 +69,4 @@ total value
    }
    ```
 
+5. Renew to ensure that the hotspot data does not expire
