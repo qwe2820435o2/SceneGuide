@@ -61,5 +61,11 @@ total value
 
 3. hincrBy +1 to the number of fields
 
+4. When the key does not exist and fieldCount=1, check the database to preheat the cached data
 
+   ```
+   if (!exist && 1 == fieldCount){
+   	//query Mysql
+   }
+   ```
 
