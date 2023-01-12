@@ -70,3 +70,25 @@ total value
    ```
 
 5. Renew to ensure that the hotspot data does not expire
+
+
+#### 3.2.2 Data Consistency
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
