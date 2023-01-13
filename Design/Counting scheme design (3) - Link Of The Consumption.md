@@ -99,6 +99,17 @@ value:
 changing value
 ```
 
+```
+The key of Music:
+count:dyn:m:{musciId}
+
+Field:
+download、collect、share、stream、popular
+
+value:
+changing value
+```
+
 
 
 
