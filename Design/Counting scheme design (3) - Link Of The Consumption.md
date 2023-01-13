@@ -112,6 +112,8 @@ changing value
 
 ### 4.2 Data Construction
 
+1. Assemble Redis key according to Id and Field
+
 
 
 
