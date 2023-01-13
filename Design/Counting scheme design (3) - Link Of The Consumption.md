@@ -88,7 +88,16 @@ total value
 > Select the data structure as Hash
 
 
+```
+The key of Col:
+count:dyn:c:{colId}
 
+Field:
+collect、comment、share、stream、download、popular
+
+value:
+changing value
+```
 
 
 
