@@ -85,7 +85,7 @@ total value
 > Record incremental operations in real time, such as: a song list is listened to by the user for the first time, and its incremental playback number is 0, it will be +1 on the basis of it
 
 ### 4.1 Data Structure
-
+> Select the data structure as Hash
 
 
 
