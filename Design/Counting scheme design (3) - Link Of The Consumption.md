@@ -114,6 +114,7 @@ changing value
 
 1. Assemble Redis key according to Id and Field
 2. hincrBy +1 to the number of fields
+3. Renew to ensure that the hotspot data does not expire
 
 
 
