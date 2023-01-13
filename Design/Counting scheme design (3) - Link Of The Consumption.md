@@ -113,7 +113,7 @@ changing value
 ### 4.2 Data Construction
 
 1. Assemble Redis key according to Id and Field
-
+2. hincrBy +1 to the number of fields
 
 
 
