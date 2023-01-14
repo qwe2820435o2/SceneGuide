@@ -136,3 +136,5 @@ Borrow the concept of a time window, take each time of the scheduled task as the
 
 Get the current timestamp, calculate the time window index of the current day in the code, and then add data to the corresponding collection
 
+* Delete
+
