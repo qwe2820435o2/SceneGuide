@@ -142,6 +142,8 @@ Because the Set collection is associated with the date and time window, the expi
 
 * Query
 
+Get the current timestamp, calculate the time window index of the current day in the code, and then query the data in the corresponding collection
+
 
 
 
