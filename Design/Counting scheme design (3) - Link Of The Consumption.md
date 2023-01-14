@@ -123,6 +123,8 @@ Mainly to reduce granularity and dynamically obtain changing values
 
 The purpose is to optimize the stacking statistics performance
 
+
 **Solution:** 
 
+Borrow the concept of a time window, take each time of the scheduled task as the benchmark, divide 1 day into multiple time windows, and only operate the aggregated data corresponding to the time window
 
