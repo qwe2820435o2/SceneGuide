@@ -119,5 +119,9 @@ changing value
 ## 5. Time window
 > Time window composed of Redis Set
 
+Mainly to reduce granularity and dynamically obtain changing values
+
+The purpose is to optimize the stacking statistics performance
+
 
 
