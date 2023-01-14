@@ -131,3 +131,6 @@ Borrow the concept of a time window, take each time of the scheduled task as the
 | Timing scheduling cycle | Number of splittable time windows in 1 day | Rules corresponding to Set keys |
 | :---------------------: | :----------------------------------------: | :-----------------------------: |
 |       10 minutes        |                24 * 6 = 144                |       item:g:20220720:88        |
+
+* Add
+
