@@ -117,6 +117,7 @@ changing value
 3. Renew to ensure that the hotspot data does not expire
 
 ## 5. Time window
+> Time window composed of Redis Set
 
 
 
