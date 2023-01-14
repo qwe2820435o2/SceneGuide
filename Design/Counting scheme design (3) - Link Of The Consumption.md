@@ -138,3 +138,5 @@ Get the current timestamp, calculate the time window index of the current day in
 
 * Delete
 
+Because the Set collection is associated with the date and time window, the expiration time can be set for the Set. It is recommended to be longer than the scheduled scheduling period, 15 minutes is appropriate
+
