@@ -10,3 +10,5 @@
 > Execute once every 2 minutes, and persist the incremental count of Redis to the Mysql database
 
 ### 2.1 Time Window
+
+* Each business field corresponds to a time window Set collection
