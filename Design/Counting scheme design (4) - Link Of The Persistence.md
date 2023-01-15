@@ -7,3 +7,4 @@
 
 
 ## 2. Timing Persistence
+> Execute once every 2 minutes, and persist the incremental count of Redis to the Mysql database
