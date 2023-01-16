@@ -14,3 +14,14 @@
 * Each business field corresponds to a time window Set collection
 * Calculate the current time window key according to the current timestamp
 * The active itemId in the time period is stored in the time window
+
+```
+例: Col' key:   count:active:c:field:{timeIndex}
+
+count:active:c:collect:20230108:36
+count:active:c:comment:20230108:36
+count:active:c:share:20230108:36
+count:active:c:stream:20230108:36
+count:active:c:download:20230108:36
+count:active:c:popular:20230108:36
+```
