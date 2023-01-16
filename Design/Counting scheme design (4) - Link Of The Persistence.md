@@ -25,3 +25,5 @@ count:active:c:stream:20230108:36
 count:active:c:download:20230108:36
 count:active:c:popular:20230108:36
 ```
+
+### 2.2 Batch query incremental statistics
