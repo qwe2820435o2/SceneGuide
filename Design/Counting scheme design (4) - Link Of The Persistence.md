@@ -12,3 +12,4 @@
 ### 2.1 Time Window
 
 * Each business field corresponds to a time window Set collection
+* Calculate the current time window key according to the current timestamp
