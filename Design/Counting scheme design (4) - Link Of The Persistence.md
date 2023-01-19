@@ -33,3 +33,5 @@ count:active:c:popular:20230108:36
 * Pipeline check Set Field time window
 * Pipeline sets the time window expiration time
 * Pipeline check Hash incremental statistics
+
+### 2.3 Batch Processing
