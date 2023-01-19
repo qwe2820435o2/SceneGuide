@@ -27,3 +27,4 @@ count:active:c:popular:20230108:36
 ```
 
 ### 2.2 Batch query incremental statistics
+> In order to further optimize performance, introduce Pipeline to check Redis cache
