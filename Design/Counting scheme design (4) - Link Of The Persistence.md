@@ -35,3 +35,5 @@ count:active:c:popular:20230108:36
 * Pipeline check Hash incremental statistics
 
 ### 2.3 Batch Processing
+
+Although the day has been split into multiple time windows, it is still possible that the processing volume will be high during peak periods
