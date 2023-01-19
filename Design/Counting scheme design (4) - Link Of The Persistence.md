@@ -37,3 +37,6 @@ count:active:c:popular:20230108:36
 ### 2.3 Batch Processing
 
 Although the day has been split into multiple time windows, it is still possible that the processing volume will be high during peak periods
+
+
+Excessive one-time processing will greatly consume database performance
