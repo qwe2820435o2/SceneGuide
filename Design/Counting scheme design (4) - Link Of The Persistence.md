@@ -45,3 +45,16 @@ A batch of 50,000 is tentatively set. When it is greater than this number, it wi
 
 
 ### 2.4 Batch Update To Database
+
+Bulk update using INSERT ... ON DUPLICATE KEY UPDATE Statement
+
+
+
+
+
+
+
+
+
+
+
