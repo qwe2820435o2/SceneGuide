@@ -49,7 +49,34 @@ A batch of 50,000 is tentatively set. When it is greater than this number, it wi
 Bulk update using INSERT ... ON DUPLICATE KEY UPDATE Statement
 
 
-
+```
+insert into music (musicId,
+    collect,
+    comment,
+    share,
+    stream,
+    download,
+    popular
+    )
+    values
+    <foreach collection="list" item="musicItem" index="index" separator=",">
+      (#{musicItem.musicId},
+      #{musicItem.collect},
+      #{musicItem.comment},
+      #{musicItem.share},
+      #{musicItem.stream},
+      #{musicItem.download},
+      #{musicItem.popular}
+      )
+    </foreach>
+    on duplicate key update
+    collect = collect + values(collect),
+    comment = comment + values(comment),
+    share = share + values(share),
+    stream = stream + values(stream),
+    download = download + values(download),
+    popular = popular + values(popular)
+```
 
 
 
