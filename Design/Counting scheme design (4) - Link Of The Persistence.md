@@ -42,3 +42,6 @@ Although the day has been split into multiple time windows, it is still possible
 Excessive one-time processing will greatly consume database performance
 
 A batch of 50,000 is tentatively set. When it is greater than this number, it will be split into multiple batches and processed in batches
+
+
+### 2.4 Batch Update To Database
