@@ -9,3 +9,4 @@
 Query the corresponding collect, comment, share, stream, download and other values according to the Primary Id
 
 ### 1.2 Single Ttem Statistics Query (increase local cache)
+> This interface is suitable for business scenarios with moderate sensitivity to statistical changes and high concurrency, such as: Embed sharing page
