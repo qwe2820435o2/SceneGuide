@@ -7,3 +7,5 @@
 > This interface is suitable for business scenarios that are highly sensitive to statistical changes, such as: song list details page
 
 Query the corresponding collect, comment, share, stream, download and other values according to the Primary Id
+
+### 1.2 Single Ttem Statistics Query (increase local cache)
