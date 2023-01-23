@@ -16,3 +16,6 @@ Compared with 1.1, introduced caffeine local cache for performance optimization
 ### 1.3 Batch Item Statistics Query
 
 This interface is suitable for batch query business scenarios, such as: album rankings, homepage playlist list
+
+## 2. Interface Details
+
