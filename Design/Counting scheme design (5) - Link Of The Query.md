@@ -14,3 +14,5 @@ Query the corresponding collect, comment, share, stream, download and other valu
 Compared with 1.1, introduced caffeine local cache for performance optimization
 
 ### 1.3 Batch Item Statistics Query
+
+This interface is suitable for batch query business scenarios, such as: album rankings, homepage playlist list
