@@ -12,3 +12,5 @@ Query the corresponding collect, comment, share, stream, download and other valu
 > This interface is suitable for business scenarios with moderate sensitivity to statistical changes and high concurrency, such as: Embed sharing page
 
 Compared with 1.1, introduced caffeine local cache for performance optimization
+
+### 1.3 Batch Item Statistics Query
