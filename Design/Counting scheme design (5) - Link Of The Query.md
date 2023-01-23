@@ -19,3 +19,5 @@ This interface is suitable for batch query business scenarios, such as: album ra
 
 ## 2. Interface Details
 
+### 2.1 Redis Cache
+
