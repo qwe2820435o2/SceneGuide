@@ -30,3 +30,4 @@ To further optimize the performance, we use the pipeline for the Redis‘s batch
 ### 2.3 Local Cache
 
 * Under the high concurrent access of extreme hotspot data, the number of links to Redis is easily exhausted, and an exception that cannot obtain links is thrown
+* In order to deal with this situation, we introduce a local cache as an anti-hotspot data concurrent access for Redis
