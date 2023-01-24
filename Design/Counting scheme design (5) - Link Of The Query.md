@@ -26,3 +26,5 @@ In order to avoid a large number of queries directly penetrating to the Mysql da
 ### 2.2 Pipeline
 
 To further optimize the performance, we use the pipeline for the Redis‘s batch query
+
+### 2.3 Local cache
