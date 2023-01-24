@@ -27,4 +27,6 @@ In order to avoid a large number of queries directly penetrating to the Mysql da
 
 To further optimize the performance, we use the pipeline for the Redis‘s batch query
 
-### 2.3 Local cache
+### 2.3 Local Cache
+
+* Under the high concurrent access of extreme hotspot data, the number of links to Redis is easily exhausted, and an exception that cannot obtain links is thrown
