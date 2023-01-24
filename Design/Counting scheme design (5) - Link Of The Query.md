@@ -23,3 +23,4 @@ This interface is suitable for batch query business scenarios, such as: album ra
 
 In order to avoid a large number of queries directly penetrating to the Mysql database, we use Redis as a cache to enhance the anti-concurrency capability
 
+### 2.2 Pipeline
