@@ -7,3 +7,5 @@
 
 ## 2. Circuit Breaker And Downgrade
 
+* Overload protection for the interface
+
