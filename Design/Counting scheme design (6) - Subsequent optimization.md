@@ -8,4 +8,5 @@
 ## 2. Circuit Breaker And Downgrade
 
 * Overload protection for the interface
+* Isolate third-party resources with slow response
 
