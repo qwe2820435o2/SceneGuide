@@ -23,3 +23,5 @@
 ## 4. Architecture Split
 
 ### 4.1 Phase 1
+
+Statistical Counting Service Standalone
