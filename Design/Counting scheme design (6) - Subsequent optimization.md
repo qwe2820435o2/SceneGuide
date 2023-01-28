@@ -21,3 +21,5 @@
 * Business monitoring
 
 ## 4. Architecture Split
+
+### 4.1 Phase 1
