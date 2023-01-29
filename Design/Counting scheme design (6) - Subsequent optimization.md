@@ -41,3 +41,5 @@ counting-task        //Timed task related
 Improve overload protection, monitoring and preheating measures
 
 ### 4.4 The Fourth Stage
+
+Statistical and counting service service split twice, independent statistics and counting query service
