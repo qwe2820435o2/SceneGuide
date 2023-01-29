@@ -46,5 +46,5 @@ Statistical and counting service service split twice, independent statistics and
 
 ```
 counting-manage      //Provide background operations for adding, deleting, and modifying interfaces for business reasons
-
+counting-service     //Provide addition, deletion, modification and query interface operations
 ```
