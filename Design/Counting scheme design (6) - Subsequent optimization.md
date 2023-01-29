@@ -27,3 +27,5 @@
 Statistical Counting Service Standalone
 
 ### 4.2 The Second Stage
+
+Statistical counting service service split, divided into 3 aspects according to functional modules
