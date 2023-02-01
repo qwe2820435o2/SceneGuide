@@ -42,7 +42,7 @@ Caffeine: excellent local cache
 
 ## 3. Architecture design
 
-![Data collecting design](../Material/image/Data%20collecting%20design.png)
+![Data collecting design](../../Material/image/Data%20collecting%20design.png)
 
 
 
