@@ -33,3 +33,9 @@ Triggered by a specific function sent to you
 
 Such as: invite registration, follow users, start activities, Buzz likes, etc.
 ```
+
+### 3.2 Message Body
+
+
+
+
