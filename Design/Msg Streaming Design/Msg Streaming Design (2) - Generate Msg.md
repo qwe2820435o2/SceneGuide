@@ -9,3 +9,5 @@ When the upstream service performs business operations, it uniformly calls this 
 
 Messages will be stuffed into different Redis Lists according to different business types
 ```
+
+## 2. Process
