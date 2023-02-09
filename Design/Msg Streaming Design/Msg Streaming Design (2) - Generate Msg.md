@@ -25,3 +25,5 @@ F[Service: Message Handling] -- call --> I[Send to Redis]
 ```
 
 ## 3. Implementation Details
+
+### 3.1 Trigger Time
