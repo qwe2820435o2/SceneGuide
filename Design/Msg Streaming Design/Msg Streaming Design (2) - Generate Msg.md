@@ -11,3 +11,10 @@ Messages will be stuffed into different Redis Lists according to different busin
 ```
 
 ## 2. Process
+
+```mermaid
+graph LR
+A[Buzz Service] -- call --> D((RabbitMQ))
+B[OMS Service] -- call --> D((RabbitMQ))
+C[Activity Service] -- call --> D[Send RPC Service]
+```
