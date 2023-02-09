@@ -27,3 +27,9 @@ F[Service: Message Handling] -- call --> I[Send to Redis]
 ## 3. Implementation Details
 
 ### 3.1 Trigger Time
+
+```
+Triggered by a specific function sent to you
+
+Such as: invite registration, follow users, start activities, Buzz likes, etc.
+```
