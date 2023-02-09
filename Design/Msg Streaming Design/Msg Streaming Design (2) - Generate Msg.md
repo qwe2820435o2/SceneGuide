@@ -23,3 +23,5 @@ F[Service: Message Handling] -- call --> G[Data Analysis]
 F[Service: Message Handling] -- call --> H[Data Assembly]
 F[Service: Message Handling] -- call --> I[Send to Redis]
 ```
+
+## 3. Implementation Details
