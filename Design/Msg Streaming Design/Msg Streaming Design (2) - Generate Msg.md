@@ -45,7 +45,12 @@ Such as: invite registration, follow users, start activities, Buzz likes, etc.
         "imsi":"4ac123bcb615a5dc",
         "countryCode":"NG",
         "channel":"android-go"
-    }
+    },
+	"data":{
+		"msgID":2345678945643514,
+		"userId":5231792,
+		...
+	},
 }
 ```
 
