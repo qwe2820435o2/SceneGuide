@@ -36,6 +36,19 @@ Such as: invite registration, follow users, start activities, Buzz likes, etc.
 
 ### 3.2 Message Body
 
+```
+{
+    "commonParams":{
+        "refer":"xxx", //This parameter determines which message business processing queue to go
+        "sentDate":"2023-02-09 12:00:00",
+        "imei":"89fc9bcffcb84959",
+        "imsi":"4ac123bcb615a5dc",
+        "countryCode":"NG",
+        "channel":"android-go"
+    }
+}
+```
+
 
 
 
