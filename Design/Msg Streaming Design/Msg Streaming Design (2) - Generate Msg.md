@@ -56,6 +56,6 @@ Such as: invite registration, follow users, start activities, Buzz likes, etc.
 
 ### 3.3 Asynchronous Processing
 
-
+Send the message to RabbitMQ, which will be processed by consumers asynchronously and multi-threaded
 
 
