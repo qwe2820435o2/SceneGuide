@@ -14,3 +14,6 @@ Users have their own exclusive message list, specific scenarios such as: enterin
 
 Trigger the message pull operation of the user message list
 ```
+
+
+## 2. Process
