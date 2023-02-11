@@ -25,3 +25,5 @@ B[Service: Handling Msg] -- call --> C[Send To Redis]
 C --> D((Redis List))
 E(User) -- get --> D((Redis List))
 ```
+
+## 3. Details
