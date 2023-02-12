@@ -41,5 +41,7 @@ Insert the corresponding user's message into the Redis List
 ```
 The currently selected data structure for storing user messages is: Redis List
 
+However, after actual use, it is still not the best in terms of memory utilization and ease of use
+
 
 ```
