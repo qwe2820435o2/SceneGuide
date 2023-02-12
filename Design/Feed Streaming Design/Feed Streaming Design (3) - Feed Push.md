@@ -27,3 +27,4 @@ E(User) -- get --> D((Redis List))
 ```
 
 ## 3. Details
+### 3.1 Push Timing
