@@ -28,3 +28,10 @@ E(User) -- get --> D((Redis List))
 
 ## 3. Details
 ### 3.1 Push Timing
+
+```
+The scene is as follows:
+Artist's new album release, follow, comment, application private message, etc.
+
+Insert the corresponding user's message into the Redis List
+```
