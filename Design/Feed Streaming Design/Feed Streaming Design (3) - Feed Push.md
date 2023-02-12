@@ -43,5 +43,5 @@ The currently selected data structure for storing user messages is: Redis List
 
 However, after actual use, it is still not the best in terms of memory utilization and ease of use
 
-
+Regarding the selection of data structures, we will discuss in detail in Feed streaming design (5) - Subsequent Optimization
 ```
