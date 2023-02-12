@@ -37,3 +37,9 @@ Insert the corresponding user's message into the Redis List
 ```
 
 ### 3.2 Data Structure
+
+```
+The currently selected data structure for storing user messages is: Redis List
+
+
+```
