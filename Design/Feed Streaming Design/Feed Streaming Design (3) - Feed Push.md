@@ -35,3 +35,5 @@ Artist's new album release, follow, comment, application private message, etc.
 
 Insert the corresponding user's message into the Redis List
 ```
+
+### 3.2 Data Structure
