@@ -75,6 +75,38 @@ bp-template-server
 
 ```
 
+## 3. Service for Query
+
+```
+
+├─bp-template-query   External interface service
+│  ├─Startup                Project startup class
+│  ├─core                   Core module
+│  │  ├─annotation              annotation
+│  │  ├─aspect                  aspect
+│  │  ├─config                  config
+│  │  │  ├─kafka                    kafka config
+│  │  │  ├─rabbitmq                 rabbitmq config
+│  │  │  ├─redis                    redis config
+│  │  │  └─root                     basic config
+│  │  ├─exception               exception
+│  │  ├─interceptor             interceptor
+│  │  ├─mapper                  mapper
+│  │  ├─cover                   vo,dto,entity,qo cover
+│  │  ├─model                   model
+│  │  └─utils                   tools
+│  └─template               Business module
+│     ├─cache                   cache operation 
+│     ├─controller              provide app http interface
+│     ├─dubbo                   provide app rpc interface 
+│     ├─manager                     rpc interface manager operation
+│     └─service                     service operation
+└─resources                 Resource directory
+   ├─application.yml            Project configuration
+   └─logback-spring.xml         Log configuration
+
+```
+
 ├─bp-template-manager   Management background interface service
 │  ├─Startup                Project startup class
 │  ├─core                   Core module
