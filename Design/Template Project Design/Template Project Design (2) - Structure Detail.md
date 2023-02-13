@@ -143,6 +143,10 @@ bp-template-server
 
 ```
 
+## 5. Service for Asynchronous
+
+```
+
 ├─bp-template-bg   Asynchronous consumption service
 │  ├─Startup                Project startup class
 │  ├─core                   Core module
@@ -175,7 +179,7 @@ bp-template-server
    ├─application.yml            Project configuration
    └─logback-spring.xml         Log configuration
 
-
+```
 
 ├─bp-template-task   Scheduled task service
 │  ├─Startup                Project startup class
