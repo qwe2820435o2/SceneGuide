@@ -107,6 +107,10 @@ bp-template-server
 
 ```
 
+## 4. Service for Manager
+
+```
+
 ├─bp-template-manager   Management background interface service
 │  ├─Startup                Project startup class
 │  ├─core                   Core module
@@ -137,7 +141,7 @@ bp-template-server
    ├─application.yml            Project configuration
    └─logback-spring.xml         Log configuration
 
-
+```
 
 ├─bp-template-bg   Asynchronous consumption service
 │  ├─Startup                Project startup class
