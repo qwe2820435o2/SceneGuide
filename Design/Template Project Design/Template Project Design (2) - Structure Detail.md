@@ -181,6 +181,10 @@ bp-template-server
 
 ```
 
+## 6. Service for Task
+
+```
+
 ├─bp-template-task   Scheduled task service
 │  ├─Startup                Project startup class
 │  ├─core                   Core module
