@@ -19,5 +19,7 @@ System messages, user group messages, activity messages, etc.
 graph LR
 A(User)  --> B[Service: Get Msg]
 B[Service: Get Msg] -- Query Content & Cut Out MMsg --> C((Redis List))
-
+B[Service: Get Msg] -- Complete Details --> D((Local Cache))
+D((Local Cache))  --> C((Redis List))
+D((Local Cache))  --> E((MYSQL))
 ```
