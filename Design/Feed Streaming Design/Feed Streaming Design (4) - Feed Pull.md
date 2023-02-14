@@ -14,3 +14,10 @@ System messages, user group messages, activity messages, etc.
 ```
 
 ## 2. Process
+
+```mermaid
+graph LR
+A(User)  --> B[Service: Get Msg]
+B[Service: Get Msg] -- Query Content & Cut Out MMsg --> C((Redis List))
+
+```
