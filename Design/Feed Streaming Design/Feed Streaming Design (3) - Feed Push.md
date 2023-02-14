@@ -34,6 +34,13 @@ The user message scenario is as follows:
 Artist's new album release, follow, comment, application private message, etc.
 
 Insert the corresponding user's message into the Redis List
+
+
+
+The system message scenarios are as follows:
+The World Cup event has started and the latest version of the App has been released
+
+Insert system messages into the corresponding Redis List by country
 ```
 
 ### 3.2 Data Structure
