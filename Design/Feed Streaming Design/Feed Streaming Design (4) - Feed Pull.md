@@ -27,3 +27,15 @@ D((Local Cache))  --> E((MYSQL))
 ## 3. Details
 
 ### 3.1 General Parameter
+
+**REQ:**
+
+```
+userId				// User ID
+imei				// Equipment Identity
+imsi				// Equipment Identity
+countryCode			// Country Code	
+channel				// channel	
+maxUserMsgId		// The maximum msgId of the current user message
+maxDeviceMsgId		// The maximum msgId of the current device message
+```
