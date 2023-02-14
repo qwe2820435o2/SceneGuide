@@ -12,3 +12,5 @@ If the amount of data here is not large, you can introduce local cache to optimi
 The scene is as follows:
 System messages, user group messages, activity messages, etc.
 ```
+
+## 2. Process
