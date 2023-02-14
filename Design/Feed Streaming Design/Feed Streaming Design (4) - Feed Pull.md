@@ -23,3 +23,5 @@ B[Service: Get Msg] -- Complete Details --> D((Local Cache))
 D((Local Cache))  --> C((Redis List))
 D((Local Cache))  --> E((MYSQL))
 ```
+
+## 3. Details
