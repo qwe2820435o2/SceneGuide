@@ -25,3 +25,5 @@ D((Local Cache))  --> E((MYSQL))
 ```
 
 ## 3. Details
+
+### 3.1 General Parameter
