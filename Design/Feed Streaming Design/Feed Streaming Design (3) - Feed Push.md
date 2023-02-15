@@ -18,13 +18,9 @@ Trigger the message pull operation of the user message list
 
 ## 2. Process
 
-```mermaid
-graph LR
-A((RabbitMQ Queue)) -- consume --> B[Service: Handling Msg]
-B[Service: Handling Msg] -- call --> C[Send To Redis]
-C --> D((Redis List))
-E(User) -- get --> D((Redis List))
-```
+
+
+![Feed Streaming Design (3) - Process](../../Material/image/Feed%20Streaming%20Design%20(3)%20-%20Process.png)
 
 ## 3. Details
 ### 3.1 Push Timing
