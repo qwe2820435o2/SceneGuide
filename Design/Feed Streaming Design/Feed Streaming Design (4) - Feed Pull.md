@@ -57,3 +57,10 @@ List<PullMessage> msgList
 ```
 
 ### 3.3 Get User Information
+
+```mermaid
+graph LR
+A[get maxUserMsgId from Redis] --> B[get user message from Redis]
+B[get user messages from Redis] --> C[filter read messages based on maxUserMsgId]
+
+```
