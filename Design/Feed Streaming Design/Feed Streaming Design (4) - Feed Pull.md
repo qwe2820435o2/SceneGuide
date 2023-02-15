@@ -55,3 +55,5 @@ List<PullMessage> msgList
 	userId						// User Id
 	content						// Message Content
 ```
+
+### 3.3 Get User Information
