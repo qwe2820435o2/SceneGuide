@@ -51,20 +51,11 @@ List<PullMessage> msgList
 
 ### 3.3 Get User Information
 
-```mermaid
-graph LR
-A[get maxUserMsgId from Redis] --> B[get user message from Redis]
-B[get user messages from Redis] --> C[filter read messages based on maxUserMsgId]
-C[Filter read messages based on maxUserMsgId] --> D[Complete complete messages based on entity Id]
-D[Complete the complete message according to the entity Id] --> E[Update maxUserMsgId & return]
-```
+
+
+![Feed Streaming Design (4) - Get User Information](../../Material/image/Feed%20Streaming%20Design%20(4)%20-%20Get%20User%20Information.png)
 
 ### 3.3 Get System Information
 
-```mermaid
-graph LR
-A[Get maxDeviceMsgId from Redis] --> B[Get device information from Redis according to imei&country]
-B[get device messages from Redis according to imei&country] --> C[filter read messages according to maxDeviceMsgId]
-C[Filter read messages based on maxDeviceMsgId] --> D[Complete complete messages based on entity Id]
-D[Complete the complete message according to the entity Id] --> E[Update maxDeviceMsgId & return]
-```
+
+![Feed Streaming Design (4) - Get User Information](../../Material/image/Feed%20Streaming%20Design%20(4)%20-%20Get%20User%20Information.png)
