@@ -65,3 +65,5 @@ B[get user messages from Redis] --> C[filter read messages based on maxUserMsgId
 C[Filter read messages based on maxUserMsgId] --> D[Complete complete messages based on entity Id]
 D[Complete the complete message according to the entity Id] --> E[Update maxUserMsgId & return]
 ```
+
+### 3.3 Get System Information
