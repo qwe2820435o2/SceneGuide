@@ -39,3 +39,5 @@ channel				// channel
 maxUserMsgId		// The maximum msgId of the current user message
 maxDeviceMsgId		// The maximum msgId of the current device message
 ```
+
+### 3.2 General Response
