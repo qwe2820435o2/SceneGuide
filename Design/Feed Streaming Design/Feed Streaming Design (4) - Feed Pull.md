@@ -67,3 +67,10 @@ D[Complete the complete message according to the entity Id] --> E[Update maxUser
 ```
 
 ### 3.3 Get System Information
+
+```mermaid
+graph LR
+A[Get maxDeviceMsgId from Redis] --> B[Get device information from Redis according to imei&country]
+B[get device messages from Redis according to imei&country] --> C[filter read messages according to maxDeviceMsgId]
+
+```
