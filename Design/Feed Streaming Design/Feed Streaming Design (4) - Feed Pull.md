@@ -72,5 +72,6 @@ D[Complete the complete message according to the entity Id] --> E[Update maxUser
 graph LR
 A[Get maxDeviceMsgId from Redis] --> B[Get device information from Redis according to imei&country]
 B[get device messages from Redis according to imei&country] --> C[filter read messages according to maxDeviceMsgId]
-
+C[Filter read messages based on maxDeviceMsgId] --> D[Complete complete messages based on entity Id]
+D[Complete the complete message according to the entity Id] --> E[Update maxDeviceMsgId & return]
 ```
