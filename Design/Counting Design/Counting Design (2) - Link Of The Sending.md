@@ -60,8 +60,4 @@ enum FieldTypeEnum
 ## 3. Asynchronous Processing
 > Decoupling using message queues
 
-```mermaid
-graph LR
-A[Service A: Function Trigger] -- send --> B((RabbitMQ))
-B -- Comsume --> C[Service B: Counting]
-```
+![Counting Design (2) - Asynchronous Processing](../../Material/image/Counting%20Design%20(2)%20-%20Asynchronous%20Processing.png)
