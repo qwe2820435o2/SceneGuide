@@ -15,14 +15,7 @@ System messages, user group messages, activity messages, etc.
 
 ## 2. Process
 
-```mermaid
-graph LR
-A(User)  --> B[Service: Get Msg]
-B[Service: Get Msg] -- Query Content & Cut Out MMsg --> C((Redis List))
-B[Service: Get Msg] -- Complete Details --> D((Local Cache))
-D((Local Cache))  --> C((Redis List))
-D((Local Cache))  --> E((MYSQL))
-```
+![Feed Streaming Design (4) - Process](../../Material/image/Feed%20Streaming%20Design%20(4)%20-%20Process.png)
 
 ## 3. Details
 
