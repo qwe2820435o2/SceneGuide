@@ -35,7 +35,7 @@ userId				// User ID
 imei				// Equipment Identity
 imsi				// Equipment Identity
 countryCode			// Country Code	
-channel				// channel	
+channel				// Channel	
 maxUserMsgId		// The maximum msgId of the current user message
 maxDeviceMsgId		// The maximum msgId of the current device message
 ```
@@ -48,5 +48,10 @@ maxDeviceMsgId		// The maximum msgId of the current device message
 maxUserMsgId					// The maximum msgId of the current user message	
 maxDeviceMsgId					// The maximum msgId of the current device message
 
-
+List<PullMessage> msgList
+	msgId						// Message Id	
+	msgType						// Message Type
+	timestamp					// timestamp
+	userId						// User Id
+	content						// Message Content
 ```
