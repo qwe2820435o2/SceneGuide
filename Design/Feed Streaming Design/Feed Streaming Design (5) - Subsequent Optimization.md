@@ -15,3 +15,4 @@
 
 * Dubbo thread pool
 * Tomcat thread pool
+* JVM monitoring
