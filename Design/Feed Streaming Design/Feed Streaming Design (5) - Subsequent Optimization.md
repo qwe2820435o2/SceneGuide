@@ -18,3 +18,4 @@
 * JVM monitoring
 * Caffeine cache usage and hit rate monitoring
 * Redis connection pool
+* Business monitoring
