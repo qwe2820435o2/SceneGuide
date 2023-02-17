@@ -16,3 +16,4 @@
 * Dubbo thread pool
 * Tomcat thread pool
 * JVM monitoring
+* Caffeine cache usage and hit rate monitoring
