@@ -6,3 +6,5 @@
 * Try to use asynchronous preheating for preheating, you can use message queues, which can be asynchronous and take into account performance
 
 ## 2. Introduce Circuit Breaker Downgrade
+
+* Overload protection for the interface
