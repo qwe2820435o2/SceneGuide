@@ -8,3 +8,4 @@
 ## 2. Introduce Circuit Breaker Downgrade
 
 * Overload protection for the interface
+* Isolate third-party resources with slow response
