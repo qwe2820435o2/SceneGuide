@@ -36,4 +36,6 @@ The RPC interface internally sends to MQ for asynchronous processing, and then d
 
 ### 5.1 Business Use
 
+**Old Logic:**
+
 ![Feed Streaming Design (5) - Business Use](../../Material/image/Feed%20Streaming%20Design%20(5)%20-%20Business%20Use.png)
