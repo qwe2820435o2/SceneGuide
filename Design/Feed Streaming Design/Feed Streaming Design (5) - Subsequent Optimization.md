@@ -33,3 +33,5 @@ The RPC interface internally sends to MQ for asynchronous processing, and then d
 
 ## 5. Data Structure Optimization
 > The message storage structure in Redis is List, but the actual experience is not satisfactory
+
+### 5.1 Business Use
