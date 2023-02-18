@@ -43,3 +43,15 @@ The RPC interface internally sends to MQ for asynchronous processing, and then d
 **Shortcoming:**
 1. Need to check and save
 2. It takes extra time to traverse
+
+**New Data Structure:**
+
+```
+Reids -> zset
+
+key -> xxx:{userId}
+field -> timestamp
+value -> msg content
+
+
+```
