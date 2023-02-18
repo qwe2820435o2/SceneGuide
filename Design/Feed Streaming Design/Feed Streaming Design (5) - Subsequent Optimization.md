@@ -22,3 +22,11 @@
 
 ## 4. Asynchronization
 > The RPC interface for sending messages provided externally, the encapsulation level needs to be further improved
+
+```
+Asynchronization is to further optimize interface performance
+
+The business of sending messages can be completely asynchronous, and there is no need to perform operations such as plugging and cutting messages in the synchronous call interface
+
+The RPC interface internally sends to MQ for asynchronous processing, and then directly returns success information
+```
