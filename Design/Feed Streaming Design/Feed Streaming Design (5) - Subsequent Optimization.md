@@ -30,3 +30,5 @@ The business of sending messages can be completely asynchronous, and there is no
 
 The RPC interface internally sends to MQ for asynchronous processing, and then directly returns success information
 ```
+
+## 5. Data Structure Optimization
