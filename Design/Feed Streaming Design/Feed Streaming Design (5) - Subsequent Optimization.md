@@ -39,3 +39,7 @@ The RPC interface internally sends to MQ for asynchronous processing, and then d
 **Old Logic:**
 
 ![Feed Streaming Design (5) - Business Use](../../Material/image/Feed%20Streaming%20Design%20(5)%20-%20Business%20Use.png)
+
+**Shortcoming:**
+1. Need to check and save
+2. It takes extra time to traverse
