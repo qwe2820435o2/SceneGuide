@@ -54,10 +54,6 @@ field -> timestamp
 value -> msg content
 
 Using this data structure is not only convenient for query and cutting, but also saves traversal time
-
-And most importantly, save memory
-
-Previously, 200 messages of users were maintained in the List, but more than 80 of the 200 messages were from half a year ago, which is meaningless storage
-
-After using Zset, we can crop according to the timestamp, which greatly reduces the amount of messages that need to be maintained
 ```
+
+### 5.2 Memory Consumption
