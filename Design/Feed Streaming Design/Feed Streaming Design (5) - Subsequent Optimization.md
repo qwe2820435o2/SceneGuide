@@ -21,3 +21,4 @@
 * Business monitoring
 
 ## 4. Asynchronization
+> The RPC interface for sending messages provided externally, the encapsulation level needs to be further improved
