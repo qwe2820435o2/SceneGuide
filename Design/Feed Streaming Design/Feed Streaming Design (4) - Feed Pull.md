@@ -57,5 +57,6 @@ List<PullMessage> msgList
 
 ### 3.4 Get System Information
 
+**Old Logic:**
 
 ![Feed Streaming Design (4) - Get System Information](../../Material/image/Feed%20Streaming%20Design%20(4)%20-%20Get%20System%20Information.png)
