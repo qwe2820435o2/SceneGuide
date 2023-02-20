@@ -18,10 +18,10 @@
 * JVM monitoring
 * Caffeine cache usage and hit rate monitoring
 * Redis connection pool
-* Business monitoring
+* Business Monitoring
 
 ## 4. Asynchronization
-> The RPC interface for sending messages provided externally, the encapsulation level needs to be further improved
+> The RPC interface for sending messages is provided externally, and the encapsulation level needs to be further improved
 
 ```
 Asynchronization is to further optimize interface performance
