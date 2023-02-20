@@ -53,7 +53,7 @@ key -> xxx:{userId}
 field -> timestamp
 value -> msg content
 
-Using this data structure is not only convenient for query and cutting, but also saves traversal time
+Using this data structure is not only convenient for query and cutting but also saves traversal time
 ```
 
 ### 5.2 Memory Consumption
