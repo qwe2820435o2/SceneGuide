@@ -5,3 +5,5 @@
 
 ## 2. Synchronize Stock Data
 
+
+## 3. Synchronize Incremental Data
