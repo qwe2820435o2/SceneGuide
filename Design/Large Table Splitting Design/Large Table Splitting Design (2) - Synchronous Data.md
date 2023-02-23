@@ -16,3 +16,4 @@ Complete data consists of stock and incremental data
 ## 3. Synchronize Incremental Data
 
 * Cancel is used to monitor binlog logs and it send message to Kafka
+* Consuming Kafka messages is equivalent to completing the synchronization of incremental data
