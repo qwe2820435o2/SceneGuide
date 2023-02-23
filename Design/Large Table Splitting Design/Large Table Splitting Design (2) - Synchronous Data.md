@@ -11,6 +11,6 @@ Complete data consists of stock and incremental data
 ## 2. Synchronize Stock Data
 
 * Xtrabackup is used to generate data snapshots to new tables
-
+* The current data offset is recorded in preparation for incremental synchronization
 
 ## 3. Synchronize Incremental Data

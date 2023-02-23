@@ -6,11 +6,6 @@
 ![Large table splitting smooth migration steps](../../Material/image/Large%20table%20splitting%20smooth%20migration%20steps%20—%20Whole%20Process.png)
 
 ## Detail
-### Stock data migration
-
-* Xtrabackup is used to generate data snapshots to new tables
-
-* The current data offset is recorded in preparation for incremental synchronization
 
 ### Incremental data migration
 
