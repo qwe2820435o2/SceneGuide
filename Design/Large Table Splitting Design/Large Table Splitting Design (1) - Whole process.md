@@ -4,7 +4,8 @@
 > Before we start, let's consider these questions
 
 ```
-1. 
+1. How to synchronize stock data of old table to new table?
+
 
 ```
 
