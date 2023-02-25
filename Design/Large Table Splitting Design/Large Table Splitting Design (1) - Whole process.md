@@ -5,7 +5,7 @@
 
 ```
 1. How to synchronize stock data of old table to new table?
-
+2. How to confirm that the data is complete?
 
 ```
 
