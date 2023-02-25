@@ -1,6 +1,12 @@
 # Large table splitting smooth migration steps
 
 ## 1. Question
+> Before we start, let's consider these questions
+
+```
+1. 
+
+```
 
 ## 2. Whole process
 > The overall process is divided into 4 steps.As follows:
