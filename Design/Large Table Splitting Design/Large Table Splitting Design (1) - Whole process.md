@@ -7,6 +7,7 @@
 1. How to synchronize stock data of old table to new table?
 2. How to confirm that the data is complete?
 3. How to design a stable plan to swith to new table?
+4. How to confirm that the fields of old table were not being uesd?
 
 ```
 
