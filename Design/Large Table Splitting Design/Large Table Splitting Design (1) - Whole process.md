@@ -15,15 +15,3 @@
 > The overall process is divided into 4 steps.As follows:
 
 ![Large table splitting smooth migration steps](../../Material/image/Large%20table%20splitting%20smooth%20migration%20steps%20—%20Whole%20Process.png)
-
-## Detail
-
-### Program query switch
-> Prepare for emergency failback with configuration center setup switches
-
-Step by step switch to new lookup table according to business priority
-
-### Verify that queries are all toggled
-> Monitor the sql statement to know whether all businesses are quering the new table
-
-sql monitoring for tables
