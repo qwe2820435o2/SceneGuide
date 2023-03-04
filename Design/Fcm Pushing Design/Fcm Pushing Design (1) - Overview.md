@@ -10,3 +10,5 @@ We usually push news about popular events and new albums to users, all of which 
 
 1. Send To A Device Group
 2. Send To Topic
+
+### 1. Send To A Device Group
