@@ -5,3 +5,5 @@ FCM is a cross-platform messaging solution from google that allows us to reliabl
 
 We usually push news about popular events and new albums to users, all of which require the use of FCM
 ```
+
+**There are two ways to push FCM：**
