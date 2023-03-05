@@ -13,6 +13,9 @@ We usually push news about popular events and new albums to users, all of which 
 
 ### 1. Send To A Device Group
 **Pros：**
+```
+The sending result of each batch of tokens can be obtained, which is convenient for statistical analysis
+```
 
 
 **Cons：**
