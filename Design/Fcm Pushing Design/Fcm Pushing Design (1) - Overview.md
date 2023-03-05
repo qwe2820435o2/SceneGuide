@@ -21,7 +21,7 @@ The sending result of each batch of tokens can be obtained, which is convenient 
 **Cons：**
 ```
 1. Each batch can only process 500 tokens
-
+2. We need to assume the responsibility of pushing, which will consume more resources
 ```
 
 
