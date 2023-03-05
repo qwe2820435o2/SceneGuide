@@ -34,3 +34,6 @@ There is no need to assume the push responsibility, just need to maintain the re
 
 
 **Cons：**
+```
+It is impossible to know the specific situation of the push, that is, it is impossible to analyze the arrival rate, push rate and other indicators
+```
