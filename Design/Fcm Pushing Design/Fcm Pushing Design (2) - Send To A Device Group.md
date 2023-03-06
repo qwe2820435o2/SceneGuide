@@ -16,6 +16,7 @@ In the past we used Impala
 
 But Impala's query performance is terrible
 
+We've been actively looking for alternatives until we met Clickhourse
 ```
 
 
