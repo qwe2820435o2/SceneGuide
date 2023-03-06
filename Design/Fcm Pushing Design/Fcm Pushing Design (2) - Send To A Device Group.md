@@ -5,3 +5,4 @@
 
 
 ## 2. Optimize Direction
+### 2.1 Data Query
