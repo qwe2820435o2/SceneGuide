@@ -27,3 +27,7 @@
 ### 2.2 Data Sending
 
 #### 2.2.1 Adjust Single Batch Quantity
+
+
+
+#### 2.2.2 Multithreading And Concurrency
