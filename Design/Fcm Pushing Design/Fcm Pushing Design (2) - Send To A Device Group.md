@@ -5,4 +5,7 @@
 
 
 ## 2. Optimize Direction
+
 ### 2.1 Data Query
+
+#### 2.1.1 Storage and Efficiency
