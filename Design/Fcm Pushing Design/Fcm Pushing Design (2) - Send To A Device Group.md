@@ -3,6 +3,7 @@
 
 ## 1. Sending Process
 
+![Fcm Pushing Design (2) - Process](../../Material/image/Fcm%20Pushing%20Design%20(2)%20-%20Process.png)
 
 ## 2. Optimize Direction
 
