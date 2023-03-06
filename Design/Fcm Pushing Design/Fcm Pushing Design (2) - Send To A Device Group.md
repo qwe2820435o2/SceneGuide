@@ -11,6 +11,13 @@
 
 #### 2.1.1 Storage and Efficiency
 
+```
+In the past we used Impala
+
+
+
+```
+
 
 
 #### 2.1.2 Multithreading and Concurrency
