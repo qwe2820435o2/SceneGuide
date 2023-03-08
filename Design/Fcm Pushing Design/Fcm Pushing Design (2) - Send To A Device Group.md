@@ -21,6 +21,7 @@ But Impala's query performance is terrible
 We've been actively looking for alternatives until we met Clickhourse
 ```
 
+**Current：**
 
 
 #### 2.1.2 Multithreading and Concurrency
