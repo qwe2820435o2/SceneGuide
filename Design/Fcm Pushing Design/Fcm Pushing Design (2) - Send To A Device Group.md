@@ -23,6 +23,12 @@ We've been actively looking for alternatives until we met Clickhourse
 
 **Current：**
 
+```
+After research and comparison, we chose ClickHouse
+
+
+```
+
 
 #### 2.1.2 Multithreading and Concurrency
 
