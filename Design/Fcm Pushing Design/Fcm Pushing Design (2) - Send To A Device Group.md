@@ -11,6 +11,8 @@
 
 #### 2.1.1 Storage and Efficiency
 
+**Past：**
+
 ```
 In the past we used Impala
 
