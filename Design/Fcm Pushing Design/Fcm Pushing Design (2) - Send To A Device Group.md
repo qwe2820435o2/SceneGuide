@@ -26,7 +26,7 @@ We've been actively looking for alternatives until we met Clickhourse
 ```
 After research and comparison, we chose ClickHouse
 
-
+ClickHouse is columnar storage, we can query Device's Token faster
 ```
 
 
