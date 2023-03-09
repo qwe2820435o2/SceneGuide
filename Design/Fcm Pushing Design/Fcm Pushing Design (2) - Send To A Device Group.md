@@ -61,7 +61,7 @@ Currently analyzing business, data blocks can be divided according to the two di
 Optimization Method:
 1. Combining the two dimensions of version and country into tables
 2. The Fcm service assembles the table name according to these two dimensions, and directly query the specified table
-
+3. The original single-table offset becomes each sub-table has its own offset
 ```
 
 
