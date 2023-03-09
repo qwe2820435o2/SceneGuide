@@ -55,6 +55,12 @@ Cons: May charge a small fee
 
 #### 2.1.4 Splitting Large Table
 
+```
+Currently analyzing business, data blocks can be divided according to the two dimensions of version and country
+
+
+```
+
 
 
 ### 2.2 Data Sending
