@@ -64,6 +64,7 @@ Optimization Method:
 3. The original single-table offset becomes each sub-table has its own offset
 
 Advantages: There will be much less data in a single table, and the query efficiency will be higher
+Disadvantages: The implementation method is more complicated and needs further verification
 ```
 
 
