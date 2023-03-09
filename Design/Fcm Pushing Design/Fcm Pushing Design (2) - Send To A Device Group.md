@@ -48,6 +48,7 @@ We link to Clickhouse using a local domain name
 Query tasks will be evenly load-balanced to multiple Clickhouse nodes to avoid the problem of excessive pressure on a single point
 
 Advantages: load balancing, can cope with changes
+Cons: May charge a small fee
 ```
 
 
