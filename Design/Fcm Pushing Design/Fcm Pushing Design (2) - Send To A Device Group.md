@@ -30,7 +30,7 @@ ClickHouse is columnar storage, we can query Device's Token faster
 ```
 
 
-#### 2.1.2 Multithreading and Concurrency
+#### 2.1.2 Multithreading
 
 
 
@@ -48,4 +48,4 @@ ClickHouse is columnar storage, we can query Device's Token faster
 
 
 
-#### 2.2.2 Multithreading And Concurrency
+#### 2.2.2 Multithreading
