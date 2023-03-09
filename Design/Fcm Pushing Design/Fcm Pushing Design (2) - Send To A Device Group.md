@@ -62,6 +62,8 @@ Optimization Method:
 1. Combining the two dimensions of version and country into tables
 2. The Fcm service assembles the table name according to these two dimensions, and directly query the specified table
 3. The original single-table offset becomes each sub-table has its own offset
+
+Advantages: There will be much less data in a single table, and the query efficiency will be higher
 ```
 
 
