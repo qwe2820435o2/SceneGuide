@@ -73,6 +73,11 @@ Disadvantages: The implementation method is more complicated and needs further v
 
 #### 2.2.1 Adjust Single Batch Quantity
 
+```
+It is written in the official Google document that the maximum single sending amount of the API is 500/batch
+
+
+```
 
 
 #### 2.2.2 Multithreading
