@@ -45,7 +45,7 @@ Send the found data to the message queue in batches
 ```
 We link to Clickhouse using a local domain name
 
-
+Query tasks will be evenly load-balanced to multiple Clickhouse nodes to avoid the problem of excessive pressure on a single point
 ```
 
 
