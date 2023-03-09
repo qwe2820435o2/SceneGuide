@@ -42,6 +42,12 @@ Send the found data to the message queue in batches
 
 #### 2.1.3 Load Balancing
 
+```
+We link to Clickhouse using a local domain name
+
+
+```
+
 
 
 #### 2.1.4 Splitting Large Table
