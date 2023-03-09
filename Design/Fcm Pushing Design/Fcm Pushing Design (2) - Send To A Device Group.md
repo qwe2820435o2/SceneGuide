@@ -58,6 +58,8 @@ Cons: May charge a small fee
 ```
 Currently analyzing business, data blocks can be divided according to the two dimensions of version and country
 
+Optimization Method:
+1. Combining the two dimensions of version and country into tables
 
 ```
 
