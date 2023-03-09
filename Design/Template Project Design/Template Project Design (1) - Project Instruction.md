@@ -24,6 +24,7 @@ bp-template-service     (required)             External interface service
 bp-template-manager     (optional)             Management background interface service
 bp-template-bg          (optional)             Asynchronous consumption service
 bp-template-task        (optional)             Scheduled task service
+bp-template-callback    (optional)             Third-party provider callback service
 
 
 ```
