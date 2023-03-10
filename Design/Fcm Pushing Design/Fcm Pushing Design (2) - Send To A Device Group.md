@@ -85,5 +85,5 @@ Therefore, we can adjust the maximum single sending amount to the maximum
 ```
 Open multiple consumer threads to consume messages
 
-
+Open the internal queue in the consumer thread for concurrent processing, further improving resource utilization
 ```
