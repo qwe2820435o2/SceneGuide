@@ -81,3 +81,9 @@ Therefore, we can adjust the maximum single sending amount to the maximum
 
 
 #### 2.2.2 Multithreading
+
+```
+Open multiple consumer threads to consume messages
+
+
+```
