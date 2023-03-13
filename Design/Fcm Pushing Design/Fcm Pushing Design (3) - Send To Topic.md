@@ -9,4 +9,6 @@
 
 ### 1.2 Sending The Data Of Topics
 
+![Fcm Pushing Design (3) - Sending The Data Of Topics](../../Material/image/Fcm%20Pushing%20Design%20(3)%20-%20Sending%20The%20Data%20Of%20Topics.png)
+
 ## 2. Optimize Direction
