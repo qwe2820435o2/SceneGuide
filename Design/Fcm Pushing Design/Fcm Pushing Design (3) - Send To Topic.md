@@ -14,3 +14,7 @@
 ## 2. Optimize Direction
 
 ### 2.1 Data Query
+
+```
+Same as Data Query in FCM Pushing Design (3) - Send To A Device Group.md
+```
