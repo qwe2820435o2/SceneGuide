@@ -29,5 +29,5 @@ Batch binding Topic in the consumption logic, the maximum size can support a bat
 
 ```
 In order to reduce ineffective and repetitive waste of resources, we must focus on two aspects
-
+1. Multi-dimensional subdivision of topics, such as: client version, country, preferred music style, etc.
 ```
