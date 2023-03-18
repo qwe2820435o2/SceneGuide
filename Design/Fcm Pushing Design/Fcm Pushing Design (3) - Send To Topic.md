@@ -26,3 +26,8 @@ Batch binding Topic in the consumption logic, the maximum size can support a bat
 ```
 
 ### 2.3 Splite Topic
+
+```
+In order to reduce ineffective and repetitive waste of resources, we must focus on two aspects
+
+```
