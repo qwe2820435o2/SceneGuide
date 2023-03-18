@@ -18,3 +18,5 @@
 ```
 Same as Data Query in FCM Pushing Design (3) - Send To A Device Group.md
 ```
+
+### 2.2 Bind Topic
