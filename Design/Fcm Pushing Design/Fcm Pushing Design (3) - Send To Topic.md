@@ -24,3 +24,5 @@ Same as Data Query in FCM Pushing Design (3) - Send To A Device Group.md
 ```
 Batch binding Topic in the consumption logic, the maximum size can support a batch of 1000
 ```
+
+### 2.3 Splite Topic
