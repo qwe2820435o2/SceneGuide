@@ -77,7 +77,7 @@ Disadvantages: The implementation method is more complicated and needs further v
 ```
 It is written in the official Google document that the maximum single sending amount of the API is 500/batch
 
-Therefore, we can adjust the maximum single sending amount to the maximum
+Therefore, we can adjust the maximum single-sending amount to the maximum
 ```
 
 
