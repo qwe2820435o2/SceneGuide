@@ -25,10 +25,10 @@ Same as Data Query in FCM Pushing Design (3) - Send To A Device Group.md
 Batch binding Topic in the consumption logic, the maximum size can support a batch of 1000
 ```
 
-### 2.3 Splite Topic
+### 2.3 Split Topic
 
 ```
-In order to reduce ineffective and repetitive waste of resources, we must focus on two aspects
-1. Multi-dimensional subdivision of topics, such as: client version, country, preferred music style, etc.
+To reduce ineffective and repetitive waste of resources, we must focus on two aspects
+1. Multi-dimensional subdivision of topics, such as client version, country, preferred music style, etc.
 2. Try to ensure that there is no duplication between users bound to each Topic
 ```
