@@ -33,7 +33,7 @@ ClickHouse is columnar storage, we can query Device's Token faster
 #### 2.1.2 Multithreading
 
 ```
-Open the thread pool and assign a thread to each task for Clickhouse query
+Open the thread pool and assign a thread to each task for the Clickhouse  query
 
 Send the found data to the message queue in batches
 ```
