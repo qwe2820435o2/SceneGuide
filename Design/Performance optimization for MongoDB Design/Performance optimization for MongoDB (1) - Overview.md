@@ -12,3 +12,4 @@ Frequent CPU alarms were reported by the MongoDB server, indicating that its per
 
 1. No account and password are set up, you can directly connect
 2. MongoDB version is too low
+3. Too few shards
