@@ -8,3 +8,4 @@ Frequent CPU alarms were reported by the MongoDB server, indicating that its per
 
 
 ## 2. Existing Problems
+> These performance-affecting issues are waiting for us to solve
