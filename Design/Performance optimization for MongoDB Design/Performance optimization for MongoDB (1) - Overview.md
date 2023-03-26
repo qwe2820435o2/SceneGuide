@@ -16,3 +16,4 @@ Frequent CPU alarms were reported by the MongoDB server, indicating that its per
 4. Underutilized SECONDARY node
 5. Unarchiving historical cold data
 6. The shard key is unreasonable, resulting in too many jumbo chunks
+7. Improper use of statements, there are slow commands
