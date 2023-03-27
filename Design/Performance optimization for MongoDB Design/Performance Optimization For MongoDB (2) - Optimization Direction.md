@@ -6,5 +6,7 @@
 
 ## 3. Shard Key
 
+## 4. Secondary Node
+
 
 
