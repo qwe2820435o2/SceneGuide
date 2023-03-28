@@ -8,6 +8,10 @@ Therefore, this time we need to improve the authentication mechanism and add per
 ```
 
 ## 2. Version
+```
+We are currently using version 3.X
+```
+
 
 ## 3. Shard Key
 
