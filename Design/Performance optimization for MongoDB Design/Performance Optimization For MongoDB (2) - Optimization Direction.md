@@ -15,6 +15,7 @@ Plan to upgrade to version 4.4 or 5.0
 
 There are many benefits of upgrading, such as:
 1. Support new features and functions
+2. The underlying implementation has been optimized to reduce the impact of lock conflicts and enhance query efficiency
 ```
 
 
