@@ -4,7 +4,7 @@
 ```
 Due to historical reasons, authority authentication was not configured before, and there are certain security risks
 
-
+Therefore, this time we need to improve the authentication mechanism and add permission control
 ```
 
 ## 2. Version
