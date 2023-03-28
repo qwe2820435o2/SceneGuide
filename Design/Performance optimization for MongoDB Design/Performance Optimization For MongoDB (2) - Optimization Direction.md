@@ -12,6 +12,8 @@ Therefore, this time we need to improve the authentication mechanism and add per
 We are currently using version 3.X
 
 Plan to upgrade to version 4.4 or 5.0
+
+There are many benefits of upgrading, such as:
 ```
 
 
