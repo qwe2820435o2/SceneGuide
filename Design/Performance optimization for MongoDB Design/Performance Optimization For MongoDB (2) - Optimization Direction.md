@@ -22,6 +22,8 @@ There are many benefits of upgrading, such as:
 ## 3. Shard Key
 ```
 The selection of individual Collection shard keys is unreasonable, resulting in a sharp increase in CPU utilization when query operations are concurrently high
+
+In view of such a situation, it is necessary to conduct a comprehensive evaluation based on business characteristics and query characteristics, and select a more reasonable sharding key
 ```
 
 ## 4. Secondary Node
