@@ -29,6 +29,8 @@ In view of such a situation, it is necessary to conduct a comprehensive evaluati
 ## 4. Secondary Node
 ```
 In the past, the role of the Secondary Node was as a redundant copy, which was not utilized, which was actually a waste of resources.
+
+Now, we plan to separate read and write, make full use of the Secondary Node, add, delete and modify operations on the master node, and query operations on the slave node
 ```
 
 ## 5. Historical Data
