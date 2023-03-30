@@ -27,6 +27,9 @@ In view of such a situation, it is necessary to conduct a comprehensive evaluati
 ```
 
 ## 4. Secondary Node
+```
+In the past, the role of the Secondary Node was as a redundant copy, which was not utilized, which was actually a waste of resources.
+```
 
 ## 5. Historical Data
 
