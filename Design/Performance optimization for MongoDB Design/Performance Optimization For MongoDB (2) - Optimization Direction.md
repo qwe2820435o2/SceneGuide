@@ -36,6 +36,8 @@ Now, we plan to separate read and write, make full use of the Secondary Node, ad
 ## 5. Historical Data
 ```
 Some of the data we store in MongoDB is associated with the timeline
+
+For example: Feed Streaming related
 ```
 
 ## 6. Slow Queries
