@@ -40,6 +40,8 @@ Some of the data we store in MongoDB is associated with the timeline
 For example: Feed Streaming related
 
 From a business point of view, we only need to maintain the data of the last half year, because users will only pay attention to the news of the last half year
+
+We can put the data out of timeliness on AWS S3 for backup
 ```
 
 ## 6. Slow Queries
