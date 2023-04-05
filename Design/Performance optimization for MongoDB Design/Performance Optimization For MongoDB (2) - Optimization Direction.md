@@ -48,5 +48,6 @@ We can put the data out of timeliness on AWS S3 for backup
 ```
 We use a lot of MongoDB services, some unfriendly use will also lead to slow query, slow query will cause the CPU to soar and affect the performance of the interface
 
-
+For example:
+Pagination query: increase the sort_id field, bring the last _id record of the previous page each time you query, replace skip with gt or lt to reduce the number of scanned documents
 ```
