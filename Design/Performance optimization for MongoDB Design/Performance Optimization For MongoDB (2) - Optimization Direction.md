@@ -45,4 +45,8 @@ We can put the data out of timeliness on AWS S3 for backup
 ```
 
 ## 6. Slow Queries
+```
+We use a lot of MongoDB services, some unfriendly use will also lead to slow query, slow query will cause the CPU to soar and affect the performance of the interface
 
+
+```
