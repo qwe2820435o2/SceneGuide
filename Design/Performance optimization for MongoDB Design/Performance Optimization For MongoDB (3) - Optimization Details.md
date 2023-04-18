@@ -13,3 +13,6 @@ mongodb://{ip}:{port}/{database}?connectTimeoutMS=4000&serverSelectionTimeoutMS=
 ```
 mongodb://{username}:{passport}@{ip}:{port}/{database}?connectTimeoutMS=4000&serverSelectionTimeoutMS=5000&minConnectionsPerHost=50&connectionsPerHost=100&readPreference=secondaryPreferred
 ```
+
+
+Focusing on {username}, {passport} and readPreference, we use that properties to improve security and performance of queries
