@@ -16,3 +16,5 @@ mongodb://{username}:{passport}@{ip}:{port}/{database}?connectTimeoutMS=4000&ser
 
 
 Focusing on {username}, {passport} and readPreference, we use that properties to improve security and performance of queries
+
+## 2. Version
