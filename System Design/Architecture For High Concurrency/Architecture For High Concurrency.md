@@ -25,3 +25,6 @@ Our monthly active users are more than 100 million
 ```
 
 **4. What does the system do?**
+```
+We provide the functions that the music platform should have, like Spotify
+```
