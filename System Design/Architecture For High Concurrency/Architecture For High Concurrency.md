@@ -20,3 +20,6 @@ They often listen to or download songs
 ```
 
 **3. How many users do we have?**
+```
+Our monthly active users are more than 100 million
+```
