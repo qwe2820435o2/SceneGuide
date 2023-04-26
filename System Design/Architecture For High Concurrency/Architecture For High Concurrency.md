@@ -23,3 +23,5 @@ They often listen to or download songs
 ```
 Our monthly active users are more than 100 million
 ```
+
+**4. What does the system do?**
