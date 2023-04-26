@@ -14,5 +14,8 @@ This challenge was impacting the user experience and required a comprehensive op
 Our users
 ```
 
-
+**2. How will they use it?** 
+```
+They often listen to or download songs
+```
 
