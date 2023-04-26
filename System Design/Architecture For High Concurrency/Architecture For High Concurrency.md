@@ -7,3 +7,5 @@ This challenge was impacting the user experience and required a comprehensive op
 ```
 
 # 2. Basic Information
+> How can we design a high-concurrency architecture?
+
