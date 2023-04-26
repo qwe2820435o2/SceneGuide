@@ -19,3 +19,4 @@ Our users
 They often listen to or download songs
 ```
 
+**3. How many users do we have?**
