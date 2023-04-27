@@ -33,5 +33,6 @@ We provide the functions that the music platform should have, like Spotify
 ```
 The average value of the input is xxx Million bits per second
 The maximum value of the input is xxx Million bits per second
-
+The average value of output is xxx Million bits per second
+The maximum value of output is xxx Million bits per second
 ```
