@@ -38,3 +38,6 @@ The maximum value of output is xxx Million bits per second
 ```
 
 **6. How many requests do we want to process per second?**
+```
+Current maximum requests are more than xx thousand per second
+```
