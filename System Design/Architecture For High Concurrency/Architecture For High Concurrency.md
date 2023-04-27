@@ -43,3 +43,6 @@ Current maximum requests are more than xx thousand per second
 ```
 
 **7. What ratio of reads and writes do we want?**
+```
+10 to 1
+```
