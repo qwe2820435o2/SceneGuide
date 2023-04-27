@@ -30,3 +30,8 @@ We provide the functions that the music platform should have, like Spotify
 ```
 
 **5. What are input and output of the system?**
+```
+The average value of the input is xxx Million bits per second
+The maximum value of the input is xxx Million bits per second
+
+```
