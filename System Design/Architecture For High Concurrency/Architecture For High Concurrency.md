@@ -28,3 +28,5 @@ Our monthly active users are more than 100 million
 ```
 We provide the functions that the music platform should have, like Spotify
 ```
+
+**5. What are input and output of the system?**
