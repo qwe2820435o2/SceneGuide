@@ -36,3 +36,5 @@ The maximum value of the input is xxx Million bits per second
 The average value of output is xxx Million bits per second
 The maximum value of output is xxx Million bits per second
 ```
+
+**6. How many requests do we want to process per second?**
