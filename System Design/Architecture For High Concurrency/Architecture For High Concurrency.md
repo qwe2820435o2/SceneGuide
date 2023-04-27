@@ -41,3 +41,5 @@ The maximum value of output is xxx Million bits per second
 ```
 Current maximum requests are more than xx thousand per second
 ```
+
+**7. What ratio of reads and writes do we want?**
