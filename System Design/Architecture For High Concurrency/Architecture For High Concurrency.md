@@ -48,3 +48,6 @@ Current maximum requests are more than xx thousand per second
 ```
 
 # 3. How To Design
+
+## 3.1 Multiple Layers
+
