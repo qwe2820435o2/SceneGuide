@@ -51,6 +51,18 @@ Current maximum requests are more than xx thousand per second
 
 ## 3.1 Multiple Layers
 
-**1. Dynamic interface access via CDN to improve request efficiency** 
-**2. Introduce spring cloud gateway for auth, Ip locating, limiting and fusing** 
+```
+1. Dynamic interface access via CDN to improve request efficiency
+2. Introduce spring cloud gateway for auth, Ip locating, limiting and fusing
+```
+
+
+
+
+
+
+
+
+
+
 
