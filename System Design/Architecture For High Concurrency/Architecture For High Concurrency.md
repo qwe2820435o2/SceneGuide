@@ -51,3 +51,5 @@ Current maximum requests are more than xx thousand per second
 
 ## 3.1 Multiple Layers
 
+**1. Dynamic interface access via CDN to improve request efficiency** 
+
