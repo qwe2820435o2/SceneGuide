@@ -59,6 +59,10 @@ Current maximum requests are more than xx thousand per second
 
 ## 3.2 Independent Processing Links
 
+```
+For high-traffic services, we usually split them into these parts, including api, manage, bg, task and callback
+```
+
 
 
 
