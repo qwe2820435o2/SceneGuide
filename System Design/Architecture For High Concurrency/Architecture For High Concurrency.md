@@ -56,8 +56,10 @@ Current maximum requests are more than xx thousand per second
 2. Introduce spring cloud gateway for auth, Ip locating, limiting and fusing
 ```
 
+## 3.2 Design Multi-level Cache
 
-## 3.2 Independent Processing Links
+
+## 3.3 Independent Processing Links
 
 ```
 For high-traffic services, we usually split them into these parts, including api, manage, bg, task and callback
