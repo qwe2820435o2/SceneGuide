@@ -58,6 +58,9 @@ Current maximum requests are more than xx thousand per second
 
 ## 3.2 Design Multi-level Cache
 
+```
+Reduce the load on the database and improve response times
+```
 
 ## 3.3 Independent Processing Links
 
